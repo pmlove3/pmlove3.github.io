@@ -11,6 +11,6 @@ Office Hours are by appointment. Please contact me via email using my NYU email 
 
 Course Materials and assignments are available on NYU Brightspace.
 
-[Study Tips](../../teaching/study-tips.html)
+[Resources](../../resources/index.html)
 
   * [Writing](../../resources/reading-writing.html)

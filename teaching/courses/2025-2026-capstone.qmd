@@ -3,7 +3,7 @@ title: "Capstone Seminar — 2025–2026"
 date: "2025-09-06"
 ---
 
-[Study Tips](../../teaching/study-tips.html)
+[Resources](../../resources/index.html)
 
   * [Data](../../resources/data.html)
 

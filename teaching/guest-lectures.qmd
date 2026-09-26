@@ -1,0 +1,12 @@
+---
+title: "Guest Lectures"
+date: "2026-09-27"
+---
+
+  * Ha-Rvest-ing Web Data: Web Scraping Made Easy, Feb. 22, 2021
+
+    * [Github repo copy](https://github.com/pmlove3/arctic_scrape)
+
+  * What is the European Union?, Oct. 22, 2020
+
+  * The Impact of Brexit on Transatlanticism, Nov. 25, 2019

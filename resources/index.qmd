@@ -3,12 +3,6 @@ title: "Resources"
 date: "2026-09-18"
 ---
 
-## Study Tips
-
-Follow the below link to view tips on learning, reading, and writing political science.
-
-[Study Tips](../teaching/study-tips.html)
-
 ## Statistics
 
 [Stata](../resources/stata.html) · [Stata Download](../resources/stata-download.html) · [R](../resources/r.html) · [Statistics](../resources/statistics.html) · [VPM and Voting Theory](../resources/vpm-and-voting-theory.html)
