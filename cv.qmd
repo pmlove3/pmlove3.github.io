@@ -1,0 +1,14 @@
+---
+title: "Curriculum Vitae"
+date: "2026-09-19"
+---
+
+### Highlights
+
+  * [Teaching](teaching/index.html)
+
+  * [Training](teaching/training.html)
+
+  * [Research](research/index.html)
+
+[Download CV 2026-09-13](https://www.dropbox.com/scl/fi/45owpu4ksg7a3sf6ym54h/2026-09-13-Paul-Max-Love-CV.pdf?rlkey=a1ukaugsorh6aopwsjr8c9pv7&dl=0)

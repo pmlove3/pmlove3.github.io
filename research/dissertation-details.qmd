@@ -1,0 +1,6 @@
+---
+title: "Dissertation Details"
+date: "2025-02-03"
+---
+
+![Multidimensional scaling plot of European strategic culture, showing country positions along two derived dimensions.](images/dissertation-details.jpg "Multidimensional plot of European strategic culture")

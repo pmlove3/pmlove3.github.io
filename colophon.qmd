@@ -1,0 +1,14 @@
+---
+title: "Colophon"
+date: "2026-09-27"
+---
+
+Notes on how this site is built.
+
+## Built with
+
+This site is built with [Quarto](https://quarto.org), hosted on [GitHub Pages](https://pages.github.com), with source available at [github.com/pmlove3/pmlove3.github.io](https://github.com/pmlove3/pmlove3.github.io).
+
+## Design
+
+The design is inspired by [Hugo Apéro](https://hugo-apero-docs.netlify.app/) and by [Silvia Canelón](https://silviacanelon.com)'s personal site ([source](https://github.com/spcanelon/silvia)) — particularly the warm accent palette, uppercase navigation, and custom hero illustration. Colors, typefaces, and the hero graphic here are original to this site.

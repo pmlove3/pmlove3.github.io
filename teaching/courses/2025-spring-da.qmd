@@ -1,0 +1,114 @@
+---
+title: "Data Analysis — Spring 2025"
+date: "2025-02-17"
+---
+
+  * [R Tips](../../resources/r.html)
+
+  * [Data](../../resources/data.html)
+
+  * [Recitation Materials](https://drive.google.com/drive/folders/15x2ny-j_4mQCUaFjMpb7qnYpVvLlyE8G?usp=sharing) (NYU Login Required)
+
+  * For office hours, please check the course's [Brightspace](https://brightspace.nyu.edu/) section on Recitations
+
+## Recitations
+
+### Week 1
+
+2025-01-23
+
+2025-01-24
+
+### Week 2
+
+2025-01-30
+
+2025-01-31
+
+### Week 3
+
+2025-02-06
+
+2025-02-07
+
+### Week 4
+
+2025-02-13
+
+2025-02-14
+
+### Week 5
+
+2025-02-20
+
+2025-02-21
+
+### Week 6
+
+2025-02-27
+
+2025-02-28
+
+### Week 7
+
+2025-03-06
+
+2025-03-07
+
+### Week 8
+
+2025-03-13  No 14-Week Classes
+
+2025-03-14  No 14-Week Classes
+
+### Week 9
+
+2025-03-20
+
+2025-03-21
+
+### Week 10
+
+2025-03-27
+
+2025-03-28
+
+### Week 11
+
+2025-04-03 Spring Break
+
+2025-04-04 Spring Break
+
+### Week 12
+
+2025-04-10
+
+2025-04-11
+
+### Week 13
+
+2025-04-17
+
+2025-04-18
+
+### Week 14
+
+2025-04-24
+
+2025-04-25
+
+### Week 15
+
+2025-05-01
+
+2025-05-02
+
+### Week 16
+
+2025-05-08
+
+2025-05-09
+
+End of Semester
+
+  * [NYUAD Academic Calendar](https://nyuad.nyu.edu/en/about/administration-and-governance/undergraduate-academic-calendar/2024-2025-academic-calendar.html)

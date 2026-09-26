@@ -1,0 +1,230 @@
+---
+title: "Data"
+date: "2026-02-10"
+---
+
+Note that some sources require memberships or have restrictions on use. Please contact the library for help.
+
+### Current Affairs & News
+
+  * [NYU Current News Research Guide](https://guides.nyu.edu/currentnews)
+
+    * [Detailed guide](https://guides.nyu.edu/blog/NYU-Libraries-Launches-Free-Access-to-New-York-Times-and-Wall-Street-Journal) for activating New York Times and Wall Street Journal accounts through NYU Libraries.
+
+### Guides
+
+  * [Data Archives - Data Sources - Research Guides at New York University](https://guides.nyu.edu/c.php?g=276966&p=1848686)
+
+  * [Political Science Data - Political Science - Research Guides at University of Michigan Library](https://guides.lib.umich.edu/c.php?g=282769&p=1884138)
+
+  * [Research datasets for secondary analysis - Data resources for social science - Research Guides at Virginia Tech](https://guides.lib.vt.edu/c.php?g=580714)
+
+### Teaching/Learning Data
+
+  * [Datasets for Teaching and Learning | NC State University Libraries](https://www.lib.ncsu.edu/formats/teaching-and-learning-datasets)
+
+  * [OpenIntro](https://www.openintro.org/data/)
+
+### Datasets
+
+Highlight:
+
+  * [A dataset with political datasets GitHub repo](https://github.com/erikgahner/PolData)
+
+    * [How To Download Single Files From a Github Repository](https://www.howtogeek.com/devops/how-to-download-single-files-from-a-github-repository/)
+
+    * [How to Download GitHub Repositories (Whole)](https://www.howtogeek.com/827348/how-to-download-files-from-github/)
+
+  1. African Statistical Yearbook (AfDB)
+[https://www.afdb.org/en/knowledge/publications/african-statistical-yearbook
+](https://www.afdb.org/en/knowledge/publications/african-statistical-yearbook)Annual economic, demographic, and development statistics for African countries.
+
+  2. Arab Barometer
+[https://www.arabbarometer.org/
+](https://www.arabbarometer.org/)Public opinion survey data on political and social attitudes in the Arab world.
+
+  3. Arab Center Washington DC – Public Opinion Surveys
+[https://arabcenterdc.org/publications/public-opinion-surveys/
+](https://arabcenterdc.org/publications/public-opinion-surveys/)Survey datasets and reports focused on the Middle East.
+
+  4. CESSDA Data Catalogue (Consortium on European Social Science Data Archives)
+[https://www.cessda.eu/data/
+](https://www.cessda.eu/data/)Central catalogue of European social science datasets across national archives.
+
+  5. CLOSER Studies
+[https://www.closer.ac.uk/
+](https://www.closer.ac.uk/)UK longitudinal studies on health, education, and social outcomes.
+
+  6. DataCite Commons
+[https://search.datacite.org/
+](https://search.datacite.org/)Search engine for research datasets with DOIs across repositories.
+
+  7. Demographic and Health Surveys (DHS Program)
+[https://dhsprogram.com/
+](https://dhsprogram.com/)Internationally comparable data on health, fertility, and population.
+
+  8. Dryad
+[https://datadryad.org/search
+](https://datadryad.org/search)Open-access repository for research datasets.
+
+  9. Eurobarometer
+[https://www.gesis.org/eurobarometer-data-service/home
+](https://www.gesis.org/eurobarometer-data-service/home)Public opinion surveys across European Union countries.
+
+  10. Eurostat
+[https://ec.europa.eu/eurostat
+](https://www.gesis.org/eurobarometer-data-service/home)European Union datasets
+
+  11. European Social Survey (ESS)
+[http://www.europeansocialsurvey.org/
+](http://www.europeansocialsurvey.org/)Cross-national survey data on attitudes and demographics in Europe.
+
+  12. General Social Survey (GSS)
+[https://gss.norc.org/
+](https://gss.norc.org/)Long-running U.S. survey of social attitudes and demographics.
+
+  13. Google Dataset Search
+[https://datasetsearch.research.google.com/
+](https://datasetsearch.research.google.com/)Search tool indexing datasets across thousands of repositories.
+
+  14. Harvard Dataverse
+[https://dataverse.harvard.edu/
+](https://dataverse.harvard.edu/)Open repository for research datasets across disciplines.
+
+  15. Health and Retirement Study (HRS)
+[https://hrs.isr.umich.edu/about
+](https://hrs.isr.umich.edu/about)Longitudinal U.S. data on aging, health, and retirement.
+
+  16. Humanitarian Data Exchange (HDX)
+[https://data.humdata.org/
+](https://data.humdata.org/)Open datasets on humanitarian crises and development.
+
+  17. ICPSR (Inter-University Consortium for Political and Social Research)
+[https://www.icpsr.umich.edu/
+](https://www.icpsr.umich.edu/)Major archive of social science datasets (many require institutional access).
+
+  18. Indices of Social Development (ISD)
+[https://isd.iss.nl/
+](https://isd.iss.nl/)Country-level indicators on social inclusion and institutional quality.
+
+  19. Institute of International Finance – MENAP & Central Asia
+[https://www.iif.com/Research/MENAP-Central-Asia
+](https://www.iif.com/Research/MENAP-Central-Asia)Macroeconomic and financial data for MENAP and Central Asia regions.
+
+  20. International Social Survey Programme (ISSP)
+[https://issp.org/
+](https://issp.org/)Cross-national survey data on social science topics.
+
+  21. IPUMS (USA)
+[https://www.ipums.org/
+](https://www.ipums.org/)Harmonized U.S. census and survey microdata.
+
+  22. IPUMS International
+[https://international.ipums.org/international/
+](https://international.ipums.org/international/)Harmonized international census microdata.
+
+  23. MENA Data
+[http://www.menadata.net/
+](http://www.menadata.net/)Socioeconomic and political data for the Middle East and North Africa.
+
+  24. OpenAIRE
+[https://explore.openaire.eu/search/find
+](https://explore.openaire.eu/search/find)European open science platform for datasets and research outputs.
+
+  25. Penn World Table (PWT)
+[https://www.rug.nl/ggdc/productivity/pwt/
+](https://www.rug.nl/ggdc/productivity/pwt/)Cross-country economic and national accounts data.
+
+  26. Polity Project
+[https://www.systemicpeace.org/polityproject.html
+](https://www.systemicpeace.org/polityproject.html)Data on political regimes and regime change.
+
+  27. re3data – Registry of Research Data Repositories
+[https://www.re3data.org/
+](https://www.re3data.org/)Global directory of research data repositories.
+
+  28. Simmons OAD Data Repositories Wiki
+[https://oad.simmons.edu/oadwiki/Data_repositories
+](https://oad.simmons.edu/oadwiki/Data_repositories)Curated list of open-access data repositories by subject.
+
+  29. Survey of Consumer Finances (SCF)
+[https://www.federalreserve.gov/econres/scfindex.htm
+](https://www.federalreserve.gov/econres/scfindex.htm)Detailed U.S. household finance data.
+
+  30. U.S. Census Bureau
+[https://data.census.gov/
+](https://data.census.gov/)U.S. population, housing, and demographic data.
+
+  31. UAE Federal Competitiveness and Statistics Centre (FCSC)
+[https://fcsc.gov.ae/en-us
+](https://fcsc.gov.ae/en-us)Official national statistics for the UAE.
+
+  32. UN Data
+[https://data.un.org/
+](https://data.un.org/)United Nations statistical databases across many domains.
+
+  33. UN ESCWA Statistics
+[https://archive.unescwa.org/our-work/statistics
+](https://archive.unescwa.org/our-work/statistics)Economic and social data focused on Western Asia.
+
+  34. World Values Survey (WVS)
+[https://www.worldvaluessurvey.org/WVSContents.jsp
+](https://www.worldvaluessurvey.org/WVSContents.jsp)Cross-national survey data on values, beliefs, and social attitudes.
+
+### GIS and Geospatial Data Resources
+
+  1. Ancient World Mapping Center GIS Data
+[https://awmc.unc.edu/resources/gis-data/
+](https://awmc.unc.edu/resources/gis-data/)Historical and archaeological GIS datasets.
+
+  2. CURIOSity Digital Collections (Harvard)
+[https://curiosity.lib.harvard.edu/
+](https://curiosity.lib.harvard.edu/)Digitized maps and geospatial collections.
+
+  3. David Rumsey Historical Map Collection
+[https://www.davidrumsey.com/
+](https://www.davidrumsey.com/)High-resolution historical maps.
+
+  4. DIVA-GIS
+[https://www.diva-gis.org/
+](https://www.diva-gis.org/)Free GIS data (administrative boundaries, roads, etc.).
+
+  5. Europeana – Maps and Geography
+[https://www.europeana.eu/en/collections/topic/18-maps-and-geography
+](https://www.europeana.eu/en/collections/topic/18-maps-and-geography)Cultural heritage maps and spatial resources.
+
+  6. GADM Administrative Area Maps
+[https://gadm.org/
+](https://gadm.org/)Global administrative boundary shapefiles.
+
+  7. Latitude and Longitude Finder
+[https://www.latlong.net/
+](https://www.latlong.net/)Tool for finding geographic coordinates.
+
+  8. NYU Spatial Data Repository
+[https://geo.nyu.edu/
+](https://geo.nyu.edu/)Academic geospatial datasets (institutional access may be required).
+
+  9. Princeton Digital Maps and Geospatial Data
+[https://maps.princeton.edu/
+](https://maps.princeton.edu/)Geospatial datasets and historical maps.
+
+  10. Projection Wizard
+[https://projectionwizard.org/
+](https://projectionwizard.org/)Tool for selecting map projections and coordinate systems.
+
+  11. Qatar Digital Library
+[https://www.qdl.qa/
+](https://www.qdl.qa/)Historical maps and geospatial materials focused on the Gulf.
+
+  12. University of Texas Libraries GeoData
+[https://geodata.lib.utexas.edu/
+](https://geodata.lib.utexas.edu/)Large collection of GIS datasets.
+
+  13. Wiley Digital Archives – Maps
+[https://www.wileydigitalarchives.com/
+](https://www.wileydigitalarchives.com/)Historical maps and spatial collections (subscription-based).
+
+  14. Worldview (NASA)
+[https://worldview.earthdata.nasa.gov/
+](https://worldview.earthdata.nasa.gov/)Satellite imagery and Earth observation data.

@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Paul Max Love III"
+  description: "Political scientist and instructor, NYU Abu Dhabi"
+  site-url: "https://pmlove3.github.io"
+  page-footer:
+    left: 'Made with <a href="https://quarto.org">Quarto</a>'
+    center: "© Paul Max Love III"
+    right:
+      - href: colophon.qmd
+        text: Colophon
+  navbar:
+    background: light
+    title: false
+    left:
+      - href: index.qmd
+        icon: house-door
+        text: ""
+        aria-label: Home
+    right:
+      - href: research/index.qmd
+        text: Research
+      - href: teaching/index.qmd
+        text: Teaching
+      - href: teaching/courses/index.qmd
+        text: Courses
+      - href: resources/index.qmd
+        text: Resources
+      - href: news/index.qmd
+        text: News
+      - href: cv.qmd
+        text: CV
+  page-navigation: true
+
+lang: en
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme-light.scss]
+      dark: [darkly, theme-dark.scss]
+    css: styles.css
+    include-in-header: _head-include.html
+    toc: true
+    toc-location: right
+    link-external-icon: false
+    link-external-newwindow: true
+    date-format: "D MMMM YYYY"
+
+editor: source

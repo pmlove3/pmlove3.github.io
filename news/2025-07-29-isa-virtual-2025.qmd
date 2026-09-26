@@ -1,0 +1,10 @@
+---
+title: "ISA Virtual 2025"
+date: "2025-07-29"
+categories: [research, conferences]
+description: "Notes and a multidimensional plot from the ISA Virtual 2025 presentation."
+---
+
+Slides and a supporting figure from my ISA Virtual 2025 presentation are up
+on the [ISA Virtual 2025 page](../research/isa-virtual-25.html), alongside the
+related [dissertation details](../research/dissertation-details.html).

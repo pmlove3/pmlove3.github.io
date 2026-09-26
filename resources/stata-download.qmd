@@ -1,0 +1,18 @@
+---
+title: "Stata Download"
+date: "2025-02-03"
+---
+
+  *     * Direct Links to Installation Instructions (NYU Google Sign-in Required)
+
+      * [Windows Guide](https://goo.gl/svEMKs)
+
+      * [macOS Guide](https://goo.gl/gxhy1Q)
+
+      * [Linux Guide](https://drive.google.com/open?id=1r4kbj0_z5HnCxesAJciDmONUU1riiRJW)
+
+    * Please ensure your .lic license file is in the correct folder before opening Stata. Otherwise, you will receive a message that Stata is not licensed.
+
+    * If you need help installing, please go to the Center for Academic Technology in Library (C2), Level 3.
+
+      * The email for CAT is nyuad.academictech (at) nyu.edu.

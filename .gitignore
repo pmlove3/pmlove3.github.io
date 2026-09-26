@@ -1,1 +1,10 @@
 .DS_Store
+
+
+/.quarto/
+/docs/
+**/*.quarto_ipynb
+.Rhistory
+.RData
+*.Rproj
+.Rproj.user/

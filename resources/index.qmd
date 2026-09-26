@@ -1,0 +1,32 @@
+---
+title: "Resources"
+date: "2026-09-18"
+---
+
+## Study Tips
+
+Follow the below link to view tips on learning, reading, and writing political science.
+
+[Study Tips](../teaching/study-tips.html)
+
+## Statistics
+
+[Stata](../resources/stata.html) · [Stata Download](../resources/stata-download.html) · [R](../resources/r.html) · [Statistics](../resources/statistics.html) · [VPM and Voting Theory](../resources/vpm-and-voting-theory.html)
+
+## Data & GIS
+
+[Data](../resources/data.html) · [GIS](../resources/gis.html)
+
+## Writing Tools
+
+[Reading & Writing](../resources/reading-writing.html)
+
+## Computing
+
+[Operating Systems](../resources/operating-systems.html) · [TinyTeX](../resources/tinytex.html) · [LLM](../resources/llm.html) · [Ollama](../resources/ollama.html)
+
+## Research Tools
+
+Follow the below link to view tips on learning, reading, and writing political science.
+
+[Research Tools](../resources/research-tools.html)

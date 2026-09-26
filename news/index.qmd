@@ -1,0 +1,13 @@
+---
+title: "News"
+listing:
+  contents: .
+  type: default
+  sort: "date desc"
+  categories: true
+  feed: true
+  date-format: "D MMMM YYYY"
+  fields: [date, title, categories, description]
+page-layout: full
+title-block-banner: false
+---

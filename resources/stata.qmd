@@ -1,0 +1,128 @@
+---
+title: "STATA"
+date: "2025-04-17"
+---
+
+## NYUAD Software Downloads
+
+  * [Student Software List](https://nyuad.nyu.edu/en/library/research-and-instruction-services/center-for-academic-technology/software.html#tab-1-students) (NYU Login Required)
+
+  * [Stata Download](../resources/stata-download.html)
+
+  * [Excel (Office 365) Download](https://www.microsoft.com/en-us/education/products/office)
+
+    * Free to students at eligible universities
+
+    * University email needed to sign up
+
+## Learning Stata Resources
+
+### Websites
+
+  * [NYUAD Stata Resources Page](https://guides.nyu.edu/stata)
+
+  * [Stata 18 Graphical User Interface (GUI) Overview](https://www.stata.com/features/overview/graphical-user-interface/)
+
+  * [Resources for learning Stata from Stata Corp](https://www.stata.com/links/resources-for-learning-stata/)
+
+  * [The Do’s and Don’ts of a Do-file∗ Emmanuel Milet](https://www.parisschoolofeconomics.eu/docs/yin-remi/do-file.pdf)
+
+  * [Stata Cheatsheets](https://www.stata.com/bookstore/statacheatsheets.pdf) (inspired by RStudio's Cheatsheets)
+
+  * [Princeton University Online Stata Tutorial](https://www.princeton.edu/~otorres/Stata/)
+
+  * [Useful Commands in Stata - Lucas Rosso](https://lucas-rosso.github.io/post/commands_stata/)
+
+  * [Stata Tutorial - Germán Rodríguez](https://grodri.github.io/stata/index)
+
+  * [UCLA Advanced Research Computing - Stata](https://stats.oarc.ucla.edu/stata/modules/#)
+
+  * [The Stata Guide on Medium (Paywall)](https://medium.com/the-stata-guide)
+
+  * [Introduction to Stata - Social Science Computing Cooperative UW-Madison](https://sscc.wisc.edu/sscc/pubs/intro_stata/intro_stata1.htm)
+
+  * [Introduction to Stata 15 — Linkedin Learning (NYU Login Required for Free Access)](https://www.linkedin.com/learning/introduction-to-stata-15)
+
+  * [Install and Uninstall Programs from Boston College Statistical Software Components (SSC) ](https://www.stata.com/support/ssc-installation/)
+
+### Videos
+
+  * [Learning Stata — Steffen's Classroom Playlist](https://www.youtube.com/watch?v=V4U0X8XDumQ&list=PLn6B3DUkuU_08whVgp3MeYLqltoFdBtum)
+
+  * [Stata Corp YouTube Channel](https://www.youtube.com/@statacorp)
+
+  * [Sunday Stata Tips — In Case of Econ Struggles Playlist](https://youtube.com/playlist?list=PLj0WVD36ZMWoAH3xOdnfq4qqi2yJz4cRA&si=14LukSM95cNG6unB)
+
+### Books
+
+  * Bittmann, Felix. Stata: A Really Short Introduction. Berlin, Boston: De Gruyter Oldenbourg, 2019. [https://doi.org/10.1515/9783110617160](https://doi.org/10.1515/9783110617160)
+
+    * ebook can be accessed from the Library website
+
+## File Management
+
+  * [How to Copy a File Path as Text from Mac Finder in Mac OS X](https://osxdaily.com/2015/11/05/copy-file-path-name-text-mac-os-x-finder/)
+
+  * [How to Copy the Full Path of a File on Windows 10](https://www.howtogeek.com/670447/how-to-copy-the-full-path-of-a-file-on-windows-10/)
+
+  * See also [Operating Systems](../resources/operating-systems.html) on this site.
+
+## Datasets
+
+  * [Data](../resources/data.html)
+
+## Miscellaneous
+
+  * [Statistics](../resources/statistics.html)
+
+### Important Lessons on Stata
+
+1\. Always save your .do file
+
+2\. NEVER save changes to the .dta file unless you are absolutely sure
+
+3\. Comment, comment, comment
+
+4\. Keep track of .log files
+
+5\. When making a major change to your .do file, create a new version
+
+6\. Keep a .do file template so you don't have to rewrite the simple stuff
+
+7\. Stata is case-sensitive
+
+### Math and Programming Operators in Stata
+
+Make special note of the difference between `=` and `==`.
+
+```text
++ "addition"
+
+- "subtraction"
+
+* "multiplication"
+
+/ "division"
+
+^ "power"
+
+& "and"
+
+| "or"
+
+! "not"
+
+> "greater than"
+
+>= "greater than or equal to"
+
+< "less than"
+
+<= "less than or equal to"
+
+= "assign the value"
+
+== "equal to"
+
+!= "not equal to"
+```

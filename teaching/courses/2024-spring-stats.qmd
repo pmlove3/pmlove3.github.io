@@ -1,0 +1,40 @@
+---
+title: "Statistics for Social and Behavioral Sciences — Spring 2024"
+date: "2025-02-07"
+---
+
+[Stata Study Tips](../../resources/stata.html)
+
+## Week 2
+
+2024-02-02
+
+Questions for Dataset
+
+* What's the average population of France?
+
+* What's the average employment rate in France between the years 2010 and 2015, including both?
+
+* What's the average employment rate in India between the years 2010 and 2015, including both?
+
+* What is the average TFP (total factor productivity) across all countries in 2016?
+
+* What was the median TFP across all countries in 2016?
+
+* What can you assume about the shape of the distribution of the TFP in 2016 based on its median and the average?
+
+* What is the average employment rate across all countries in 2016?
+
+* What's the median employment rate across all countries in 2016?
+
+* What is the maximum population size in 2010?
+
+Excerpted from Tetyana Surovtseva
+
+## Week 5
+
+[Interpreting Log Transformations in a Linear Model | UVA Library](https://library.virginia.edu/data/articles/interpreting-log-transformations-in-a-linear-model)
+
+## Recitation Materials
+
+[Archived](https://drive.google.com/drive/folders/1yHM6zRZuOJjsvz0JdRCnyeoXOMnUc17E?usp=drive_link) — Available upon request

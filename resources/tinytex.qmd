@@ -1,0 +1,6 @@
+---
+title: "TinyTeX"
+date: "2025-02-03"
+---
+
+[TinyTex Website](https://yihui.org/tinytex/)

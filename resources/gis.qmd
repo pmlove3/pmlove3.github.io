@@ -1,0 +1,122 @@
+---
+title: "GIS"
+date: "2025-02-03"
+---
+
+## Tutorials
+
+[Learning QGIS — Linkedin Learning (Free through NYU Library Login)](https://www.linkedin.com/learning/learning-qgis-2)
+
+[UC Davis Intro to Desktop GIS with QGIS](https://ucdavisdatalab.github.io/Intro-to-Desktop-GIS-with-QGIS/)
+
+[UC Davis Intro to GIS with QGIS — UC GIS Week (Video)](https://www.youtube.com/watch?v=5MbyjukYvM0)
+
+[Washington University in St. Louis QGIS Installation Guide](https://libguides.wustl.edu/gis/qgis_install)
+
+[A Gentle Introduction to GIS — QGIS Documentation](https://docs.qgis.org/3.34/en/docs/gentle_gis_introduction/index.html)
+
+[QGIS Tutorials and Tips — Ujaval Gandhi](https://www.qgistutorials.com/en/index.html#)
+
+[QGIS Research Guide — NYU](https://guides.nyu.edu/gis/qgis)
+
+[Understanding a Shapefile: What is it and How to use it — SAM Youtube](https://www.youtube.com/watch?v=CEUzbggzir4)
+
+[Animate your Strava data using QGIS — Map Academy (ffmpeg with QGIS)](https://www.youtube.com/watch/PpWXxKxcoUU)
+
+[Create Animated Chloropleths with the QGIS Temporal Controller — Hans van der Kwast (GIMP with QGIS)](https://www.youtube.com/watch/PnDiG2h6N8M)
+
+[Discord server for GIS beginners to professionals](https://discord.com/servers/gis-769917190182404127)
+
+### Playlists
+
+[Getting data into QGIS — Map Academy](https://www.youtube.com/playlist?list=PLWMO8r4-0ZxOaAVQb9sW1ds2_gyFXNozW)
+
+[Introduction to QGIS — GeoDelta Labs](https://youtube.com/playlist?list=PLLxyyob7YmEHFg5xvwszKIo_sNZbczlNC&si=ybWV-mX8j1rFgmKq)
+
+[Introduction to QGIS — Lapis Guides](https://youtube.com/playlist?list=PL4KIWGrqX3nn-taI9HqkDGjekvQ8t3tuK&si=MiqnOtlc83g6hT_F)
+
+[QGIS Demos — Central Washington University](https://www.youtube.com/playlist?list=PLf4nI7H4_hPYgT4vrK4293tvIx7b88-bF)
+
+[QGIS mapping tutorials — Jess Zimmerman](https://www.youtube.com/playlist?list=PLHGsicMKPFzXdRiH4fkxqNp_aoqdJF6KS)
+
+[Spatial Analysis — Map Academy](https://www.youtube.com/playlist?list=PLWMO8r4-0ZxNcfFbAs8qa_MpkPYmmiwN3)
+
+## Data
+
+[GIS Data](../resources/data.html)
+
+## Tools
+
+[QGIS Download](https://qgis.org/en/site/forusers/download.html)
+
+### Plugins
+
+[Bezier Editing by Takayuki Mizutani](https://plugins.qgis.org/plugins/BezierEditing/#plugin-details)
+
+[HCMGIS by Center for Applied GIS of Ho Chi Minh City](https://plugins.qgis.org/plugins/HCMGIS/#plugin-details)
+
+[MMQGIS by Michael Minn](https://michaelminn.com/linux/mmqgis/)
+
+[OpenTopography DEM Downloader by Kyaw Naing Win](https://plugins.qgis.org/plugins/OpenTopography-DEM-Downloader/#plugin-details)
+
+  * An OpenTopography[ API Key](https://opentopography.org/blog/introducing-api-keys-access-opentopography-global-datasets) is needed.
+
+[QuickMapServices by NextGIS](https://nextgis.com/blog/quickmapservices/)
+
+[QuickOSM by 3liz](https://plugins.qgis.org/plugins/QuickOSM/#plugin-details)
+
+[SRTM-Downloader by Horst Duester](https://plugins.qgis.org/plugins/SRTM-Downloader/#plugin-details)
+
+  * An Earthdata NASA [account](https://urs.earthdata.nasa.gov//users/new) is needed.
+
+## Project Management
+
+### General
+
+[How to zip files on Mac — HowtoGeek](https://www.howtogeek.com/672240/how-to-zip-and-unzip-files-and-folders-on-mac/)
+
+[How to zip files on Windows — HowtoGeek](https://www.howtogeek.com/668409/how-to-zip-and-unzip-files-on-windows-10/)
+
+### Sharing and Sending QGIS Projects
+
+  1. Organize Your Project Files:
+
+     * Ensure that all your project files, including the QGIS project file (.qgz or .qgs), layers, shapefiles, rasters, and any other data files, are stored in a single directory.
+
+  2. Set Relative Paths:
+
+     * Open your QGIS project.
+
+     * Go to Project > Properties > General.
+
+     * Ensure the “Save paths” option is “Relative.” This setting allows the project to reference data files relative to the project file’s location, making it easier to share the project.
+
+  3. Verify Data Paths:
+
+     * Check that all layers and data sources in your project are correctly referenced with relative paths. You can do this by right-clicking each layer, selecting Properties, and looking at the “Source” field.
+
+  4. Prepare the Directory for Zipping:
+
+     * Ensure all files required for your project are in the same directory, including the project file, data files, and any associated resources (e.g., custom icons, styles).
+
+  5. Create the Zip Archive:
+
+     * On Windows:
+
+       * Select the directory containing your project files.
+
+       * Right-click the directory and choose Send to > Compressed (zipped) folder.
+
+     * On macOS:
+
+       * Right-click the directory and select Compress.
+
+  6. Verify the Zip Archive:
+
+     * Extract the zip archive to a new location.
+
+     * Open the QGIS project file from the extracted location to ensure all data files are correctly linked and the project loads as expected.
+
+  7. Share the Zip Archive:
+
+     * You can now share the zip archive via email, cloud storage, or any file-sharing service.

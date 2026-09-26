@@ -1,0 +1,10 @@
+---
+title: "Page not found"
+toc: false
+title-block-banner: false
+page-layout: article
+---
+
+Sorry, that page doesn't exist or may have moved.
+
+[Return to the homepage](/index.html){.btn .btn-primary}

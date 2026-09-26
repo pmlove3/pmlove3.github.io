@@ -1,0 +1,39 @@
+---
+title: "Paul Max Love III"
+date: "2026-09-19"
+title-block-banner: false
+include-in-header:
+  text: |
+    <style>
+      .quarto-title h1.title {
+        font-family: "Fraunces", Georgia, serif;
+        font-weight: 400;
+        font-size: 2.6rem;
+        letter-spacing: 0;
+        text-transform: none;
+        color: var(--accent-teal, #16636b);
+      }
+    </style>
+---
+
+::: {.hero-worldmap}
+```{=html}
+<img src="images/abu-dhabi-world-dotmap-color.svg" alt="Dot-matrix world map in terracotta, charcoal, and teal dots." />
+```
+:::
+
+::: {.hero-eyebrow}
+Abu Dhabi, UAE
+:::
+
+University of California, Irvine Political Science PhD
+
+New York University Abu Dhabi (NYUAD)
+
+  * Full Instructor of Social Science/Academic Specialist
+
+::: {.profile-links}
+```{=html}
+<a href="https://nyuad.nyu.edu/en/academics/divisions/social-science/instructors/paul-love.html" aria-label="NYUAD Profile" class="profile-icon-link"><i class="bi bi-globe2"></i></a><a href="https://github.com/pmlove3" aria-label="GitHub" class="profile-icon-link"><i class="bi bi-github"></i></a><a href="https://www.linkedin.com/in/paulmaxlove3/" aria-label="LinkedIn" class="profile-icon-link"><i class="bi bi-linkedin"></i></a>
+```
+:::

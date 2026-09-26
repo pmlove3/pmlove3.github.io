@@ -1,0 +1,96 @@
+---
+title: "Teaching"
+date: "2026-09-19"
+---
+
+## Student Tips
+
+Follow the below link to view tips on learning, reading, and writing political science.
+
+[Student Tips](../teaching/study-tips.html)
+
+## Full Instructor of Social Science/Academic Specialist
+
+See the full [list of courses](../teaching/courses/index.html) for every semester taught.
+
+[International Security](../teaching/courses/2026-fall-is.html), Fall 2026
+
+[Data Analysis: Political Science](../teaching/courses/2026-spring-da.html), Spring 2026
+
+[J-Term Politics](../teaching/courses/2026-jterm-politics.html), January2026
+
+[Capstone Seminar](../teaching/courses/2025-2026-capstone.html), Spring 2026
+
+[Capstone Seminar](../teaching/courses/2025-2026-capstone.html), Fall 2025
+
+[Data Analysis: Political Science](../teaching/courses/2025-fall-da.html), Fall 2025
+
+[Data Analysis: Business](../teaching/courses/2025-spring-da.html), Spring 2025
+
+[Data Analysis: Political Science](../teaching/courses/2025-spring-da.html), Spring 2025
+
+[Statistics for Social and Behavioral Sciences (Section 5)](../teaching/courses/2025-spring-stats.html), Spring 2025
+
+[Statistics for Social and Behavioral Sciences (Sections 1, 3, 4)](../teaching/courses/2024-fall-stats.html), Fall 2024
+
+[Boundaries](../teaching/courses/2024-summer-boundaries.html), Summer 2024
+
+Negotiation and Consensus Building (Sections 1, 2, and 3), Spring 2024
+
+[Statistics for Social and Behavioral Sciences (Section 3)](../teaching/courses/2024-spring-stats.html), Spring 2024
+
+Quantitative Data Analysis, Fall 2023
+
+[Statistics for Social and Behavioral Sciences (Sections 1 and 2)](../teaching/courses/2023-fall-stats.html), Fall 2023
+
+Boundaries, Summer 2023
+
+## Guest Lectures
+
+  * Ha-Rvest-ing Web Data: Web Scraping Made Easy, Feb. 22, 2021
+
+    * [Github repo copy](https://github.com/pmlove3/arctic_scrape)
+
+  * What is the European Union?, Oct. 22, 2020
+
+  * The Impact of Brexit on Transatlanticism, Nov. 25, 2019
+
+## Teaching Assistant
+
+### University of California, Irvine
+
+  * [Voting and Political Manipulation, Spring 2021](../teaching/courses/2021-spring-vpm.html)(Virtual)
+
+  * American Government, Fall 2020 (Virtual)
+
+  * Voting and Political Manipulation, Spring 2020 (Virtual)
+
+  * American Political Thought, Winter 2020
+
+  * American Foreign Policy, Fall 2019
+
+  * Game Theory and Politics I, Spring 2019
+
+  * Voting and Political Manipulation, Winter 2019
+
+  * [American Government, Fall 2018](../teaching/courses/2018-fall-american-government.html)
+
+  * American Government, Spring 2018
+
+    * [https://sites.google.com/uci.edu/pol21as18plove/home](https://sites.google.com/uci.edu/pol21as18plove/home)
+
+  * American Government, Winter 2018
+
+  * Voting and Political Manipulation, Fall 2017
+
+  * Macropolitics, Spring 2016
+
+  * American Public Policy, Winter 2016
+
+  * International Political Economy, Fall 2015
+
+### North Carolina State University
+
+  * Fall 2011 International Relations Theory
+
+  * Spring 2012 International Relations Theory

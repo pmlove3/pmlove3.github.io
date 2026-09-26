@@ -1,0 +1,43 @@
+---
+title: "Data Analysis — Spring 2026"
+date: "2026-01-22"
+---
+
+  * This course uses several online resources, including
+
+    * [Overleaf](https://www.overleaf.com/) (Requires NYU Login through SSO option for Professional features)
+
+    * [GitHub Education](https://github.com/education)
+
+  * [R Tips](../../resources/r.html)
+
+  * [Data](../../resources/data.html)
+
+  * [Large Language Models](../../resources/llm.html) (Local)
+
+  * [NYUAD Calendar](https://nyuad.nyu.edu/en/about/administration-and-governance/undergraduate-academic-calendar.html)
+
+  * [Recitation Materials](https://drive.google.com/drive/folders/1kpJ5rGVEYEa7Xlj968Cv4wiTczKEv1Zh?usp=sharing) (NYU Login Required)
+
+  * Office Hour Info is available on the Brightspace tab "Instructor and Recitation Info".
+
+  * Book office hours via the Google calendar link on Brightspace.
+
+## Schedule
+
+Week 1 — 2026-01-23
+Week 2 — 2026-01-30
+Week 3 — 2026-02-06
+Week 4 — 2026-02-13
+Week 5 — 2026-02-20
+Week 6 — 2026-02-27
+Week 7 — 2026-03-06
+Week 8 — No class (2026-03-13)
+Week 9 — No class (2026-03-20)
+Week 10 — 2026-03-27
+Week 11 — 2026-04-03
+Week 12 — 2026-04-10
+Week 13 — 2026-04-17
+Week 14 — 2026-04-24
+Week 15 — 2026-05-01
+Week 16 — 2026-05-08

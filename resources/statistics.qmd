@@ -1,0 +1,14 @@
+---
+title: "Statistics"
+date: "2025-02-03"
+---
+
+## Miscellaneous
+
+  * [Z Score Table Open Textbook](https://stats.libretexts.org/Courses/Taft_College/PSYC_2200%3A_Elementary_Statistics_for_Behavioral_and_Social_Sciences_%28Oja%29/Unit_1%3A_Description/5%3A_Using_z/5.03%3A_Introduction_to_the_z_table/5.03.2%3A_Table_of_Critical_Values_of_z)
+
+    * [Z Score Table PDF](https://stats.libretexts.org/@api/deki/files/12255/Ch5_Table_of_z_Scores.pdf?revision=1)
+
+  * [Formula Sheet from University of Michigan](https://open.umich.edu/sites/default/files/downloads/f12-stats250-bgunderson-statsfullyellowcard_0.pdf)
+
+  * [Interpreting Log Transformations in a Linear Model | UVA Library](https://library.virginia.edu/data/articles/interpreting-log-transformations-in-a-linear-model)

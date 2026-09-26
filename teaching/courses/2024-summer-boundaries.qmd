@@ -1,0 +1,10 @@
+---
+title: "Boundaries — Summer 2024"
+date: "2025-02-03"
+---
+
+[GIS Resources](../../resources/gis.html)
+
+[GIS Data](../../resources/data.html)
+
+[Materials — Google Drive](https://drive.google.com/drive/folders/1oc5Pgt_qzYEqDrCZgyZFlI5b_7ZPW2Hs?usp=sharing)

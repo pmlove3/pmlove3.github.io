@@ -1,0 +1,36 @@
+---
+title: "Courses"
+date: "2026-09-18"
+---
+
+A list of courses taught at NYU Abu Dhabi and, earlier, as a teaching assistant at UC Irvine.
+
+## NYU Abu Dhabi
+
+[International Security](2026-fall-is.html), Fall 2026
+
+[Data Analysis: Political Science](2026-spring-da.html), Spring 2026
+
+[J-Term Politics](2026-jterm-politics.html), 2026
+
+[Capstone Seminar](2025-2026-capstone.html), 2025–2026
+
+[Data Analysis: Political Science](2025-fall-da.html), Fall 2025
+
+[Data Analysis](2025-spring-da.html), Spring 2025
+
+[Statistics for Social and Behavioral Sciences](2025-spring-stats.html), Spring 2025
+
+[Statistics for Social and Behavioral Sciences](2024-fall-stats.html), Fall 2024
+
+[Boundaries](2024-summer-boundaries.html), Summer 2024
+
+[Statistics for Social and Behavioral Sciences](2024-spring-stats.html), Spring 2024
+
+[Statistics for Social and Behavioral Sciences](2023-fall-stats.html), Fall 2023
+
+## Teaching Assistant, UC Irvine
+
+[Voting and Political Manipulation](2021-spring-vpm.html), Spring 2021
+
+[American Government](2018-fall-american-government.html), Fall 2018

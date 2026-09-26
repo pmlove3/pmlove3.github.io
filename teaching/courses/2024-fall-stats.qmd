@@ -1,0 +1,108 @@
+---
+title: "Statistics for Social and Behavioral Sciences — Fall 2024"
+date: "2025-02-07"
+---
+
+## Tips
+
+[Stata Study Tips](../../resources/stata.html)
+
+[Statistics Study Tips](../../resources/statistics.html)
+
+## Recitation Materials
+
+[Archived](https://drive.google.com/drive/folders/1YX9rASPi_-HFrnIWPx5lWYVa042e4oig?usp=sharing) — Available upon request
+
+## Recitations
+
+### Recitation 1
+
+2024-08-30
+
+2024-09-02
+
+### Recitation 2
+
+2024-09-06
+
+2024-09-09
+
+### Recitation 3
+
+2024-09-13
+
+2024-09-16
+
+### Recitation 4
+
+2024-09-20
+
+2024-09-23
+
+### Recitation 5
+
+2024-09-27
+
+2024-09-30
+
+### Recitation 6
+
+2024-10-04
+
+2024-10-07
+
+### Recitation 7
+
+2024-10-11
+
+2024-10-14 (Fall Break)
+
+### Recitation 8
+
+2024-10-18 (Fall Break)
+
+2024-10-21
+
+### Recitation 9
+
+2024-10-23
+
+2024-10-28
+
+### Recitation 10
+
+2024-11-01
+
+2024-11-04
+
+### Recitation 11
+
+2024-11-08
+
+2024-11-11
+
+### Recitation 12
+
+2024-11-15
+
+2024-11-18
+
+### Recitation 13
+
+2024-11-22
+
+2024-11-25
+
+### Recitation 14
+
+2024-11-29
+
+2024-12-02 (National Day)
+
+### Recitation 15
+
+2024-12-06
+
+2024-12-09
+
+End of Semester

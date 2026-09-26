@@ -1,0 +1,9 @@
+---
+title: "CV updated"
+date: "2026-09-13"
+categories: [cv]
+description: "A refreshed CV is posted, covering recent teaching and research activity."
+---
+
+An updated CV is now posted on the [CV page](../cv.html), reflecting recent
+teaching assignments and research activity.

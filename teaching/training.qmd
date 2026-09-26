@@ -1,0 +1,174 @@
+---
+title: "Training"
+date: "2025-09-05"
+---
+
+## University of California, Irvine
+
+### UCI Graduate Division
+
+[Mentoring Excellence Certificate Program](https://drive.google.com/file/d/1dGnYTohbU0OhdJAZ5MeTbFanQIeL8OCa/view?usp=sharing), November 2021
+
+[Preparing for a Faculty Career Certificate Program](https://drive.google.com/file/d/15X7zRYHjdbWIvcEPGpn_N0WRcrp91D6R/view?usp=sharing), August 2021
+
+### UCI Division of Teaching Excellence and Innovation (DTEI)
+
+[Course Design Certificate Program](https://drive.google.com/file/d/1C9BJcrrW_ErKAUSCo_6ToWoN-WLppWkH/view?usp=sharing), September 2020
+
+Workshops
+
+  * Exploring Learning Processes and Techniques to Support Learning, May 2021
+
+  * Creating More interACTIVE Classes: Implementing Active Learning Instruction In Your Classes, October 2020
+
+  * Zoom Fatigue? Ways to Spice Up the Virtual Classroom, October 2020
+
+  * Promoting Diversity and Inclusion Inside and Outside the Classroom, October 2020
+
+## New York University Abu DHABI
+
+### In Collaboration with Eton Institute
+
+[Arabic Level (Starter)](https://drive.google.com/file/d/1LdlzV6NneiCrgvy5BSyG_zrKjO7Dtrj4/view?usp=sharing), Summer 2023
+
+## Datacamp Courses
+
+Credentials are linked below.
+
+An asterisk indicates a course is included in more than one track.
+
+  * ### [R Programmer Career Track](https://www.datacamp.com/statement-of-accomplishment/track/e14a3a25df5f523a74c18f1cd565179214971cf3), July 2021
+
+    * [Introduction to the Tidyverse](https://www.datacamp.com/statement-of-accomplishment/course/62943615986778427eb1af8470e8d7fe1c4ba18b), May 2020*
+
+    * [Data Manipulation with dplyr](https://www.datacamp.com/statement-of-accomplishment/course/0a7a0ec0e4fcde9c8e7999fb9c91875e4313d6ce), August 2020
+
+    * [Writing Efficient R Code](https://www.datacamp.com/statement-of-accomplishment/course/22ec068633d17c04c22a86c556a5fef1ce976ab6), October 2020*
+
+    * [Working with Dates and Times in R](https://www.datacamp.com/statement-of-accomplishment/course/074d59cc099b07fa4ef73c7aca79f68dd6d011dc), July 2021
+
+    * [String Manipulation with stringr in R](https://www.datacamp.com/statement-of-accomplishment/course/841d75d836529d25817de03bc1dc6e13163fd0cc), May 2020*
+
+    * [Web Scraping in R,](https://www.datacamp.com/statement-of-accomplishment/course/a476eab5df43e93130d85d7454086a3d39b7c536) July 2021
+
+    * [Introduction to Writing Functions in R](https://www.datacamp.com/statement-of-accomplishment/course/27f18982c84c10e159207b8535f3ea5a1e87b30a), July 2020
+
+    * [Introduction to Shell](https://www.datacamp.com/statement-of-accomplishment/course/378400145fafcca49070775c6666d91a31e65766), January 2021
+
+    * [Defensive R Programming](https://www.datacamp.com/statement-of-accomplishment/course/5d384bb15c4b9ef6a473018d44669d16a7c7cb9a), July 2021
+
+    * [Developing R Packages](https://www.datacamp.com/statement-of-accomplishment/course/4c64eeb69d1a3fc9b18de3879383385e5ca9e385), July 2021
+
+    * [Object-Oriented Programming with S3 and R6 in R](https://www.datacamp.com/statement-of-accomplishment/course/bf294275cc0088bbd7d2a827a20740c512d3ddfe), July 2021
+
+  * ### [Data Analyst with R Career Track](https://www.datacamp.com/statement-of-accomplishment/track/7d7ba226289dd23de2b68c7b958da960cc229619), August 2022
+
+    * [Introduction to R](https://www.datacamp.com/statement-of-accomplishment/course/acd7dd828012d1e26bed9ea92707dbd247f20b70), April 2020*
+
+    * [Introduction to the Tidyverse](https://www.datacamp.com/statement-of-accomplishment/course/62943615986778427eb1af8470e8d7fe1c4ba18b), May 2020*
+
+    * [Data Manipulation with dplyr](https://www.datacamp.com/statement-of-accomplishment/course/0a7a0ec0e4fcde9c8e7999fb9c91875e4313d6ce), August 2020*
+
+    * Joining Data with dplyr (Exempted by Assessement)
+
+    * [Introduction to Data Visualization with ggplot2](https://www.datacamp.com/statement-of-accomplishment/course/723426dd180cb9968f1d48fc8a21e242f5376faa), August 2022
+
+    * [Exploratory Data Analysis in R](https://www.datacamp.com/statement-of-accomplishment/course/ae9b0f0fd88e98a80a0cfde50b82a27da58ba803), August 2022
+
+    * [Introduction to Statistics in R](https://www.datacamp.com/statement-of-accomplishment/course/2740d1bc0658aba270b25cfce90a873c007d86ac), August 2022
+
+    * [Hypothesis Testing in R](https://www.datacamp.com/statement-of-accomplishment/course/7207fe44b720d83663008928e342540610a199e6), August 2022
+
+  * ### [Python Fundamentals Skill Track](https://www.datacamp.com/statement-of-accomplishment/track/13f922ad2de22808ba2b0874bd266cefa191af6d), August 2022
+
+    * [Introduction to Python](https://www.datacamp.com/statement-of-accomplishment/course/9b003169443c1ae9b74e37cfe7fbb4df43f23efd), September 2020
+
+    * [Intermediate Python](https://www.datacamp.com/statement-of-accomplishment/course/e7a98e88d42ed59d6848467885b731913a9d7400), September 2020
+
+    * [Python Data Science Toolbox (Part 1)](https://www.datacamp.com/statement-of-accomplishment/course/3a1252cb5c4131c75639916a4d8aadfcc57a9f82), August 2022
+
+    * [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/statement-of-accomplishment/course/eafb90f377626339022ee76607664d7162679900), August 2022
+
+  * ### [Intermediate Tidyverse Toolbox Skill Track](https://www.datacamp.com/statement-of-accomplishment/track/7652f255f9efbd24ea249333918457ce1ef8f27b), October 2020
+
+    * [Dealing with Missing Data in R](https://www.datacamp.com/statement-of-accomplishment/course/f09b12ce36b96daa4a4f11d2416762928677091a), October 2020
+
+    * [Foundations of Functional Programming with purrr](https://www.datacamp.com/statement-of-accomplishment/course/1357653c083c63f6008a62ab43d13d2399d02096), August 2020
+
+    * [Intermediate Functional Programming with purrr](https://www.datacamp.com/statement-of-accomplishment/course/5a9c55c3), August 2020
+
+    * [Machine Learning in the Tidyverse](https://www.datacamp.com/statement-of-accomplishment/course/46d4ffe6564a9ba1206600c954318808b5f33785), October 2020
+
+  * ### [Text Mining with R Skill Track](https://www.datacamp.com/statement-of-accomplishment/track/0ae5c46f7576d46a751aeb95bc1992604624e93e), June 2020
+
+    * [Introduction to Text Analysis in R](https://www.datacamp.com/statement-of-accomplishment/course/c23265ae002ccd7e555103e4e4ebbba06b2ca82e), May 2020
+
+    * [String Manipulation with stringr in R](https://www.datacamp.com/statement-of-accomplishment/course/841d75d836529d25817de03bc1dc6e13163fd0cc), May 2020*
+
+    * [Text Mining with Bag-of-Words in R](https://www.datacamp.com/statement-of-accomplishment/course/0a2c521270b078bc985c1238d946e5b4860bea18), June 2020
+
+    * [Sentiment Analysis in R](https://www.datacamp.com/statement-of-accomplishment/course/0404a0bb2509a5cdf6a407f2e291c740c941107a), June 2020
+
+  * ### [Network Analysis with R Skill Track](https://www.datacamp.com/statement-of-accomplishment/track/8d6142c5bf4faa4368bff45e7f2f90318e9ae688), January 2021
+
+    * [Network Analysis in R](https://www.datacamp.com/statement-of-accomplishment/course/9218d78d93012b8b14d273f5626ea5750e20e4ab), January 2021
+
+    * [Predictive Analytics using Networked Data in R](https://www.datacamp.com/statement-of-accomplishment/course/9cc941709034990a45142279a9ab311ad8d7a0e1), January 2021
+
+    * [Network Analysis in the Tidyverse](https://www.datacamp.com/statement-of-accomplishment/course/21dadb75edec7a124759eee73d5a671de3ef922d), January 2021
+
+    * [Case Studies: Network Analysis in R](https://www.datacamp.com/statement-of-accomplishment/course/c384df442bf13df011bfeb518aba4e2b64c22270), January 2021
+
+  * ### [R Programming Skill Track](https://www.datacamp.com/statement-of-accomplishment/track/d330cbba0ff384dd21bdb4fe45b5ee625620a83d), October 2020
+
+    * [Introduction to R](https://www.datacamp.com/statement-of-accomplishment/course/acd7dd828012d1e26bed9ea92707dbd247f20b70), April 2020*
+
+    * [Intermediate R](https://www.datacamp.com/statement-of-accomplishment/course/463aaec649479350bbc282d7f6ecbf589b05e433), May 2020
+
+    * [Writing Efficient R Code](https://www.datacamp.com/statement-of-accomplishment/course/22ec068633d17c04c22a86c556a5fef1ce976ab6), October 2020*
+
+    * [Parallel Programming in R](https://www.datacamp.com/statement-of-accomplishment/course/1fc6ee1d1ee95d8b1db27d9f716db1b48fea2e23), October 2020
+
+  * ### [Importing & Cleaning Data with R Skill Track](https://www.datacamp.com/statement-of-accomplishment/track/d018fd27cfa12f5d12c684998e6f566c0d31bee6), July 2020
+
+    * [Introduction to Importing Data in R](https://www.datacamp.com/statement-of-accomplishment/course/1734da59b57febf4cf58878bff05e62dd49438aa), June 2020
+
+    * [Intermediate Importing Data in R](https://www.datacamp.com/statement-of-accomplishment/course/3bd5608f0984bb3d733f85d2ddd1e4e29ff3a978), June 2020
+
+    * [Cleaning Data in R](https://www.datacamp.com/statement-of-accomplishment/course/8a1b1f4e3fc216f462b4734ea63a7db8672b2c03), July 2020
+
+    * [Working with Data in the Tidyverse](https://www.datacamp.com/statement-of-accomplishment/course/89ece035d5ecf9cb0bb52c8b95001cf227f9a48c), July 2020
+
+  * ### Miscellaneous
+
+    * [Intermediate Regression in R](https://www.datacamp.com/completed/statement-of-accomplishment/course/e2c0373f13fc076734393ee76ea106c6f544b7ce), September 2025
+
+    * [Case Study: Exploratory Data Analysis in R](https://www.datacamp.com/statement-of-accomplishment/course/e777cef445e15dec248dc84730281ad1fa4b98ed), August 2022
+
+    * [Intermediate Data Visualization with ggplot2](https://www.datacamp.com/statement-of-accomplishment/course/91b9e1410803d12368d7b3f2146c346efcc06ba2), August 2022
+
+    * [Reporting with R Markdown](https://www.datacamp.com/statement-of-accomplishment/course/52b0c6bacb1e1c62e7ad164030af75271397ac91), August 2022
+
+    * [Introduction to Natural Language Processing in R](https://www.datacamp.com/statement-of-accomplishment/course/e2ccb31a1eef5fbed94f688536ce570b403a639c), June 2020
+
+    * [Categorical Data in the Tidyverse](https://www.datacamp.com/statement-of-accomplishment/course/ea09a7cb29b43452d90eda33e833db7b2a3c6b81), September 2020
+
+    * [Introduction to Git](https://www.datacamp.com/statement-of-accomplishment/course/9a970a1e7dec443e957803463d81c0e6eb767e77), September 2020
+
+    * [Web Scraping in Python](https://www.datacamp.com/statement-of-accomplishment/course/4a751424575728f3c52111193c62964f5c932e3e), September 2020
+
+    * [Topic Modeling in R](https://www.datacamp.com/statement-of-accomplishment/course/e3f21e5a9b04e3680f09d680fa85a7846f09ab51), July 2020
+
+    * [Working with Web Data in R](https://www.datacamp.com/statement-of-accomplishment/course/8faea9203e2360c867303cb301cfa3e6eccb83ac), June 2020
+
+## Institute for Qualitative and Multi-Method Research
+
+[https://www.maxwell.syr.edu/moynihan/cqrm/Institute_for_Qualitative_and_Multi-Method_Research/](https://www.maxwell.syr.edu/moynihan/cqrm/Institute_for_Qualitative_and_Multi-Method_Research/)
+
+Multi-Method Research Module, June 2019
+
+Qualitative Comparative Analysis/Fuzzy Sets Module, June 2019
+
+Network Analysis Module, June 2019
+
+Computer Assisted Text Analysis Module, June 2019

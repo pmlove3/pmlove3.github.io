@@ -1,0 +1,124 @@
+---
+title: "Ollama"
+date: "2026-04-24"
+---
+
+## Installing Ollama and Mistral
+
+Follow the steps below to install Ollama, a local model runner, and download the Mistral model. This setup allows you to run a large language model locally on your computer without an API key.
+
+### macOS Installation
+
+### Option A: Standard Install
+
+  1. Go to https://ollama.com/download
+
+  2. Click Download for macOS
+
+  3. Open the downloaded .dmg file
+
+  4. Drag Ollama into your Applications folder
+
+  5. Open Ollama once to start the background service
+
+### Option B: Terminal Install
+
+Open Terminal and run:
+curl -fsSL https://ollama.com/install.sh | sh
+
+### Verify Installation
+
+Run:
+ollama --version
+
+### Windows Installation
+
+### Option A: Standard Install
+
+  1. Go to https://ollama.com/download
+
+  2. Click Download for Windows
+
+  3. Run the installer (OllamaSetup.exe)
+
+  4. Follow the installation steps
+
+### Option B: PowerShell Install
+
+Open PowerShell and run:
+irm https://ollama.com/install.ps1 | iex
+
+### Verify Installation
+
+Open Command Prompt, PowerShell, or Windows Terminal and run:
+ollama --version
+
+### Download and Run Mistral
+
+Run:
+ollama run mistral
+
+The first time you run this command, Ollama will download the Mistral model (several GB). After the download finishes, an interactive chat session will start.
+
+### Test Prompt
+
+After starting Mistral, type directly into the terminal:
+Explain linear regression in three bullet points.
+
+You should receive a generated response.
+To exit, press Ctrl + D or type /bye.
+
+### Hardware Requirements
+
+Minimum:
+
+  * 8 GB RAM
+
+Recommended:
+
+  * 16 GB RAM
+
+Notes:
+
+  * No GPU required
+
+  * Several GB of free disk space needed
+
+### Useful Commands
+
+List installed models:
+ollama list
+
+Download without running:
+ollama pull mistral
+
+Remove a model:
+ollama rm mistral
+
+### Troubleshooting
+
+“ollama not found”
+
+  * Restart Terminal or your computer
+
+Slow performance
+
+  * Close other applications
+
+  * Ensure enough available RAM
+
+Download stuck
+
+  * Press Ctrl + C
+
+  * Run again: ollama run mistral
+
+Model will not start
+
+  * Restart Ollama or reboot your system
+
+### References
+
+  * [Ollama](https://ollama.com)
+
+  * [Mistral model](https://ollama.com/library/mistral)

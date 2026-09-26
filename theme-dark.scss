@@ -1,0 +1,52 @@
+/*-- scss:defaults --*/
+
+$charcoal:   #1b1712;
+$paper:      #f3ede2;
+$coral:      #f0916a;   // primary / links on dark — ~7.9:1 on $charcoal
+$teal-d:     #6dccd6;   // secondary accent on dark — ~9.5:1 on $charcoal
+$mustard-d:  #e8bc5c;   // tertiary accent on dark
+$card-bg-d:  #262019;
+$muted-d:    #b9ad9d;
+
+$body-bg: $charcoal;
+$body-color: $paper;
+$link-color: $coral;
+$link-decoration: underline;
+$primary: $coral;
+$secondary: $teal-d;
+
+$font-family-sans-serif: "Commissioner", "Atkinson Hyperlegible", "Segoe UI", Helvetica, Arial, sans-serif;
+$headings-font-family: "Fraunces", Georgia, "Times New Roman", serif;
+$headings-font-weight: 600;
+$headings-color: $paper;
+
+$border-radius: 0.9rem;
+$border-radius-sm: 0.6rem;
+$border-radius-lg: 1.2rem;
+
+$navbar-bg: $charcoal;
+$navbar-fg: $paper;
+$footer-bg: $charcoal;
+$footer-fg: $muted-d;
+
+$toc-color: $teal-d;
+$toc-active-border: $teal-d;
+
+/*-- scss:rules --*/
+
+:root {
+  --accent-terracotta: #{$coral};
+  --accent-teal: #{$teal-d};
+  --accent-mustard: #{$mustard-d};
+  --card-bg: #{$card-bg-d};
+  --muted: #{$muted-d};
+}
+
+a:focus-visible,
+button:focus-visible,
+.nav-link:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #{$teal-d};
+  outline-offset: 2px;
+  border-radius: 4px;
+}

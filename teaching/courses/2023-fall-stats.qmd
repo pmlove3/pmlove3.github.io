@@ -1,0 +1,10 @@
+---
+title: "Statistics for Social and Behavioral Sciences — Fall 2023"
+date: "2025-02-19"
+---
+
+[Stata Study Tips](../../resources/stata.html)
+
+## Recitation Materials
+
+[Archived](https://drive.google.com/drive/folders/1yHM6zRZuOJjsvz0JdRCnyeoXOMnUc17E?usp=drive_link) — Available upon request

@@ -1,0 +1,8 @@
+---
+title: "ISA Virtual 2025"
+date: "2025-07-29"
+---
+
+![Title slide and presentation graphic from the ISA Virtual 2025 conference talk.](images/isa-virtual-25.jpg "ISA Virtual 2025 presentation graphic")
+
+[Link to PNG](https://drive.google.com/file/d/1aiXGjVOao_Z7ZtpUz6-BFdhSNc2g2r86/view?usp=share_link)

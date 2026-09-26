@@ -1,0 +1,207 @@
+/* =========================================================
+   Accessibility + Apéro-inspired styling on top of the
+   Quarto/Bootstrap light & dark themes (theme-light.scss /
+   theme-dark.scss carry the color + font variables).
+   ========================================================= */
+
+/* ---- Skip link: hidden until focused, per WCAG 2.4.1 ---- */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 2000;
+  background: var(--accent-teal, #16636b);
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0 0 0.6rem 0;
+  font-weight: 700;
+  text-decoration: none;
+}
+.skip-link:focus {
+  left: 0;
+}
+
+/* ---- Respect reduced-motion preference ---- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---- Base rhythm & readability ---- */
+body {
+  line-height: 1.65;
+}
+main.content {
+  max-width: 900px;
+}
+p, li {
+  max-width: 70ch;
+}
+
+/* ---- Headings ---- */
+h1.title {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.quarto-title-banner {
+  border-bottom: none;
+}
+
+/* ---- Links: keep a visible, non-color-only affordance ---- */
+a {
+  text-underline-offset: 0.15em;
+}
+
+/* ---- Navbar: plain uppercase text links, Hugo-Apéro-style ---- */
+.navbar {
+  border-bottom: none;
+  box-shadow: none;
+}
+.navbar .nav-link,
+.navbar .dropdown-toggle {
+  color: var(--accent-terracotta, #a8471f) !important;
+  font-family: "Commissioner", "Atkinson Hyperlegible", "Segoe UI", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  background: none !important;
+  border-radius: 0;
+  opacity: 0.92;
+}
+/* Home item: icon-only, sized to sit on the nav-link baseline.
+   Quarto still emits a .menu-text span with the site title next to
+   an icon-only navbar item that points at the home page, so hide it. */
+.navbar .nav-link i.bi-house-door {
+  font-size: 1.15rem;
+}
+.navbar .nav-link i.bi-house-door ~ .menu-text {
+  display: none;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .dropdown-toggle:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  background: none !important;
+}
+.navbar .nav-link.active {
+  text-decoration: underline;
+  text-underline-offset: 0.25em;
+  opacity: 1;
+}
+/* Dropdown menus: quieter, sentence case, same accent family */
+.navbar .dropdown-menu {
+  border: 1px solid rgba(127, 106, 80, 0.18);
+  border-radius: 0.6rem;
+  box-shadow: 0 6px 20px rgba(36, 31, 26, 0.10);
+}
+.navbar .dropdown-item {
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 0.92rem;
+  border-radius: 0.4rem;
+}
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  background: rgba(168, 71, 31, 0.08);
+  color: var(--accent-terracotta, #a8471f);
+}
+.navbar-toggler {
+  border: none;
+}
+
+/* ---- Hero / world map banner on the home page ---- */
+.hero-worldmap {
+  margin: 0 0 2rem 0;
+  border-radius: var(--bs-border-radius-lg, 1.2rem);
+  overflow: hidden;
+  background: linear-gradient(180deg, rgba(168,71,31,0.10), rgba(22,99,107,0.10));
+}
+.hero-worldmap svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  color: var(--accent-terracotta, #a8471f);
+}
+.hero-eyebrow {
+  color: var(--accent-teal, #16636b);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+}
+
+/* ---- Homepage profile links: NYUAD Profile + GitHub/LinkedIn icons ---- */
+.profile-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.profile-links a:not(.profile-icon-link) {
+  text-underline-offset: 0.15em;
+}
+.profile-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-terracotta, #a8471f);
+  font-size: 1.25rem;
+  text-decoration: none;
+  opacity: 0.85;
+}
+.profile-icon-link:hover,
+.profile-icon-link:focus {
+  opacity: 1;
+}
+
+/* ---- Cards (used by the News listing) ---- */
+.quarto-listing .quarto-grid-item,
+.quarto-post {
+  background: var(--card-bg, #fff);
+  border-radius: var(--bs-border-radius, 0.9rem);
+  border: 1px solid rgba(127, 106, 80, 0.18);
+  box-shadow: 0 2px 10px rgba(36, 31, 26, 0.06);
+}
+.quarto-grid-item .listing-title,
+.quarto-post .listing-title {
+  font-family: "Fraunces", Georgia, serif;
+}
+
+/* ---- Category / tag pills ---- */
+.quarto-category,
+.listing-categories .listing-category {
+  border-radius: 999px !important;
+  background: var(--accent-mustard, #a86c0f) !important;
+  color: #221a08 !important;
+  border: none !important;
+  font-weight: 600;
+}
+
+/* ---- Images: rounded corners, always require alt text ---- */
+img {
+  border-radius: 0.6rem;
+  max-width: 100%;
+  height: auto;
+}
+figcaption, .figure-caption {
+  color: var(--muted, #6b6055);
+}
+
+/* ---- Footer ---- */
+.nav-footer {
+  border-top: 1px solid rgba(127, 106, 80, 0.18);
+}
+
+/* ---- Dark-mode toggle affordance ---- */
+.quarto-color-scheme-toggle {
+  border-radius: 999px;
+}

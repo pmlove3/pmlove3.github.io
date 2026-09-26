@@ -1,0 +1,74 @@
+---
+title: "VPM and Voting Theory"
+date: "2025-02-03"
+---
+
+Disclaimer: There may be conflicting information with class texts or lecture. For our purposes and for evaluation, we will use whatever information, vocabulary, or methods the professor has chosen.
+
+# VPM and Voting Theory Resources
+
+## Fun with Voting
+
+NYC Mayor Race: Ranked-Choice Ballot Explained, With Bagels | WSJ | June 2, 2021
+
+  * By Roque Ruiz, Juanje Gomez and Alexa Corse
+
+  * [https://www.wsj.com/articles/confused-by-nycs-ranked-choice-mayoral-primary-practice-with-bagels-11622631601](https://www.wsj.com/articles/confused-by-nycs-ranked-choice-mayoral-primary-practice-with-bagels-11622631601?st=5ef8icplffob9po&reflink=desktopwebshare_permalink)
+
+## Books
+
+Open Text
+
+Lippman, David. Math in Society. 2nd ed., 2017. [https://www.opentextbookstore.com/mathinsociety/](https://www.opentextbookstore.com/mathinsociety/).
+
+UCI VPN needed
+
+Wallis, W. D. The Mathematics of Elections and Voting / W.D. Wallis. Cham: Springer, 2014. [https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991002068959704701](https://uci.primo.exlibrisgroup.com/permalink/01CDL_IRV_INST/1gpb62p/alma991002068959704701)
+
+## Material for the Midterm
+
+The Condorcet Method (Voting System) | Carneades
+
+[https://youtu.be/bXYQPvU_Oao](https://youtu.be/bXYQPvU_Oao)
+
+Voting Systems and the Condorcet Paradox | Infinite Series
+
+[https://youtu.be/HoAnYQZrNrQ](https://youtu.be/HoAnYQZrNrQ)
+
+Approval Voting | CGP Grey
+
+[https://youtu.be/orybDrUj4vA](https://youtu.be/orybDrUj4vA)
+
+Alternative Vote | CGP Grey
+
+[https://youtu.be/3Y3jE3B8HsE](https://youtu.be/3Y3jE3B8HsE)
+
+Your guide to tactical voting in the UK election | Crunched (Financial Times)
+
+[https://youtu.be/4Gzw_naodl0](https://youtu.be/4Gzw_naodl0)
+
+Gerrymandering Game | GameTheory Co
+
+[http://gametheorytest.com/gerry/ ](http://gametheorytest.com/gerry/)
+
+## Material After Midterm
+
+Mixed Member Proportional
+
+[https://elections.nz/democracy-in-nz/what-is-mmp/](https://elections.nz/democracy-in-nz/what-is-mmp/)
+
+STV (Annotated with Hypothes.is)
+
+[https://hyp.is/go?url=https%3A%2F%2Fwww.electoral-reform.org.uk%2Fvoting-systems%2Ftypes-of-voting-system%2Fsingle-transferable-vote%2F&group=__world__](https://hyp.is/go?url=https%3A%2F%2Fwww.electoral-reform.org.uk%2Fvoting-systems%2Ftypes-of-voting-system%2Fsingle-transferable-vote%2F&group=__world__)
+
+STV | GCP Grey
+
+[https://youtu.be/l8XOZJkozfI](https://youtu.be/l8XOZJkozfI)
+
+S-S Calculator (Dennis Leech and Robert Leech)
+
+[http://homepages.warwick.ac.uk/~ecaae/ssdirect.html](http://homepages.warwick.ac.uk/~ecaae/ssdirect.html)
+
+Banzhaf Calculator (Fernando Guzman)
+
+[http://people.math.binghamton.edu/fer/courses/math130/ZIS_Spr14/chapter1/Banzhaf.html](http://people.math.binghamton.edu/fer/courses/math130/ZIS_Spr14/chapter1/Banzhaf.html)

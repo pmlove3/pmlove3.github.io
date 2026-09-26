@@ -1,0 +1,14 @@
+---
+title: "Capstone Seminar — 2025–2026"
+date: "2025-09-06"
+---
+
+[Study Tips](../../teaching/study-tips.html)
+
+  * [Data](../../resources/data.html)
+
+  * [R](../../resources/r.html)
+
+  * [Stata](../../resources/stata.html)
+
+[Office Hours]() (For Spring 2026)

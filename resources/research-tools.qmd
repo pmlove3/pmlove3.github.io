@@ -1,0 +1,60 @@
+---
+title: "Research Tools"
+date: "2026-04-03"
+---
+
+### Reference Management
+
+[Zotero](https://www.zotero.org/)
+
+  * Add-ons
+
+    * [Better BibTex](https://github.com/retorquere/zotero-better-bibtex)
+
+    * [Zutilo](https://github.com/wshanks/Zutilo)
+
+### Note Taking
+
+  * [Zettlr](https://github.com/Zettlr/Zettlr)
+
+  * [Obsidian](https://obsidian.md/)
+
+  * [Raindrop.io](https://raindrop.io) (bookmarking)
+
+### Data Science
+
+  * [RStudio](https://www.rstudio.com/)
+
+  * [Jupyter](https://jupyter.org/)
+
+  * [Positron](https://positron.posit.co/)
+
+  * [Quarto](https://quarto.org/)
+
+  * [R](https://cran.r-project.org/)
+
+  * [ollama](https://ollama.com/)
+
+  * [Sublime Text](https://www.sublimetext.com/)
+
+  * [VSCode](https://code.visualstudio.com/)
+
+### Mac Utilities
+
+  * [Homebrew](https://brew.sh/) Package Manager
+
+    * See [Operating Systems](../resources/operating-systems.html) for tutorials
+
+    * Github Gist of my current Brewfile as of [2022-09-02](https://gist.github.com/pmlove3/3c635e0a129464b2c3a29f387de3b161)
+
+  * [iTerm](https://iterm2.com/) Terminal Replacement
+
+  * [Alfred](https://www.alfredapp.com/) Launcher, Text Expander, Multi-tool, etc.
+
+  * [Rectangle](https://rectangleapp.com/) Window Manager
+
+  * [Ice](https://github.com/jordanbaird/Ice) Menu Bar Manager
+
+### Miscellaneous
+
+  * [Misc](https://filedn.com/laFjEhdp8Rtuealsxk63ROV/2026-04-03T19_07_48.secret.html)

@@ -1,0 +1,234 @@
+---
+title: "R"
+date: "2026-01-26"
+---
+
+## Installation
+
+### Normal Setup
+
+R must be installed before installing RStudio
+
+  1. [R Download — The Comprehensive R Archive Network ](https://cran.r-project.org/)
+
+  2. [RStudio Download — ](https://posit.co/download/rstudio-desktop/)[Posit.co](http://posit.co)
+
+OR
+
+2\. [Positron — Posit.co](https://positron.posit.co/)
+
+### Development Setup for Compling Packages (Extra)
+
+  * Windows — [RTools](https://cran.r-project.org/bin/windows/Rtools/)
+
+    * [Guide by Alphacentauric 2024](https://www.alphacentauric.com/post/r-installation-rstudio-rtools-guide) (See Section on RTools)
+
+    * Alternative Method: installr package ([CRAN site](https://cran.r-project.org/web/packages/installr/readme/README.html))
+
+      * installr::install.Rtools()
+
+  * macOS — Xcode Command Line Tools (See guide for Terminal commands)
+
+    * [Guide by Daniel Kehoe](https://mac.install.guide/commandlinetools/4)
+
+### Using R Online
+
+  * [NYU Virtual Computing Lab (NYU Login Needed)](https://vcl.nyu.edu/)
+
+    * Uses Windows
+
+  * [Posit Cloud (Free and Academic Pricing Available)](https://posit.cloud/)
+
+    * Uses Ubuntu Linux
+
+  * GitHub Education gives access to [Codespaces](https://github.com/features/codespaces)
+
+### Publishing
+
+  * Quarto should be downloaded as a binary from its [website](https://quarto.org/) for installation.
+
+  * Exporting (Knitting) from RMarkdown or Quarto requires a LaTeX installation.
+
+  * Easy method (Works in most cases)
+
+    * [TinyTex Instructions](../resources/tinytex.html)
+
+  * Advanced (Works in all cases, but difficult to manage)
+
+    * Windows — [MiKTeX](https://miktex.org/)
+
+    * macOS — [MacTex](https://tug.org/mactex/)
+
+### Videos
+
+  * [How to Install R and RStudio on Windows 11 - YouTube](https://www.youtube.com/watch?v=H9EBlFDGG4k)
+
+  * [How to Install R and RStudio on Mac / MacOS (2024) - YouTube](https://www.youtube.com/watch?v=I5WIMX4LK8M)
+
+  * [R Tutorials and Package Reviews by Albert Rapp - YouTube](https://www.youtube.com/@rappa753)
+
+  * [Positron IDE for R & Python | How to Install & Use | Better than RStudio? | Ft. @milos-makes-maps by Statistics Globe - YouTube](https://www.youtube.com/watch?v=VPHuCl8asjQ)
+
+  * [Getting Started with Positron: A Quick Tour by Posit PBC - YouTube](https://www.youtube.com/watch?v=mru9z50IOhI)
+
+  * [Funny Video about Python vs. R by Luke Barousse - YouTube](https://www.youtube.com/watch?v=DGrszAeMZJI)
+
+## Handouts
+
+[RMarkdown Tables (Old Version)](https://drive.google.com/file/d/1nqWEHPy0GqVSS764AVe2pb040lgD9iv-/view?usp=drive_link)
+
+## External Resources
+
+### R
+
+  * [An Introduction to R (2024)](https://intro2r.com/) — Good Starting Place
+
+  * [Posit Cheatsheets](https://posit.co/resources/cheatsheets/) (RStudio)
+
+  * [Command Palette — Posit](https://docs.posit.co/ide/user/ide/guide/ui/command-palette.html)
+
+  * [R Tutorial — Geeks for Geeks](https://www.geeksforgeeks.org/r-tutorial/)
+
+  * [Best Coding Practices for R (2022)](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/)
+
+    * Chapter 3 [Code Structure](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/code.html)
+
+  * [R for Graduate Students (2019)](https://bookdown.org/yih_huynh/Guide-to-R-Book/)
+
+    * Chapter 3.6 [Troubleshooting Errors](https://bookdown.org/yih_huynh/Guide-to-R-Book/trouble.html)
+
+  * [Working Directories and Workspaces in the RStudio IDE — Posit](https://support.posit.co/hc/en-us/articles/200711843-Working-Directories-and-Workspaces-in-the-RStudio-IDE)
+
+  * [ Analyzing Star Wars Movie Scripts](https://www.kaggle.com/code/xvivancos/analyzing-star-wars-movie-scripts/)
+
+  * [An Introduction to Machine Learning with R](https://lgatto.github.io/IntroMachineLearningWithR/)
+
+  * [Basic Text Mining with R](https://rstudio-pubs-static.s3.amazonaws.com/132792_864e3813b0ec47cb95c7e1e2e2ad83e7.html)
+
+  * [Knitr's best hidden gem: spin](https://deanattali.com/2015/03/24/knitrs-best-hidden-gem-spin/)
+
+  * [R-Bloggers](https://www.r-bloggers.com/) (Blog about R)
+
+    * [RStudio Keyboard Shortcuts](https://www.r-bloggers.com/2024/06/rstudio-shortcuts-and-settings/) — RBloggers
+
+  * [R Cookbook, 2nd Edition](https://rc2e.com/)
+
+  * [R for Data Science (2e)](https://r4ds.hadley.nz/)
+
+### R Courses
+
+  * [Datacamp](https://www.datacamp.com/github-students) (Free Access with Github Student Developer Pack)
+
+    * [Github Student Developer Pack](https://education.github.com/pack)
+
+### RMarkdown
+
+  * [Posit Documentation on RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html)
+
+    * RMarkdown uses Pandoc's implementation of [Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
+
+  * [Introduction to R Markdown (2019)](https://rpubs.com/brandonkopp/intro_to_r_markdown)
+
+  * [R Markdown: The Definitive Guide (2023)](https://bookdown.org/yihui/rmarkdown/)
+
+    * More Advanced: [R Markdown Cookbook (2024)](https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+### Regular Expressions
+
+  * [Regular Expression Playground](https://regexlearn.com/playground)
+
+  * [RegExr: Learn, Build, & Test RegEx](https://regexr.com/)
+
+  * [Regex Cheat Sheet](https://www.petefreitag.com/cheatsheets/regex/)
+
+  * [Regular Expressions Cheat Sheet](https://www.maketecheasier.com/cheatsheet/regex/) — maketecheasier
+
+  * Related regex information in [R for Data Science (2e)](https://r4ds.hadley.nz/strings.html) book.
+
+  * [Regular Expressions (RegEx) in 100 Seconds ](https://www.youtube.com/watch?v=sXQxhojSdZM)— Fireship on YouTube
+
+### Data Types
+
+  * Vector
+
+    * Dimensions: 1D
+
+    * Homogeneous?: Yes
+
+    * Key use case: Basic data storage
+
+  * List
+
+    * Dimensions: 1D (nested possible)
+
+    * Homogeneous?: No
+
+    * Key use case: Collection of various data types
+
+  * Matrix
+
+    * Dimensions: 2D
+
+    * Homogeneous?: Yes
+
+    * Key use case: Mathematical operations
+
+  * Data Frame
+
+    * Dimensions: 2D
+
+    * Homogeneous?: No (columns can be different)
+
+    * Key use case: Tabular data analysis
+
+  * Array
+
+    * Dimensions: 2D or more
+
+    * Homogeneous?: Yes
+
+    * Key use case: Multi-dimensional data
+
+### Miscellaneous
+
+  * DAGitty for Directed Acyclic Graphs
+
+    * [Online creator](https://dagitty.net/dags.html)
+
+    * [CRAN R package](https://cran.r-project.org/web/packages/dagitty/index.html)
+
+  * Styling code using [Tidyverse style guide](https://style.tidyverse.org/) with [styler](https://styler.r-lib.org/) package.
+
+    * See also [lintr](https://lintr.r-lib.org/) for error checking.
+
+    * styler can be used before lintr to reduce errors marked.
+
+    * lintr can set a style guide using the command lintr::use_lintr(type = "tidyverse")
+
+Installation
+
+Normal Setup
+
+Development Setup for Compling Packages (Extra)
+
+Using R Online
+
+Publishing
+
+Videos
+
+Handouts
+
+External Resources
+
+R
+
+R Courses
+
+RMarkdown
+
+Regular Expressions
+
+Data Types
+
+Miscellaneous

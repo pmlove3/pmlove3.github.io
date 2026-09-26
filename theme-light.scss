@@ -1,0 +1,53 @@
+/*-- scss:defaults --*/
+
+// Apéro-inspired warm palette, tuned for WCAG AA contrast on a cream background
+$cream:      #fbf7f1;
+$ink:        #241f1a;
+$terracotta: #a8471f; // primary / links — ~5.4:1 on $cream
+$teal:       #16636b; // secondary accent — ~6.6:1 on $cream
+$mustard:    #a86c0f; // tertiary accent — ~5.1:1 on $cream
+$card-bg:    #ffffff;
+$muted:      #6b6055;
+
+$body-bg: $cream;
+$body-color: $ink;
+$link-color: $terracotta;
+$link-decoration: underline;
+$primary: $terracotta;
+$secondary: $teal;
+
+$font-family-sans-serif: "Commissioner", "Atkinson Hyperlegible", "Segoe UI", Helvetica, Arial, sans-serif;
+$headings-font-family: "Fraunces", Georgia, "Times New Roman", serif;
+$headings-font-weight: 600;
+$headings-color: $ink;
+
+$border-radius: 0.9rem;
+$border-radius-sm: 0.6rem;
+$border-radius-lg: 1.2rem;
+
+$navbar-bg: $cream;
+$navbar-fg: $ink;
+$footer-bg: $cream;
+$footer-fg: $muted;
+
+$toc-color: $teal;
+$toc-active-border: $teal;
+
+/*-- scss:rules --*/
+
+:root {
+  --accent-terracotta: #{$terracotta};
+  --accent-teal: #{$teal};
+  --accent-mustard: #{$mustard};
+  --card-bg: #{$card-bg};
+  --muted: #{$muted};
+}
+
+a:focus-visible,
+button:focus-visible,
+.nav-link:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #{$teal};
+  outline-offset: 2px;
+  border-radius: 4px;
+}

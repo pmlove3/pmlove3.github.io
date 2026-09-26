@@ -1,0 +1,64 @@
+---
+title: "Data Analysis: Political Science — Fall 2025"
+date: "2025-11-13"
+---
+
+  * This course uses several online resources, including
+
+    * Datacamp (Check Brightspace for details)
+
+    * [Overleaf](https://www.overleaf.com/) (Requires NYU Login through SSO option for Professional features)
+
+    * [Posit.cloud](https://posit.cloud/) (It is a free service, but advanced options with academic discounts are available).
+
+  * [R Tips](../../resources/r.html)
+
+  * [Data](../../resources/data.html)
+
+  * [Large Language Models](../../resources/llm.html) (Local)
+
+  * For office hours, please check the course syllabus on Brightspace.
+
+  * [NYUAD Calendar](https://nyuad.nyu.edu/en/about/administration-and-governance/undergraduate-academic-calendar.html)
+
+  * [Recitation Materials](https://drive.google.com/drive/folders/1nxCm9acoTJGPLp_w4PiF_DmE3LVaHska?usp=sharing) (NYU Login Required)
+
+  * Office Hour Info is available on the Brightspace tab "Instructor and Recitation Info".
+
+  * Book office hours via the Google calendar link on Brightspace.
+
+## Schedule
+
+Week 1 2025-08-28
+
+Week 2 2025-09-04
+
+Week 3 2025-09-11
+
+Week 4 2025-09-18
+
+Week 5 2025-09-25
+
+Week 6 2025-10-02
+
+Week 7 2025-10-09
+
+Week 8 2025-10-16 No Class
+
+Week 9 2025-10-23
+
+Week 10 2025-10-30
+
+Week 11 2025-11-06
+
+Week 12 2025-11-13
+
+Week 13 2025-11-20
+
+Week 14 2025-11-27
+
+Week 15
+
+  * 2025-12-04 Normal Schedule
+
+  * 2025-12-07 Possible Legislative Day
