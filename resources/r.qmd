@@ -27,7 +27,7 @@ OR
 
   * macOS — Xcode Command Line Tools (See guide for Terminal commands)
 
-    * [Guide by Daniel Kehoe](https://mac.install.guide/commandlinetools/4)
+    * [Guide by Daniel Kehoe](https://web.archive.org/web/20260710100018/https://mac.install.guide/commandlinetools/4)
 
 ### Using R Online
 
@@ -85,7 +85,7 @@ OR
 
   * [Command Palette — Posit](https://docs.posit.co/ide/user/ide/guide/ui/command-palette.html)
 
-  * [R Tutorial — Geeks for Geeks](https://www.geeksforgeeks.org/r-tutorial/)
+  * [R Tutorial — Geeks for Geeks](https://web.archive.org/web/20260923005424/https://www.geeksforgeeks.org/r-language/r-tutorial/)
 
   * [Best Coding Practices for R (2022)](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/)
 
@@ -101,13 +101,13 @@ OR
 
   * [An Introduction to Machine Learning with R](https://lgatto.github.io/IntroMachineLearningWithR/)
 
-  * [Basic Text Mining with R](https://rstudio-pubs-static.s3.amazonaws.com/132792_864e3813b0ec47cb95c7e1e2e2ad83e7.html)
+  * [Basic Text Mining with R](https://web.archive.org/web/20240327053733/https://rstudio-pubs-static.s3.amazonaws.com/132792_864e3813b0ec47cb95c7e1e2e2ad83e7.html)
 
-  * [Knitr's best hidden gem: spin](https://deanattali.com/2015/03/24/knitrs-best-hidden-gem-spin/)
+  * [Knitr's best hidden gem: spin](https://web.archive.org/web/20260125002922/https://deanattali.com/2015/03/24/knitrs-best-hidden-gem-spin/)
 
   * [R-Bloggers](https://www.r-bloggers.com/) (Blog about R)
 
-    * [RStudio Keyboard Shortcuts](https://www.r-bloggers.com/2024/06/rstudio-shortcuts-and-settings/) — RBloggers
+    * [RStudio Keyboard Shortcuts](https://web.archive.org/web/20260609144630/https://www.r-bloggers.com/2024/06/rstudio-shortcuts-and-settings/) — RBloggers
 
   * [R Cookbook, 2nd Edition](https://rc2e.com/)
 
@@ -125,8 +125,6 @@ OR
 
     * RMarkdown uses Pandoc's implementation of [Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
 
-  * [Introduction to R Markdown (2019)](https://rpubs.com/brandonkopp/intro_to_r_markdown)
-
   * [R Markdown: The Definitive Guide (2023)](https://bookdown.org/yihui/rmarkdown/)
 
     * More Advanced: [R Markdown Cookbook (2024)](https://bookdown.org/yihui/rmarkdown-cookbook/)
@@ -137,9 +135,9 @@ OR
 
   * [RegExr: Learn, Build, & Test RegEx](https://regexr.com/)
 
-  * [Regex Cheat Sheet](https://www.petefreitag.com/cheatsheets/regex/)
+  * [Regex Cheat Sheet](https://web.archive.org/web/20260225145046/https://www.petefreitag.com/cheatsheets/regex/)
 
-  * [Regular Expressions Cheat Sheet](https://www.maketecheasier.com/cheatsheet/regex/) — maketecheasier
+  * [Regular Expressions Cheat Sheet](https://web.archive.org/web/20260410234017/https://maketecheasier.com/cheatsheet/regex/) — maketecheasier
 
   * Related regex information in [R for Data Science (2e)](https://r4ds.hadley.nz/strings.html) book.
 
