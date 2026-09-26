@@ -48,8 +48,8 @@ Highlight:
 ](https://arabcenterdc.org/publications/public-opinion-surveys/)Survey datasets and reports focused on the Middle East.
 
   4. CESSDA Data Catalogue (Consortium on European Social Science Data Archives)
-[https://www.cessda.eu/data/
-](https://www.cessda.eu/data/)Central catalogue of European social science datasets across national archives.
+[https://www.cessda.eu/Tools/Data-Catalogue
+](https://www.cessda.eu/Tools/Data-Catalogue)Central catalogue of European social science datasets across national archives.
 
   5. CLOSER Studies
 [https://www.closer.ac.uk/
@@ -123,51 +123,47 @@ Highlight:
 [https://international.ipums.org/international/
 ](https://international.ipums.org/international/)Harmonized international census microdata.
 
-  23. MENA Data
-[http://www.menadata.net/
-](http://www.menadata.net/)Socioeconomic and political data for the Middle East and North Africa.
-
-  24. OpenAIRE
+  23. OpenAIRE
 [https://explore.openaire.eu/search/find
 ](https://explore.openaire.eu/search/find)European open science platform for datasets and research outputs.
 
-  25. Penn World Table (PWT)
+  24. Penn World Table (PWT)
 [https://www.rug.nl/ggdc/productivity/pwt/
 ](https://www.rug.nl/ggdc/productivity/pwt/)Cross-country economic and national accounts data.
 
-  26. Polity Project
+  25. Polity Project
 [https://www.systemicpeace.org/polityproject.html
 ](https://www.systemicpeace.org/polityproject.html)Data on political regimes and regime change.
 
-  27. re3data – Registry of Research Data Repositories
+  26. re3data – Registry of Research Data Repositories
 [https://www.re3data.org/
 ](https://www.re3data.org/)Global directory of research data repositories.
 
-  28. Simmons OAD Data Repositories Wiki
+  27. Simmons OAD Data Repositories Wiki
 [https://oad.simmons.edu/oadwiki/Data_repositories
 ](https://oad.simmons.edu/oadwiki/Data_repositories)Curated list of open-access data repositories by subject.
 
-  29. Survey of Consumer Finances (SCF)
+  28. Survey of Consumer Finances (SCF)
 [https://www.federalreserve.gov/econres/scfindex.htm
 ](https://www.federalreserve.gov/econres/scfindex.htm)Detailed U.S. household finance data.
 
-  30. U.S. Census Bureau
+  29. U.S. Census Bureau
 [https://data.census.gov/
 ](https://data.census.gov/)U.S. population, housing, and demographic data.
 
-  31. UAE Federal Competitiveness and Statistics Centre (FCSC)
+  30. UAE Federal Competitiveness and Statistics Centre (FCSC)
 [https://fcsc.gov.ae/en-us
 ](https://fcsc.gov.ae/en-us)Official national statistics for the UAE.
 
-  32. UN Data
+  31. UN Data
 [https://data.un.org/
 ](https://data.un.org/)United Nations statistical databases across many domains.
 
-  33. UN ESCWA Statistics
+  32. UN ESCWA Statistics
 [https://archive.unescwa.org/our-work/statistics
 ](https://archive.unescwa.org/our-work/statistics)Economic and social data focused on Western Asia.
 
-  34. World Values Survey (WVS)
+  33. World Values Survey (WVS)
 [https://www.worldvaluessurvey.org/WVSContents.jsp
 ](https://www.worldvaluessurvey.org/WVSContents.jsp)Cross-national survey data on values, beliefs, and social attitudes.
 
@@ -178,16 +174,16 @@ Highlight:
 ](https://awmc.unc.edu/resources/gis-data/)Historical and archaeological GIS datasets.
 
   2. CURIOSity Digital Collections (Harvard)
-[https://curiosity.lib.harvard.edu/
-](https://curiosity.lib.harvard.edu/)Digitized maps and geospatial collections.
+[https://library.harvard.edu/services-tools/curiosity-digital-exhibits
+](https://library.harvard.edu/services-tools/curiosity-digital-exhibits)Digitized maps and geospatial collections.
 
   3. David Rumsey Historical Map Collection
 [https://www.davidrumsey.com/
 ](https://www.davidrumsey.com/)High-resolution historical maps.
 
   4. DIVA-GIS
-[https://www.diva-gis.org/
-](https://www.diva-gis.org/)Free GIS data (administrative boundaries, roads, etc.).
+[https://diva-gis.org/index.html
+](https://diva-gis.org/index.html)Free GIS data (administrative boundaries, roads, etc.).
 
   5. Europeana – Maps and Geography
 [https://www.europeana.eu/en/collections/topic/18-maps-and-geography
@@ -203,7 +199,10 @@ Highlight:
 
   8. NYU Spatial Data Repository
 [https://geo.nyu.edu/
-](https://geo.nyu.edu/)Academic geospatial datasets (institutional access may be required).
+](https://geo.nyu.edu/)Academic geospatial datasets.
+
+Note on website:
+> The Spatial Data Repository (SDR) will be discontinued on September 7, 2026. Going forward, SDR records will be available in NYU's [UltraViolet](https://ultraviolet.library.nyu.edu/communities/sdr/) repository or on [partner GeoBlacklight systems](https://geoblacklight.org/latest/showcase/). Previously available permanent links bookmarked for assets here will also redirect you to the current location of a record. If you cannot find a previously available record, please reach out to Data Services at [data.services@nyu.edu](mailto:data.services@nyu.edu).
 
   9. Princeton Digital Maps and Geospatial Data
 [https://maps.princeton.edu/

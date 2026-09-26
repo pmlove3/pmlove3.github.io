@@ -7,7 +7,7 @@ Writing for Political Science
 
 Handouts
 
-[Writing a Political Science Essay (1997) Charles King, Georgetown University](http://faculty.georgetown.edu/kingch/Writing_PolSci_Essay.htm)
+[Writing a Political Science Essay (1997) Charles King, Georgetown University](https://web.archive.org/web/20230414065812/https://faculty.georgetown.edu/kingch/Writing_PolSci_Essay.htm)
 
 [University of Illinois CWS: Writing Tips: In-class Essay Exams](https://web.archive.org/web/20200813150223/http://www.cws.illinois.edu:80/workshop/writers/tips/inclassessay/)
 
@@ -39,7 +39,7 @@ Op-Eds
 
 [How to Write an Impactful Op-Ed — University of Chicago](https://writingworkshop.harris.uchicago.edu/2024/02/08/how-to-write-an-impactful-op-ed/)
 
-[How to effectively link to an external site — ACES: The Society for Editing](https://aceseditors.org/news/2020/how-to-effectively-link-to-an-external-site)
+[Links and Hypertext — WebAIM](https://webaim.org/techniques/hypertext/link_text)
 
 Diplomatic Telegrams/Cables
 

@@ -13,7 +13,7 @@ NYC Mayor Race: Ranked-Choice Ballot Explained, With Bagels | WSJ | June 2, 2021
 
   * By Roque Ruiz, Juanje Gomez and Alexa Corse
 
-  * [https://www.wsj.com/articles/confused-by-nycs-ranked-choice-mayoral-primary-practice-with-bagels-11622631601](https://www.wsj.com/articles/confused-by-nycs-ranked-choice-mayoral-primary-practice-with-bagels-11622631601?st=5ef8icplffob9po&reflink=desktopwebshare_permalink)
+  * [https://www.wsj.com/politics/policy/confused-by-nycs-ranked-choice-mayoral-primary-practice-with-bagels-11622631601](https://www.wsj.com/politics/policy/confused-by-nycs-ranked-choice-mayoral-primary-practice-with-bagels-11622631601)
 
 ## Books
 
@@ -66,6 +66,8 @@ STV | GCP Grey
 [https://youtu.be/l8XOZJkozfI](https://youtu.be/l8XOZJkozfI)
 
 S-S Calculator (Dennis Leech and Robert Leech)
+
+Note: The website is currently offline.
 
 [http://homepages.warwick.ac.uk/~ecaae/ssdirect.html](http://homepages.warwick.ac.uk/~ecaae/ssdirect.html)
 

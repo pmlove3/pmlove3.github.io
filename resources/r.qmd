@@ -21,9 +21,7 @@ OR
 
   * Windows — [RTools](https://cran.r-project.org/bin/windows/Rtools/)
 
-    * [Guide by Alphacentauric 2024](https://www.alphacentauric.com/post/r-installation-rstudio-rtools-guide) (See Section on RTools)
-
-    * Alternative Method: installr package ([CRAN site](https://cran.r-project.org/web/packages/installr/readme/README.html))
+    * Use installation instructions on package website or use this alternative method: installr package ([CRAN site](https://cran.r-project.org/web/packages/installr/readme/README.html))
 
       * installr::install.Rtools()
 
@@ -204,31 +202,3 @@ OR
     * styler can be used before lintr to reduce errors marked.
 
     * lintr can set a style guide using the command lintr::use_lintr(type = "tidyverse")
-
-Installation
-
-Normal Setup
-
-Development Setup for Compling Packages (Extra)
-
-Using R Online
-
-Publishing
-
-Videos
-
-Handouts
-
-External Resources
-
-R
-
-R Courses
-
-RMarkdown
-
-Regular Expressions
-
-Data Types
-
-Miscellaneous

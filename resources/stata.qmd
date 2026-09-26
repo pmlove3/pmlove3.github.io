@@ -5,7 +5,7 @@ date: "2025-04-17"
 
 ## NYUAD Software Downloads
 
-  * [Student Software List](https://nyuad.nyu.edu/en/library/research-and-instruction-services/center-for-academic-technology/software.html#tab-1-students) (NYU Login Required)
+  * [Software List](https://intranet.nyuad.nyu.edu/administrative-services/technology-services/academic-technology/software-for-research-and-teaching/) (NYU Login Required)
 
   * [Stata Download](../resources/stata-download.html)
 
@@ -30,8 +30,6 @@ date: "2025-04-17"
   * [Stata Cheatsheets](https://www.stata.com/bookstore/statacheatsheets.pdf) (inspired by RStudio's Cheatsheets)
 
   * [Princeton University Online Stata Tutorial](https://www.princeton.edu/~otorres/Stata/)
-
-  * [Useful Commands in Stata - Lucas Rosso](https://lucas-rosso.github.io/post/commands_stata/)
 
   * [Stata Tutorial - Germán Rodríguez](https://grodri.github.io/stata/index)
 

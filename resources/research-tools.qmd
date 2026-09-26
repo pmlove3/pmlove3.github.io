@@ -55,6 +55,3 @@ date: "2026-04-03"
 
   * [Ice](https://github.com/jordanbaird/Ice) Menu Bar Manager
 
-### Miscellaneous
-
-  * [Misc](https://filedn.com/laFjEhdp8Rtuealsxk63ROV/2026-04-03T19_07_48.secret.html)
