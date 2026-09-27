@@ -1,6 +1,8 @@
 ---
 title: "Statistics for Social and Behavioral Sciences — Spring 2025"
 date: "2025-02-17"
+aliases:
+  - /teaching/2025-spring-stats.html
 ---
 
 ## Tips

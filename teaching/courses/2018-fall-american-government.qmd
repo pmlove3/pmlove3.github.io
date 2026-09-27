@@ -1,6 +1,8 @@
 ---
 title: "American Government — Fall 2018"
 date: "2025-02-03"
+aliases:
+  - /teaching/2018-fall-american-government.html
 ---
 
 ## American Government Pol Sci 21A

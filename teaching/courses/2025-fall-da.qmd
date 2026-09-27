@@ -1,6 +1,8 @@
 ---
 title: "Data Analysis: Political Science — Fall 2025"
 date: "2025-11-13"
+aliases:
+  - /teaching/2025-fall-da.html
 ---
 
   * This course uses several online resources, including

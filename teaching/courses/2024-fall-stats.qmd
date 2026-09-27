@@ -1,6 +1,8 @@
 ---
 title: "Statistics for Social and Behavioral Sciences — Fall 2024"
 date: "2025-02-07"
+aliases:
+  - /teaching/2024-fall-stats.html
 ---
 
 ## Tips

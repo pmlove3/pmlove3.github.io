@@ -1,6 +1,8 @@
 ---
 title: "International Security — Fall 2026"
 date: "2026-09-02"
+aliases:
+  - /teaching/2026-fall-is.html
 ---
 
   * [Data](../../resources/data.html)

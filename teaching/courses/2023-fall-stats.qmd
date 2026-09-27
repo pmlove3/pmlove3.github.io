@@ -1,6 +1,8 @@
 ---
 title: "Statistics for Social and Behavioral Sciences — Fall 2023"
 date: "2025-02-19"
+aliases:
+  - /teaching/2023-fall-stats.html
 ---
 
 [Stata Study Tips](../../resources/stata.html)

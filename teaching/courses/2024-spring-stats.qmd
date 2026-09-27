@@ -1,6 +1,8 @@
 ---
 title: "Statistics for Social and Behavioral Sciences — Spring 2024"
 date: "2025-02-07"
+aliases:
+  - /teaching/2024-spring-stats.html
 ---
 
 [Stata Study Tips](../../resources/stata.html)

@@ -5,7 +5,7 @@ project:
 website:
   title: "Paul Max Love III"
   description: "Political scientist and instructor, NYU Abu Dhabi"
-  site-url: "https://pmlove3.github.io"
+  site-url: "https://paulmaxlove.com"
   page-footer:
     left: 'Made with <a href="https://quarto.org">Quarto</a>'
     center: "© Paul Max Love III"

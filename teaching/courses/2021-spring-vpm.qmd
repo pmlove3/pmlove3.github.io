@@ -1,6 +1,8 @@
 ---
 title: "Voting and Political Manipulation — Spring 2021"
 date: "2025-02-03"
+aliases:
+  - /teaching/2021-spring-vpm.html
 ---
 
 ## Voting and Political Manipulation Sections 1, 14, and 15

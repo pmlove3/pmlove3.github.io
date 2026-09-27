@@ -1,6 +1,8 @@
 ---
 title: "Data Analysis — Spring 2026"
 date: "2026-01-22"
+aliases:
+  - /teaching/2026-spring-da.html
 ---
 
   * This course uses several online resources, including

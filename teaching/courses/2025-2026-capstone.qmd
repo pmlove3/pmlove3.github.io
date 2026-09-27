@@ -1,6 +1,8 @@
 ---
 title: "Capstone Seminar — 2025–2026"
 date: "2025-09-06"
+aliases:
+  - /teaching/2025-2026-capstone.html
 ---
 
 [Resources](../../resources/index.html)

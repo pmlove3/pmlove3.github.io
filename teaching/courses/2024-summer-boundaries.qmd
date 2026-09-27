@@ -1,6 +1,8 @@
 ---
 title: "Boundaries — Summer 2024"
 date: "2025-02-03"
+aliases:
+  - /teaching/2024-summer-boundaries.html
 ---
 
 [GIS Resources](../../resources/gis.html)

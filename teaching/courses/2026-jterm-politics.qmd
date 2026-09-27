@@ -1,6 +1,8 @@
 ---
 title: "J-Term Politics — 2026"
 date: "2025-12-30"
+aliases:
+  - /teaching/2026-jterm-politics.html
 ---
 
 ## Course Title:
