@@ -1,8 +1,11 @@
 ---
 title: "ISA Virtual 2025"
 date: "2025-07-29"
+schema-date: "2025-07-29"
+author: "Paul Max Love III"
 categories: [research, conferences]
 description: "Notes and a multidimensional plot from the ISA Virtual 2025 presentation."
+schema-type: blog-posting
 ---
 
 Slides and a supporting figure from my ISA Virtual 2025 presentation are up

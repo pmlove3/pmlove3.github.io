@@ -1,14 +1,71 @@
 ---
-title: "Curriculum Vitae"
-date: "2026-09-19"
+title: "CV and Profile"
+date: "2026-09-29"
+description: "Paul Max Love III teaches political science and quantitative methods at NYU Abu Dhabi and researches European security, Arctic security, and digital sovereignty."
+include-in-header:
+  text: |
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "@id": "https://paulmaxlove.com/cv.html#profile",
+      "url": "https://paulmaxlove.com/cv.html",
+      "dateModified": "2026-09-29",
+      "mainEntity": {
+        "@type": "Person",
+        "@id": "https://paulmaxlove.com/#person",
+        "name": "Paul Max Love III",
+        "url": "https://paulmaxlove.com/",
+        "jobTitle": "Full Instructor of Social Science/Academic Specialist",
+        "worksFor": {
+          "@type": "CollegeOrUniversity",
+          "name": "New York University Abu Dhabi",
+          "url": "https://nyuad.nyu.edu/"
+        },
+        "sameAs": [
+          "https://nyuad.nyu.edu/en/academics/divisions/social-science/instructors/paul-love.html",
+          "https://github.com/pmlove3",
+          "https://www.linkedin.com/in/paulmaxlove3/"
+        ]
+      }
+    }
+    </script>
 ---
 
-### Highlights
+[Download the full CV (PDF)](files/cv/paul-max-love-cv.pdf){.btn .btn-primary}
 
-  * [Teaching](teaching/index.html)
+## Profile
 
-  * [Training](teaching/training.html)
+I am a Full Instructor of Social Science/Academic Specialist at New York University Abu Dhabi. I work in international relations and comparative politics, with research on European strategic culture, digital sovereignty, technology regulation, and international security.
 
-  * [Research](research/index.html)
+I earned a PhD in Political Science from the University of California, Irvine in 2022. I hold a Master of International Studies from North Carolina State University and a BA in Political Science and Psychology from the University of North Carolina at Chapel Hill.
 
-[Download CV 2026-09-13](https://www.dropbox.com/scl/fi/45owpu4ksg7a3sf6ym54h/2026-09-13-Paul-Max-Love-CV.pdf?rlkey=a1ukaugsorh6aopwsjr8c9pv7&dl=0)
+## Teaching
+
+At NYU Abu Dhabi, I teach international security, quantitative methods, GIS, negotiation, business analytics, and capstone seminars. I mentor capstone students on data management and analysis. In January 2026, I co-taught *Practicing Politics in the Age of Disruption* with the Rt. Hon. Lord Cameron, former UK prime minister.
+
+At UC Irvine, I taught political science discussion sections and delivered guest lectures. At North Carolina State University, I taught international relations. View my [teaching profile](teaching/index.html), [courses](teaching/courses/index.html), and [guest lectures](teaching/guest-lectures.html).
+
+## Research
+
+I study European strategic culture, digital sovereignty, European technology regulation, Arctic security, and relations among Europe, China, Russia, and the United States. Read my doctoral dissertation, *[Emergent Strategic Culture: Post-Cold War Europe Navigating Great Power Relations with the U.S., Russia, and China](https://escholarship.org/uc/item/8j968169)*, on UC eScholarship.
+
+Since 2023, I have presented research on the European technology stack, Arctic security, the Digital Markets Act and Digital Services Act, and European digital sovereignty. See my [research, publications, and conference presentations](research/index.html).
+
+## Research methods and technical skills
+
+I use R, Stata, Python, and QGIS for statistical analysis, text analysis, web scraping, network analysis, qualitative comparative analysis, and multi-method research design. At UC Irvine, I used R to collect and analyze text on EU-China relations and social media.
+
+I speak advanced French and have studied Arabic and Russian.
+
+## Selected experience and service
+
+  * **Research Assistant, UC Irvine:** I collected primary and secondary sources for a global value chains project and analyzed social media text in R.
+
+  * **Political Section Intern, U.S. Mission to the European Union:** I researched Roma integration, EU crisis-management planning, and the security implications of space debris.
+
+  * **University service:** I interviewed prospective NYU Abu Dhabi students and served as faculty liaison for UC Irvine political science graduate students.
+
+## Professional development
+
+I completed the AI-Responsive Teaching Essentials certificate through NYU's Hilary Ballon Center for Teaching and Learning in September 2026. I have completed programs in course design, mentoring, R and Python programming, data analysis, network analysis, text mining, and qualitative and multi-method research. View my [certificates and professional training](teaching/training.html).

@@ -1,8 +1,11 @@
 ---
 title: "CV updated"
 date: "2026-09-13"
+schema-date: "2026-09-13"
+author: "Paul Max Love III"
 categories: [cv]
 description: "A refreshed CV is posted, covering recent teaching and research activity."
+schema-type: blog-posting
 ---
 
 An updated CV is now posted on the [CV page](../cv.html), reflecting recent

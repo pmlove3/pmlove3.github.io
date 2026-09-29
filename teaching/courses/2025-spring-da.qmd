@@ -1,9 +1,14 @@
 ---
 title: "Data Analysis — Spring 2025"
 date: "2025-02-17"
+description: "Course materials for Data Analysis, taught by Paul Max Love III at NYU Abu Dhabi in Spring 2025."
+schema-type: course
+course-name: "Data Analysis"
 aliases:
   - /teaching/2025-spring-da.html
 ---
+
+Course materials for Data Analysis, taught by Paul Max Love III at NYU Abu Dhabi in Spring 2025.
 
   * [R Tips](../../resources/r.html)
 

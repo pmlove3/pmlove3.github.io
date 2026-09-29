@@ -1,9 +1,14 @@
 ---
 title: "Data Analysis — Spring 2026"
 date: "2026-01-22"
+description: "Course materials for Data Analysis: Political Science, taught by Paul Max Love III at NYU Abu Dhabi in Spring 2026."
+schema-type: course
+course-name: "Data Analysis: Political Science"
 aliases:
   - /teaching/2026-spring-da.html
 ---
+
+Course materials for Data Analysis: Political Science, taught by Paul Max Love III at NYU Abu Dhabi in Spring 2026.
 
   * This course uses several online resources, including
 

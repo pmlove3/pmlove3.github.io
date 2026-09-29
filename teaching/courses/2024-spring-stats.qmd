@@ -1,9 +1,14 @@
 ---
 title: "Statistics for Social and Behavioral Sciences — Spring 2024"
 date: "2025-02-07"
+description: "Course materials for Statistics for Social and Behavioral Sciences, taught by Paul Max Love III at NYU Abu Dhabi in Spring 2024."
+schema-type: course
+course-name: "Statistics for Social and Behavioral Sciences"
 aliases:
   - /teaching/2024-spring-stats.html
 ---
+
+Course materials for Statistics for Social and Behavioral Sciences, taught by Paul Max Love III at NYU Abu Dhabi in Spring 2024.
 
 [Stata Study Tips](../../resources/stata.html)
 

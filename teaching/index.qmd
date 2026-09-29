@@ -1,6 +1,7 @@
 ---
 title: "Teaching"
 date: "2026-09-19"
+description: "Courses, teaching resources, guest lectures, and professional training from Paul Max Love III at NYU Abu Dhabi."
 ---
 
 ## Student Resources

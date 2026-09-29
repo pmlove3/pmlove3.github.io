@@ -1,9 +1,14 @@
 ---
 title: "Capstone Seminar — 2025–2026"
 date: "2025-09-06"
+description: "Course materials for the Capstone Seminar, taught by Paul Max Love III at NYU Abu Dhabi during 2025–2026."
+schema-type: course
+course-name: "Capstone Seminar"
 aliases:
   - /teaching/2025-2026-capstone.html
 ---
+
+Course materials for the Capstone Seminar, taught by Paul Max Love III at NYU Abu Dhabi during 2025–2026.
 
 [Resources](../../resources/index.html)
 

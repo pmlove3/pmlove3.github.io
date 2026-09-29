@@ -6,8 +6,10 @@ project:
 
 website:
   title: "Paul Max Love III"
-  description: "Political scientist and instructor, NYU Abu Dhabi"
+  description: "Political scientist and Full Instructor of Social Science/Academic Specialist at NYU Abu Dhabi researching European strategic culture, digital sovereignty, and Arctic security"
   site-url: "https://paulmaxlove.com"
+  open-graph: true
+  twitter-card: true
   page-footer:
     left: 'Made with <a href="https://quarto.org">Quarto</a>'
     center: "© Paul Max Love III"
@@ -36,6 +38,9 @@ website:
   page-navigation: true
 
 lang: en
+
+filters:
+  - site-schema
 
 format:
   html:

@@ -1,6 +1,20 @@
 ---
 title: "Courses"
 date: "2026-09-18"
+description: "Courses taught by Paul Max Love III at NYU Abu Dhabi and as a teaching assistant at UC Irvine."
+schema-type: course-list
+course-list:
+  - teaching/courses/2026-fall-is.html
+  - teaching/courses/2026-spring-da.html
+  - teaching/courses/2026-jterm-politics.html
+  - teaching/courses/2025-2026-capstone.html
+  - teaching/courses/2025-fall-da.html
+  - teaching/courses/2025-spring-da.html
+  - teaching/courses/2025-spring-stats.html
+  - teaching/courses/2024-fall-stats.html
+  - teaching/courses/2024-summer-boundaries.html
+  - teaching/courses/2024-spring-stats.html
+  - teaching/courses/2023-fall-stats.html
 ---
 
 ## NYU Abu Dhabi

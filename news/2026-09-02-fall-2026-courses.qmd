@@ -1,8 +1,11 @@
 ---
 title: "Fall 2026: teaching International Security"
 date: "2026-09-02"
+schema-date: "2026-09-02"
+author: "Paul Max Love III"
 categories: [teaching]
 description: "Course materials for Fall 2026 International Security are now up."
+schema-type: blog-posting
 ---
 
 This fall I'm teaching [International Security](../teaching/courses/2026-fall-is.html)

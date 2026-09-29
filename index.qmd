@@ -1,7 +1,13 @@
 ---
 title: "Paul Max Love III"
-date: "2026-09-19"
+pagetitle: "Political Scientist at NYU Abu Dhabi"
+description: "Paul is a Full Instructor of Social Science/Academic Specialist at NYU Abu Dhabi who teaches quantitative methods and researches European strategic culture, digital sovereignty, and Arctic security."
+open-graph:
+  title: "Paul Max Love III | Political Scientist at NYU Abu Dhabi"
+twitter-card:
+  title: "Paul Max Love III | Political Scientist at NYU Abu Dhabi"
 title-block-banner: false
+toc: false
 include-in-header:
   text: |
     <style>
@@ -13,27 +19,76 @@ include-in-header:
         text-transform: none;
         color: var(--accent-teal, #16636b);
       }
+      #title-block-header .description {
+        display: none;
+      }
     </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://paulmaxlove.com/#website",
+          "url": "https://paulmaxlove.com/",
+          "name": "Paul Max Love III",
+          "description": "Political scientist and instructor at New York University Abu Dhabi",
+          "about": { "@id": "https://paulmaxlove.com/#person" }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://paulmaxlove.com/#person",
+          "name": "Paul Max Love III",
+          "url": "https://paulmaxlove.com/",
+          "jobTitle": "Full Instructor of Social Science/Academic Specialist",
+          "worksFor": {
+            "@type": "CollegeOrUniversity",
+            "name": "New York University Abu Dhabi",
+            "url": "https://nyuad.nyu.edu/"
+          },
+          "alumniOf": [
+            { "@type": "CollegeOrUniversity", "name": "University of California, Irvine" },
+            { "@type": "CollegeOrUniversity", "name": "North Carolina State University" },
+            { "@type": "CollegeOrUniversity", "name": "University of North Carolina at Chapel Hill" }
+          ],
+          "knowsAbout": [
+            "European strategic culture",
+            "Digital sovereignty",
+            "Arctic security",
+            "International security",
+            "Quantitative social science"
+          ],
+          "sameAs": [
+            "https://nyuad.nyu.edu/en/academics/divisions/social-science/instructors/paul-love.html",
+            "https://github.com/pmlove3",
+            "https://www.linkedin.com/in/paulmaxlove3/"
+          ]
+        }
+      ]
+    }
+    </script>
 ---
 
-::: {.hero-worldmap}
-```{=html}
-<img src="images/abu-dhabi-world-dotmap-color.svg" alt="Dot-matrix world map in terracotta, charcoal, and teal dots." />
-```
+::: {.home-hero}
+::: {.home-role}
+Full Instructor of Social Science/Academic Specialist, New York University Abu Dhabi
 :::
 
 ::: {.hero-eyebrow}
 Abu Dhabi, UAE
 :::
 
-University of California, Irvine Political Science PhD
+::: {.home-credential}
+PhD in Political Science, University of California, Irvine
+:::
 
-New York University Abu Dhabi (NYUAD)
-
-  * Full Instructor of Social Science/Academic Specialist
+I research European strategic culture, digital sovereignty, Arctic security, and international security. At NYU Abu Dhabi, I teach international security, quantitative methods, GIS, and capstone seminars.
 
 ::: {.profile-links}
 ```{=html}
-<a href="https://nyuad.nyu.edu/en/academics/divisions/social-science/instructors/paul-love.html" aria-label="NYUAD Profile" class="profile-icon-link"><i class="bi bi-globe2"></i></a><a href="https://github.com/pmlove3" aria-label="GitHub" class="profile-icon-link"><i class="bi bi-github"></i></a><a href="https://www.linkedin.com/in/paulmaxlove3/" aria-label="LinkedIn" class="profile-icon-link"><i class="bi bi-linkedin"></i></a>
+<a href="https://nyuad.nyu.edu/en/academics/divisions/social-science/instructors/paul-love.html" class="profile-link"><i class="bi bi-globe2" aria-hidden="true"></i><span>NYU Abu Dhabi profile</span></a>
+<a href="https://github.com/pmlove3" class="profile-link"><i class="bi bi-github" aria-hidden="true"></i><span>GitHub</span></a>
+<a href="https://www.linkedin.com/in/paulmaxlove3/" class="profile-link"><i class="bi bi-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
 ```
+:::
 :::

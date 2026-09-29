@@ -1,9 +1,14 @@
 ---
 title: "International Security — Fall 2026"
 date: "2026-09-02"
+description: "Course materials for International Security, taught by Paul Max Love III at NYU Abu Dhabi in Fall 2026."
+schema-type: course
+course-name: "International Security"
 aliases:
   - /teaching/2026-fall-is.html
 ---
+
+Course materials for International Security, taught by Paul Max Love III at NYU Abu Dhabi in Fall 2026.
 
   * [Data](../../resources/data.html)
 

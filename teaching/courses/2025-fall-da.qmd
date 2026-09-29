@@ -1,9 +1,14 @@
 ---
 title: "Data Analysis: Political Science — Fall 2025"
 date: "2025-11-13"
+description: "Course materials for Data Analysis: Political Science, taught by Paul Max Love III at NYU Abu Dhabi in Fall 2025."
+schema-type: course
+course-name: "Data Analysis: Political Science"
 aliases:
   - /teaching/2025-fall-da.html
 ---
+
+Course materials for Data Analysis: Political Science, taught by Paul Max Love III at NYU Abu Dhabi in Fall 2025.
 
   * This course uses several online resources, including
 

@@ -1,9 +1,14 @@
 ---
 title: "Boundaries — Summer 2024"
 date: "2025-02-03"
+description: "Course materials for Boundaries, taught by Paul Max Love III at NYU Abu Dhabi in Summer 2024."
+schema-type: course
+course-name: "Boundaries"
 aliases:
   - /teaching/2024-summer-boundaries.html
 ---
+
+Course materials for Boundaries, taught by Paul Max Love III at NYU Abu Dhabi in Summer 2024.
 
 [GIS Resources](../../resources/gis.html)
 

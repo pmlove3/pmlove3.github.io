@@ -1,6 +1,7 @@
 ---
 title: "Research"
-date: "2026-09-18"
+date: "2026-09-29"
+description: "Research by Paul Max Love III on European strategic culture, digital sovereignty, Arctic security, and international relations."
 ---
 
 ## Dissertation
@@ -49,12 +50,32 @@ Love, P. Slow to Reform: Accountability and the Dual Nature of the IMF
 
 ## Conference Presentations
 
-[ISA Virtual 2025](../research/isa-virtual-25.html)
+  * **Enacting Digital Sovereignty: Strategic Culture and the European Technology Stack.** 68th Annual Convention of the International Studies Association, March 2027 (forthcoming).
 
-## PHD Advancement Exam
+  * [**The EU as an Arctic Security Actor: An Emergent Strategic Culture Approach.**](../research/isa-virtual-25.html) International Studies Association Virtual Conference, August 2025.
+
+  * **European Strategic Culture and European Digital Regulation: The Case of DMA and DSA.** International Studies Association Virtual Conference, August 2024.
+
+  * **European Digital Sovereignty: An Emergent Strategic Cultural Analysis.** International Studies Association Virtual Conference, August 2023.
+
+  * **Emergent European Strategic Culture Inside the China-Europe-U.S. Triangle.** 28th Annual International Conference of Europeanists, June 2022.
+
+  * **European Strategic Culture: Entangled Emergence.** 63rd Annual Convention of the International Studies Association, March 2022.
+
+  * **Reconceptualizing the Nation: European Union Civil Religion.** American Political Science Association Annual Meeting, September 2021.
+
+  * **Competitive European Strategic Subcultures: The EU's Emerging Shared Strategic Culture.** 27th Annual International Conference of Europeanists, June 2021.
+
+  * **Russian Strategic Culture in the Arctic.** 62nd Annual Convention of the International Studies Association, April 2021.
+
+  * **How Should National Sovereignty Evolve as the European Project Progresses?** With Guillaume Pailhoux and M. van der Werf. European Horizons European Student Conference at Yale University, April 2018.
+
+  * **European Union and NATO Security Cooperation after the Cold War: A Security Community.** Eighth Annual North Carolina State University Graduate Student Research Symposium, 2013.
+
+## PhD Advancement Exam
 
 Oral Exam
 
-Time: 4 June 2020 11:00 am to 1:00 pm
+Date: 4 June 2020
 
 [Reading List](../research/advancement-reading-list.html)

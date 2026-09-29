@@ -1,9 +1,14 @@
 ---
 title: "J-Term Politics — 2026"
 date: "2025-12-30"
+description: "Course materials for Practising Politics and Government in the Age of Disruption, co-taught by Paul Max Love III at NYU Abu Dhabi in January 2026."
+schema-type: course
+course-name: "Practising Politics and Government in the Age of Disruption"
 aliases:
   - /teaching/2026-jterm-politics.html
 ---
+
+Course materials for Practising Politics and Government in the Age of Disruption, co-taught by Paul Max Love III at NYU Abu Dhabi in January 2026.
 
 ## Course Title:
 
