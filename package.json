@@ -1,0 +1,12 @@
+{
+  "name": "pmlove3.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "audit": "node tests/audit.js"
+  },
+  "devDependencies": {
+    "axe-core": "4.12.1",
+    "playwright": "^1.43.0"
+  }
+}

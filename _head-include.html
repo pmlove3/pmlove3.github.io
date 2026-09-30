@@ -13,5 +13,20 @@
       homeIcon.removeAttribute("role");
       homeIcon.setAttribute("aria-hidden", "true");
     }
+
+    // Fix landmark-unique issue by giving navigation elements clear ARIA labels
+    const topNav = document.querySelector("nav.navbar");
+    if (topNav && !topNav.hasAttribute("aria-label")) topNav.setAttribute("aria-label", "Primary site navigation");
+    
+    const tocNav = document.querySelector("nav#TOC");
+    if (tocNav && !tocNav.hasAttribute("aria-label")) tocNav.setAttribute("aria-label", "Table of contents");
+
+    // Fix aria-allowed-role issue on the mobile navbar toggler
+    const navTogglers = document.querySelectorAll(".navbar-toggler");
+    navTogglers.forEach(toggler => {
+      if (toggler.getAttribute("role") === "menu") {
+        toggler.removeAttribute("role");
+      }
+    });
   });
 </script>

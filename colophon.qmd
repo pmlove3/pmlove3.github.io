@@ -12,3 +12,7 @@ This site is built with [Quarto](https://quarto.org), hosted on [GitHub Pages](h
 ## Design
 
 The design is inspired by [Hugo Apéro](https://hugo-apero-docs.netlify.app/) and by [Silvia Canelón](https://silviacanelon.com)'s personal site ([source](https://github.com/spcanelon/silvia)) — particularly the warm accent palette, uppercase navigation, and custom hero illustration. Colors, typefaces, and the hero graphic here are original to this site.
+
+## Accessibility
+
+This site is designed to meet WCAG 2.2 AA accessibility standards. Color palettes are contrast-checked (exceeding 4.5:1 ratios for normal text), fonts are chosen for hyperlegibility, and the site supports keyboard navigation (including a "skip to main content" link). OS-level reduced motion preferences are respected.
