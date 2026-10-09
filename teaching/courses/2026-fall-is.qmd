@@ -6,6 +6,8 @@ schema-type: course
 course-name: "International Security"
 aliases:
   - /teaching/2026-fall-is.html
+  - /teaching/2026-fis
+  - /teaching/2026-fis.html
 ---
 
 Course materials for International Security, taught by Paul Max Love III at NYU Abu Dhabi in Fall 2026.
