@@ -16,3 +16,7 @@ The design is inspired by [Hugo Apéro](https://hugo-apero-docs.netlify.app/) an
 ## Accessibility
 
 This site is designed to meet WCAG 2.2 AA accessibility standards. Color palettes are contrast-checked (exceeding 4.5:1 ratios for normal text), fonts are chosen for hyperlegibility, and the site supports keyboard navigation (including a "skip to main content" link). OS-level reduced motion preferences are respected.
+
+## Development & AI Assistance
+
+AI coding assistants are used to support the technical development, optimization, and maintenance of this site, including Quarto configuration and optimization, styling, automation scripts, and accessibility auditing.
