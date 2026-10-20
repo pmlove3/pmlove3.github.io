@@ -1,6 +1,6 @@
 ---
 title: "CV and Profile"
-date: "2026-09-29"
+date: "2026-10-20"
 description: "Paul Max Love III teaches political science and quantitative methods at NYU Abu Dhabi and researches European security, Arctic security, and digital sovereignty."
 include-in-header:
   text: |
@@ -10,7 +10,7 @@ include-in-header:
       "@type": "ProfilePage",
       "@id": "https://paulmaxlove.com/cv.html#profile",
       "url": "https://paulmaxlove.com/cv.html",
-      "dateModified": "2026-09-29",
+      "dateModified": "2026-10-20",
       "mainEntity": {
         "@type": "Person",
         "@id": "https://paulmaxlove.com/#person",
@@ -68,4 +68,4 @@ I speak advanced French and have studied Arabic and Russian.
 
 ## Professional development
 
-I completed the AI-Responsive Teaching Essentials certificate through NYU's Hilary Ballon Center for Teaching and Learning in September 2026. I have completed programs in course design, mentoring, R and Python programming, data analysis, network analysis, text mining, and qualitative and multi-method research. View my [certificates and professional training](teaching/training.html).
+I earned the Certificate in AI for Higher Education - AI for Faculty from the Digital Education Council in October 2026 and completed the AI-Responsive Teaching Essentials certificate through NYU's Hilary Ballon Center for Teaching and Learning in September 2026. I have completed programs in course design, mentoring, R and Python programming, data analysis, network analysis, text mining, and qualitative and multi-method research. View my [certificates and professional training](teaching/training.html).

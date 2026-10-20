@@ -1,6 +1,6 @@
 ---
 title: "Training"
-date: "2025-09-05"
+date: "2026-10-20"
 ---
 
 ## University of California, Irvine
@@ -34,6 +34,10 @@ Workshops
 ### In Collaboration with Eton Institute
 
 [Arabic Level (Starter)](https://drive.google.com/file/d/1LdlzV6NneiCrgvy5BSyG_zrKjO7Dtrj4/view?usp=sharing), Summer 2023
+
+## Digital Education Council
+
+[Certificate in AI for Higher Education - AI for Faculty](https://courses.digitaleducationcouncil.com/certificates/f5bplp0elf) (Certificate ID: f5bplp0elf), October 2026
 
 ## Datacamp Courses
 
