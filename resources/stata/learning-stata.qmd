@@ -17,19 +17,18 @@ This guide collects free and library-accessible material for students learning S
 ## Tutorials and course notes
 
 - [NYUAD Stata Resources Page](https://guides.nyu.edu/stata) — NYU library research guide to Stata, with software access and learning material for the NYU community.
-- [Stata Tutorial by Germán Rodríguez](https://grodri.github.io/stata/index) — Online Stata tutorial written by Germán Rodríguez and hosted on his course website.
+- [Stata Tutorial by Germán Rodríguez](https://grodri.github.io/stata/index) — Princeton's Germán Rodríguez covers the Stata interface, do-files, data management, tables, graphics, and programming.
 - [Introduction to Stata, Social Science Computing Cooperative, UW-Madison](https://sscc.wisc.edu/sscc/pubs/intro_stata/intro_stata1.htm) — Introductory Stata notes from the University of Wisconsin-Madison's computing cooperative, starting with the first lesson.
-- [Stata Highlights, Richard Williams, Notre Dame Sociology](https://www3.nd.edu/~rwilliam/stats/StataHighlights.html) — Stata guidance for social science work from Richard Williams of Notre Dame's sociology department.
+- [Stata Highlights, Richard Williams, Notre Dame Sociology](https://academicweb.nd.edu/~rwilliam/stats/StataHighlights.html) — Excerpts from Richard Williams's graduate statistics course, with handouts and data files on regression, logistic regression, and more.
 - [Introduction to Stata 15, LinkedIn Learning](https://www.linkedin.com/learning/introduction-to-stata-15) — Video course on Stata 15; NYU login required for free access.
 - [The Stata Guide on Medium](https://medium.com/the-stata-guide) — Medium publication of Stata articles; some pieces sit behind Medium's paywall.
-- [Stata Blog: Applied Statistics Using Stata](https://www.haghish.com/dot/dot.php) — Blog on applied statistics with Stata, listed under its own title.
-- [Using Stata's Frames feature to build an analytical dataset, Tim Plante](https://blog.uvm.edu/tbplante/2021/11/15/using-statas-frames-feature-to-build-an-analytical-dataset/) — Blog post on combining several datasets in memory with Stata's frames to assemble one analysis dataset.
+- [Using Stata's Frames feature to build an analytical dataset, Tim Plante](https://web.archive.org/web/20251006165902/https://blog.uvm.edu/tbplante/2021/11/15/using-statas-frames-feature-to-build-an-analytical-dataset/) — Blog post on combining several datasets in memory with Stata's frames to assemble one analysis dataset (archived copy).
 
 ## Writing good do-files
 
 - [The Do's and Don'ts of a Do-file, Emmanuel Milet](https://web.archive.org/web/20240630034625/https://www.parisschoolofeconomics.eu/docs/yin-remi/do-file.pdf) — Paris School of Economics guide to writing do-files that others can read and rerun (archived copy).
 - [Stata for Researchers: Do Files](https://web.archive.org/web/20210415222711/http://www.ssc.wisc.edu/sscc/pubs/sfr-do.htm) — University of Wisconsin-Madison computing cooperative notes on writing and running do-files (archived copy).
-- [Stata Coding Guide, Julian Reif](https://julianreif.com/guide/#stata-coding-tips) — Julian Reif's guide to coding practice, opening at its Stata coding tips.
+- [Stata Coding Guide, Julian Reif](https://julianreif.com/guide/#stata-coding-tips) — Julian Reif's guide to setting up a replication-ready Stata workflow, linked at its section of Stata coding tips.
 
 ## Video
 
@@ -37,12 +36,12 @@ This guide collects free and library-accessible material for students learning S
 - [Stata Corp YouTube Channel](https://www.youtube.com/@statacorp) — Official YouTube channel of the company that makes Stata.
 - [Video tutorials on Stata](https://www.stata.com/links/video-tutorials/) — Stata Corp's list of video tutorials on Stata.
 - [Introduction to Stata (UCLA workshop video)](https://www.youtube.com/watch?v=SNQv3OQiggw) — Recorded workshop on basic Stata use, with slides and a do-file on UCLA's workshop page.
-- [Sunday Stata Tips, In Case of Econ Struggles playlist](https://youtube.com/playlist?list=PLj0WVD36ZMWoAH3xOdnfq4qqi2yJz4cRA) — YouTube playlist of Stata tips from the In Case of Econ Struggles channel.
+- [Sunday Stata Tips playlist](https://youtube.com/playlist?list=PLj0WVD36ZMWoAH3xOdnfq4qqi2yJz4cRA) — YouTube playlist titled Sunday Stata Tips, a collection of Stata tips.
 
 ## Books and manuals
 
 - [Bittmann, Felix. Stata: A Really Short Introduction (De Gruyter Oldenbourg, 2019)](https://doi.org/10.1515/9783110617160) — Short introductory book on Stata; the ebook can be accessed from the library website.
-- [Econometric Analysis of Cross Section and Panel Data, downloadable materials](https://www.stata.com/texts/eacsap/) — Stata's official page of downloadable materials that accompany this econometrics textbook.
+- [Econometric Analysis of Cross Section and Panel Data, downloadable materials](https://www.stata.com/texts/eacsap/) — Stata's page of datasets to download for Jeffrey Wooldridge's econometrics textbook.
 
 ## Tables and reports
 

@@ -14,17 +14,19 @@
 
 Work was parked mid-plan when cloud compute ran out. Nothing is half-written: no page content exists yet, and everything below is committed and pushed.
 
+**Next (updated 2026-10-31): start on the R pages.** PR #3 (https://github.com/pmlove3/pmlove3.github.io/pull/3, branch `claude/resources-stata-pattern`) holds the guard test, the Learning Stata page, the Stata hub and the Statistics hub. The R batches branch from `main` after it merges. First review the R rows of the curation table (Task 3), then write Batches A–C. The Stata and Statistics rows are already decided. A follow-up PR on `claude/resources-stata-fixes` removes a link that turned out to be hijacked; the link checker does not catch a taken-over domain (the page still returns 200), so spot-check the R rows in a browser before their pages go live.
+
 **Done**
 
 - PR #1 (this plan and `_plans/tools/`) is merged into `main`. Decisions D1–D6 are resolved.
-- PR #2 (https://github.com/pmlove3/pmlove3.github.io/pull/2, branch `claude/website-resources-wiki-omw6e8`) fixes the link checker and adds `apply_dead_link_policy.py`. It changes tooling only, never the live site. It was open when parked; merge it first if you agree.
+- PR #2 (https://github.com/pmlove3/pmlove3.github.io/pull/2, branch `claude/website-resources-wiki-omw6e8`) fixed the link checker and added `apply_dead_link_policy.py`. It changed tooling only. It is merged.
 - Task 1 is done. Task 2 ran in the cloud sandbox with gaps (below). Task 3 has only the automatic first pass, with no manual edits.
 - GitHub PR numbers run one ahead of the "PR 1–6" labels in §4. The Stata pattern PR will be GitHub #3.
 
 **Not done**
 
 - No branch other than the designated one exists yet (the five extra branch names were approved for the cloud session only; say so again in a new session).
-- Tasks 3 (your approval), 4–9: guard test, Stata and Statistics pages, R pages, hubs, index, audit.
+- Task 3 for the R rows (your approval), and Tasks 6–9: R pages, hubs, index, audit. Tasks 4–5 (guard test, Stata and Statistics pages) are in PR #3.
 
 **Open questions for you (Stata and Statistics rows, the gate for the Stata pattern PR)**
 
@@ -220,7 +222,7 @@ Claude-Session: https://claude.ai/code/session_01KbGrmPbEkJ5aQUPvSNGiom
 
 ### PR sequence (D5)
 
-Each PR is one reviewable batch on its own branch. The site deploys from `main` on merge, so nothing goes live before you merge it. You approved these five extra branch names (and only these) on 2026-10-30.
+Each PR is one reviewable batch on its own branch. The site deploys from `main` on merge, so nothing goes live before you merge it. You approved these five extra branch names (and only these) on 2026-10-30. On 2026-10-31 you also approved a sixth, `claude/resources-stata-fixes`, for the follow-up to PR 2 that removes the hijacked haghish.com link and corrects annotations (GitHub PR #4). Any further extra branch needs your approval first.
 
 | PR | Branch | Based on | Contents | Review focus |
 |---|---|---|---|---|
