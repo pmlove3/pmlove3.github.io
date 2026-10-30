@@ -1,0 +1,64 @@
+---
+title: "Learning Stata"
+description: "Tutorials, videos, books, and do-file guides for learning Stata, with three suggested starting points."
+date: "2026-10-31"
+order: 1
+categories: [stata, learning]
+---
+
+This guide collects free and library-accessible material for students learning Stata in NYU Abu Dhabi methods courses. Begin with the three picks under Start here, then move to the sections on tutorials, do-files, video, and reporting as your projects need them. Software downloads and working habits are on the [Stata](../stata.html) page.
+
+## Start here
+
+- [Princeton University Online Stata Tutorial](https://www.princeton.edu/~otorres/Stata/) — Princeton University's online Stata tutorial, chosen here as a starting point for beginners.
+- [UCLA Advanced Research Computing: Stata Learning Modules](https://stats.oarc.ucla.edu/stata/modules/) — Self-paced Stata modules from UCLA's research computing group, useful for practising one task at a time.
+- [Resources for learning Stata from Stata Corp](https://www.stata.com/links/resources-for-learning-stata/) — The software maker's own list of ways to learn Stata, including training, books, and videos.
+
+## Tutorials and course notes
+
+- [NYUAD Stata Resources Page](https://guides.nyu.edu/stata) — NYU library research guide to Stata, with software access and learning material for the NYU community.
+- [Stata Tutorial by Germán Rodríguez](https://grodri.github.io/stata/index) — Online Stata tutorial written by Germán Rodríguez and hosted on his course website.
+- [Introduction to Stata, Social Science Computing Cooperative, UW-Madison](https://sscc.wisc.edu/sscc/pubs/intro_stata/intro_stata1.htm) — Introductory Stata notes from the University of Wisconsin-Madison's computing cooperative, starting with the first lesson.
+- [Stata Highlights, Richard Williams, Notre Dame Sociology](https://www3.nd.edu/~rwilliam/stats/StataHighlights.html) — Stata guidance for social science work from Richard Williams of Notre Dame's sociology department.
+- [Introduction to Stata 15, LinkedIn Learning](https://www.linkedin.com/learning/introduction-to-stata-15) — Video course on Stata 15; NYU login required for free access.
+- [The Stata Guide on Medium](https://medium.com/the-stata-guide) — Medium publication of Stata articles; some pieces sit behind Medium's paywall.
+- [Stata Blog: Applied Statistics Using Stata](https://www.haghish.com/dot/dot.php) — Blog on applied statistics with Stata, listed under its own title.
+- [Using Stata's Frames feature to build an analytical dataset, Tim Plante](https://blog.uvm.edu/tbplante/2021/11/15/using-statas-frames-feature-to-build-an-analytical-dataset/) — Blog post on combining several datasets in memory with Stata's frames to assemble one analysis dataset.
+
+## Writing good do-files
+
+- [The Do's and Don'ts of a Do-file, Emmanuel Milet](https://web.archive.org/web/20240630034625/https://www.parisschoolofeconomics.eu/docs/yin-remi/do-file.pdf) — Paris School of Economics guide to writing do-files that others can read and rerun (archived copy).
+- [Stata for Researchers: Do Files](https://web.archive.org/web/20210415222711/http://www.ssc.wisc.edu/sscc/pubs/sfr-do.htm) — University of Wisconsin-Madison computing cooperative notes on writing and running do-files (archived copy).
+- [Stata Coding Guide, Julian Reif](https://julianreif.com/guide/#stata-coding-tips) — Julian Reif's guide to coding practice, opening at its Stata coding tips.
+
+## Video
+
+- [Learning Stata, Steffen's Classroom playlist](https://www.youtube.com/playlist?list=PLn6B3DUkuU_08whVgp3MeYLqltoFdBtum) — YouTube playlist of Stata lessons for beginners and for users brushing up.
+- [Stata Corp YouTube Channel](https://www.youtube.com/@statacorp) — Official YouTube channel of the company that makes Stata.
+- [Video tutorials on Stata](https://www.stata.com/links/video-tutorials/) — Stata Corp's list of video tutorials on Stata.
+- [Introduction to Stata (UCLA workshop video)](https://www.youtube.com/watch?v=SNQv3OQiggw) — Recorded workshop on basic Stata use, with slides and a do-file on UCLA's workshop page.
+- [Sunday Stata Tips, In Case of Econ Struggles playlist](https://youtube.com/playlist?list=PLj0WVD36ZMWoAH3xOdnfq4qqi2yJz4cRA) — YouTube playlist of Stata tips from the In Case of Econ Struggles channel.
+
+## Books and manuals
+
+- [Bittmann, Felix. Stata: A Really Short Introduction (De Gruyter Oldenbourg, 2019)](https://doi.org/10.1515/9783110617160) — Short introductory book on Stata; the ebook can be accessed from the library website.
+- [Econometric Analysis of Cross Section and Panel Data, downloadable materials](https://www.stata.com/texts/eacsap/) — Stata's official page of downloadable materials that accompany this econometrics textbook.
+
+## Tables and reports
+
+- [estout: Making Regression Tables in Stata](https://repec.sowi.unibe.ch/stata/estout/estout.html) — Documentation for estout, a Stata package that turns estimation results into formatted regression tables.
+- [dyndoc](https://www.stata.com/manuals/rptdyndoc.pdf) — Stata manual entry for the command that converts dynamic Markdown documents into HTML or Word files.
+- [Reporting Reference Manual, Release 18](https://www.stata.com/bookstore/reporting-reference-manual/) — Stata Bookstore page for the Stata 18 manual covering the software's reporting tools.
+
+## Cheatsheets and reference
+
+- [Stata Cheatsheets (PDF)](https://www.stata.com/bookstore/statacheatsheets.pdf) — Stata's cheat sheets in a single PDF, inspired by RStudio's Cheatsheets.
+- [Stata cheat sheets](https://www.stata.com/bookstore/stata-cheat-sheets/) — Stata Bookstore page where the individual cheat sheets can be downloaded.
+- [Stata 18 Graphical User Interface (GUI) Overview](https://www.stata.com/features/overview/graphical-user-interface/) — Stata Corp's overview of the windows and menus in the Stata 18 interface.
+- [Install and Uninstall Programs from Boston College Statistical Software Components (SSC)](https://www.stata.com/support/ssc-installation/) — Stata's instructions for adding and removing community-written packages from the SSC archive.
+
+## Related on this site
+
+- [Stata](../stata.html) — Software access, working habits, and operators for Stata at NYUAD.
+- [Statistics](../statistics.html) — Statistical tables, formula sheets, and probability references.
+- [R](../r.html) — Setup and learning notes for R, the open-source alternative to Stata.
