@@ -1,6 +1,6 @@
 ---
 title: "Learning Stata"
-description: "Free tutorials, videos, books, and do-file guides for learning Stata, collected for students in NYU Abu Dhabi methods courses."
+description: "Tutorials, videos, books, and do-file guides for learning Stata, with three suggested starting points."
 date: "2026-10-31"
 order: 1
 categories: [stata, learning]

@@ -11,8 +11,6 @@ listing:
   max-description-length: 250
 ---
 
-Software access, working habits, and reference notes for using Stata in NYUAD courses. Tutorials, videos, books, and do-file guidance are collected in the guide below.
-
 ## Guides
 
 ::: {#stata-guides}
