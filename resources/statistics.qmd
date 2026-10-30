@@ -1,14 +1,33 @@
 ---
 title: "Statistics"
-date: "2025-02-03"
+description: "Open statistics textbooks, z-score tables, formula sheets, and probability and log-transformation references for students in introductory methods courses."
+date: "2026-10-31"
 ---
 
-## Miscellaneous
+Open textbooks, lookup tables, and short explainers for the statistics that come up in introductory methods courses. Use the textbooks to review a concept, the tables and formula sheets while working problems, and the explainer when interpreting a regression with logged variables.
 
-  * [Z Score Table Open Textbook](https://stats.libretexts.org/Courses/Taft_College/PSYC_2200%3A_Elementary_Statistics_for_Behavioral_and_Social_Sciences_%28Oja%29/Unit_1%3A_Description/5%3A_Using_z/5.03%3A_Introduction_to_the_z_table/5.03.2%3A_Table_of_Critical_Values_of_z)
+## Textbooks and primers
 
-    * [Z Score Table PDF](https://stats.libretexts.org/@api/deki/files/12255/Ch5_Table_of_z_Scores.pdf?revision=1)
+  * [Introductory Statistics](https://stats.libretexts.org/Bookshelves/Introductory_Statistics) — LibreTexts collection of open introductory statistics textbooks for students across many fields.
 
-  * [Formula Sheet from University of Michigan](https://open.umich.edu/sites/default/files/downloads/f12-stats250-bgunderson-statsfullyellowcard_0.pdf)
+  * [A Primer in Probability](https://web.archive.org/web/20171115194047/http://www.unc.edu:80/~swlt/probprimer1.pdf) — Probability primer in PDF form from UNC (archived copy).
 
-  * [Interpreting Log Transformations in a Linear Model | UVA Library](https://library.virginia.edu/data/articles/interpreting-log-transformations-in-a-linear-model)
+## Tables and formula sheets
+
+  * [Z Score Table Open Textbook](https://stats.libretexts.org/Courses/Taft_College/PSYC_2200%3A_Elementary_Statistics_for_Behavioral_and_Social_Sciences_%28Oja%29/Unit_1%3A_Description/5%3A_Using_z/5.03%3A_Introduction_to_the_z_table/5.03.2%3A_Table_of_Critical_Values_of_z) — Table of critical values of z from a Taft College open textbook on elementary statistics.
+
+  * [Z Score Table PDF](https://stats.libretexts.org/@api/deki/files/12255/Ch5_Table_of_z_Scores.pdf?revision=1) — PDF version of the z-score table, for printing or use offline.
+
+  * [Formula Sheet from University of Michigan](https://open.umich.edu/sites/default/files/downloads/f12-stats250-bgunderson-statsfullyellowcard_0.pdf) — Formula sheet for the University of Michigan's STATS 250 introductory statistics course.
+
+  * [Combinations and Permutations](https://www.mathsisfun.com/combinatorics/combinations-permutations.html) — Math Is Fun explainer on the difference between combinations and permutations and how to count each.
+
+## Interpreting results
+
+  * [Interpreting Log Transformations in a Linear Model | UVA Library](https://library.virginia.edu/data/articles/interpreting-log-transformations-in-a-linear-model) — University of Virginia Library article on reading coefficients when variables are log-transformed.
+
+## Related on this site
+
+  * [Stata](../resources/stata.html) — Software access and a guide to learning Stata.
+
+  * [R](../resources/r.html) — Setup and learning notes for R.
