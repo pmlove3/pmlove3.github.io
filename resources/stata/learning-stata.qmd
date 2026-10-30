@@ -22,7 +22,7 @@ This guide collects free and library-accessible material for students learning S
 - [Stata Highlights, Richard Williams, Notre Dame Sociology](https://academicweb.nd.edu/~rwilliam/stats/StataHighlights.html) — Excerpts from Richard Williams's graduate statistics course, with handouts and data files on regression, logistic regression, and more.
 - [Introduction to Stata 15, LinkedIn Learning](https://www.linkedin.com/learning/introduction-to-stata-15) — Video course on Stata 15; NYU login required for free access.
 - [The Stata Guide on Medium](https://medium.com/the-stata-guide) — Medium publication of Stata articles; some pieces sit behind Medium's paywall.
-- [Using Stata's Frames feature to build an analytical dataset, Tim Plante](https://blog.uvm.edu/tbplante/2021/11/15/using-statas-frames-feature-to-build-an-analytical-dataset/) — Blog post on combining several datasets in memory with Stata's frames to assemble one analysis dataset.
+- [Using Stata's Frames feature to build an analytical dataset, Tim Plante](https://web.archive.org/web/20251006165902/https://blog.uvm.edu/tbplante/2021/11/15/using-statas-frames-feature-to-build-an-analytical-dataset/) — Blog post on combining several datasets in memory with Stata's frames to assemble one analysis dataset (archived copy).
 
 ## Writing good do-files
 
