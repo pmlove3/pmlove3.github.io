@@ -193,6 +193,38 @@ a {
   font-family: "Fraunces", Georgia, serif;
 }
 
+/* ---- Guide cards on resource hubs (listing ids ending in -guides) ---- */
+[id^="listing-"][id$="-guides"] {
+  margin-right: 0;
+}
+[id^="listing-"][id$="-guides"] .quarto-post {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0.25rem 0 0.25rem 1rem;
+  background: transparent;
+  border: none;
+  border-left: 4px solid var(--accent-teal, #16636b);
+  border-radius: 0;
+  box-shadow: none;
+}
+[id^="listing-"][id$="-guides"] .quarto-post .metadata {
+  display: none;
+}
+[id^="listing-"][id$="-guides"] .listing-title {
+  margin-bottom: 0.25rem;
+}
+[id^="listing-"][id$="-guides"] .listing-title a {
+  color: var(--accent-terracotta, #a8471f);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+[id^="listing-"][id$="-guides"] .listing-description a {
+  color: inherit;
+}
+[id^="listing-"][id$="-guides"] .listing-description p {
+  margin: 0;
+}
+
 /* ---- Category / tag pills ---- */
 .quarto-category,
 .listing-categories .listing-category {
