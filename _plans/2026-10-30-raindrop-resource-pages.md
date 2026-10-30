@@ -37,30 +37,28 @@ Work was parked mid-plan when cloud compute ran out. Nothing is half-written: no
 
 **What the cloud link check could not do** (so repeat it on your Mac): it could not reach `github.com` (103 `keep` rows are `unverified-github`), `web.archive.org` (8 rows), plain `http://` links (the sandbox proxies HTTPS only; 27 links were upgraded to https and 4 stayed `unverified-http`), and 6 hosts that failed with SSL or connection errors. Fourteen dead links were swapped to an archived copy without opening the snapshots; spot-check them.
 
-**Resume on your Mac**
+**Resume on your Mac (three steps)**
 
-```bash
-git clone https://github.com/pmlove3/pmlove3.github.io.git   # or: git checkout main && git pull
-cd pmlove3.github.io
-brew install --cask quarto            # needed for rendering; the cloud copy was 1.10.20
-pip3 install requests                 # for check_links.py
-npm install                           # only for `npm run audit`
-
-export RAINDROP_CSV=~/Downloads/your-raindrop-export.csv      # the full export; keep it outside the repo
-python3 _plans/tools/build_curation.py                        # first pass; rules for hold/drop are encoded in the script
-python3 _plans/tools/check_links.py --include-github          # open network: checks github.com and http:// links too
-python3 _plans/tools/check_links.py --retest                  # re-checks the failures one at a time
-python3 _plans/tools/apply_dead_link_policy.py
-python3 _plans/tools/render_review.py                         # writes _plans/curation/curation_firstpass.md
-```
-
-`_plans/curation/` is gitignored, so these files stay on your machine. The cloud copies of `curation_firstpass.csv` and `.md` were attached to the parking message, so you can start from them instead and skip the rebuild. The Stata and Statistics rows will look the same either way.
+1. **Get the files.** Merge PR #2 on GitHub, then `git clone https://github.com/pmlove3/pmlove3.github.io.git` (or `git pull` in an existing clone). To work before merging, `git checkout claude/website-resources-wiki-omw6e8`.
+2. **Run the setup script** from the repo root: `./_plans/tools/setup_local.sh`. It installs Quarto through Homebrew if missing, makes a Python environment with `requests` in `_plans/.venv`, runs `npm install`, copies `curation_firstpass.csv` from `~/Downloads` into `_plans/curation/` if you saved the attachment from the parking message, then renders the site and runs the tests. Use `--check-only` to see what it would change. Expected end state: `quarto render exits 0` and `Ran 18 tests … OK`.
+3. **Start Claude Code** in the repo (`claude`). `CLAUDE.md` loads automatically. Paste the resume prompt below.
 
 **Resume prompt for Claude Code on your Mac**
 
-> Read `_plans/2026-10-30-raindrop-resource-pages.md`, starting with "Status and how to resume". Continue from there: I will answer the six open questions for the Stata and Statistics rows. You may use these branches: `claude/resources-stata-pattern`, `claude/resources-r-batch-a`, `claude/resources-r-batch-b`, `claude/resources-r-batch-c`, `claude/resources-hubs-index`. One PR per batch, no force-pushes.
+> Read `_plans/2026-10-30-raindrop-resource-pages.md`, starting with "Status and how to resume". Here are my answers to the six open questions for the Stata and Statistics rows: [your answers]. Then build the Stata pattern PR (Tasks 4–5) on `claude/resources-stata-pattern`. You may also use these branches later: `claude/resources-r-batch-a`, `claude/resources-r-batch-b`, `claude/resources-r-batch-c`, `claude/resources-hubs-index`. One PR per batch, no force-pushes.
 
-Things that tripped the cloud run, so you can skip them locally: do not run `build_curation.py --force` once you have edited the CSV; `check_links.py` with many threads gives false failures through some proxies (it defaults to 4); use `python3 -B -I` for scripts so no `__pycache__` appears in `_plans/tools/`.
+**Repeat the link check from your Mac** (open network, so GitHub and archive links work), using the environment's Python:
+
+```bash
+_plans/.venv/bin/python -B _plans/tools/check_links.py --include-github   # also checks GitHub and http:// links
+_plans/.venv/bin/python -B _plans/tools/check_links.py --retest           # re-checks failures one at a time
+_plans/.venv/bin/python -B _plans/tools/apply_dead_link_policy.py
+_plans/.venv/bin/python -B _plans/tools/render_review.py                  # writes _plans/curation/curation_firstpass.md
+```
+
+If you lost the curation CSV, rebuild it first: `export RAINDROP_CSV=~/Downloads/your-export.csv` and `_plans/.venv/bin/python -B _plans/tools/build_curation.py` (the hold and drop rules are built into the script).
+
+Things that tripped the cloud run: do not run `build_curation.py --force` after editing the CSV, and keep `--workers` at 4 or fewer, because some proxies give false failures under load.
 
 ## 0. Decisions (resolved 2026-10-30)
 
@@ -284,6 +282,8 @@ git commit -m "docs: add Raindrop resource-pages plan and curation tooling"
 (Append the trailers from §3.)
 
 ### Task 2: Link check (gate D1)
+
+> On a Mac, run the scripts below with `_plans/.venv/bin/python -B` instead of `python3` (created by `_plans/tools/setup_local.sh`). The `--include-github` flag then works too.
 
 **Files:**
 - Uses: `_plans/tools/build_curation.py`, `_plans/tools/check_links.py`
