@@ -170,25 +170,31 @@ Claude-Session: https://claude.ai/code/session_01KbGrmPbEkJ5aQUPvSNGiom
 
 ### PR sequence (D5)
 
-Each PR is one reviewable batch. The site deploys from `main` on merge, so nothing goes live before you merge it.
+Each PR is one reviewable batch on its own branch. The site deploys from `main` on merge, so nothing goes live before you merge it. You approved these five extra branch names (and only these) on 2026-10-30.
 
-| PR | Contents | Review focus |
-|---|---|---|
-| 1 | This plan, `_plans/tools/`, `.gitignore` entry (Task 1) | Approve the plan and decisions |
-| 2 | Guard test, Learning Stata, Stata hub, Statistics hub (Tasks 4–5) | The page pattern: tone, annotation depth, listing look |
-| 3 | R Batch A: Learning R, workflow (+ hub listing) (Task 6A) | Content accuracy |
-| 4 | R Batch B: reports, visualization, wrangling (Task 6B) | Content accuracy |
-| 5 | R Batch C and hub cleanup (Task 6C) | Content accuracy; hub no longer duplicates moved links |
-| 6 | Resources index listing and audit coverage (Tasks 7–8) | Navigation, accessibility |
+| PR | Branch | Based on | Contents | Review focus |
+|---|---|---|---|---|
+| 1 | `claude/website-resources-wiki-omw6e8` | `main` | Plan, `_plans/tools/`, `.gitignore` entry (Task 1) | Approve plan and decisions |
+| 2 | `claude/resources-stata-pattern` | PR 1's branch until PR 1 merges, then `main` | Guard test, Learning Stata, Stata hub, Statistics hub (Tasks 4–5) | The page pattern: tone, annotation depth, listing look |
+| 3 | `claude/resources-r-batch-a` | `main` after PR 2 merges | R Batch A pages only | Content accuracy |
+| 4 | `claude/resources-r-batch-b` | `main` after PR 2 merges | R Batch B pages only | Content accuracy |
+| 5 | `claude/resources-r-batch-c` | `main` after PR 2 merges | R Batch C pages only | Content accuracy |
+| 6 | `claude/resources-hubs-index` | `main` after PRs 3–5 merge | R hub listing and cleanup, Resources index listing, audit coverage (Task 6 Batch D, Tasks 7–8) | Navigation, no duplicated links, accessibility |
+
+Why this shape:
+
+- PR 2 goes first and alone: it sets the pattern and ships the guard test that PRs 3–5 are checked against.
+- PRs 3, 4 and 5 only **add files under `resources/r/`**, so they cannot conflict with each other and can be open and reviewed in parallel.
+- Every shared file (`resources/r.qmd`, `resources/index.qmd`, `tests/audit.js`) is edited once, in PR 6.
+- Between the page PRs merging and PR 6 merging, the live R hub still lists links that also appear on the new pages. Merge PR 6 right after the page PRs to keep that window short.
 
 Mechanics:
 
-- Work stays on `claude/website-resources-wiki-omw6e8`. Because one branch name cannot back several open PRs, each PR is merged before the next one's work is pushed. After a merge, restart the branch from the new `main`: `git fetch origin main && git checkout -B claude/website-resources-wiki-omw6e8 origin/main` (the branch then carries only the next batch).
-- Work that changes no tracked file can run while a PR is open: the link check and the curation table live in the gitignored `_plans/curation/`.
+- Create each branch with `git checkout -b <branch> <base>` and push with `git push -u origin <branch>`. Push to no other branch.
+- Work that changes no tracked file (link check, curation table in the gitignored `_plans/curation/`) can run at any time.
 - PR bodies use **Summary** and **Test plan** sections (the repo has no PR template). The test plan lists the commands and measured results from the task's Check line.
-- Each task's "Commit" step is followed by push, then opening that task group's PR. After opening a PR, offer to watch it so review comments and CI failures reach the session.
-- Task 9's checks run again on `main` after PR 6 merges and once the Action has deployed.
-
+- After opening a PR, offer to watch it so review comments and CI failures reach the session.
+- Task 9's checks run again on `main` after PR 6 merges and the Action has deployed.
 
 ### Task 1: Housekeeping — ignore working data, commit plan and tooling
 
@@ -396,7 +402,7 @@ Expected: `FAILED (failures=1)` with `AssertionError: [] is not true : no theme 
 
 Committing a red test would break `python3 -m unittest discover -s tests`. It is committed together with the first pages in Task 5.
 
-### Task 5: Stata page, Stata hub, Statistics hub (the pattern task)
+### Task 5: Stata page, Stata hub, Statistics hub (the pattern task; PR 2, branch `claude/resources-stata-pattern`)
 
 **Files:**
 - Create: `resources/stata/learning-stata.qmd`
@@ -487,46 +493,56 @@ Expected: `render exit=0`; `Ran 23 tests … OK`; `broken: 0`; the verifier prin
 
 Check `docs/resources/stata.html` contains the "Guides" card with the description text (`grep -c "Learning Stata" docs/resources/stata.html` ≥ 1) and that the hub no longer holds the moved links: `grep -c "princeton.edu/~otorres" docs/resources/stata.html` → `0`, and the same URL appears once in `docs/resources/stata/learning-stata.html`.
 
-- [ ] **Step 7: Review gate: send you the diff and a "please verify" list. Commit after you approve**
+- [ ] **Step 7: Commit on `claude/resources-stata-pattern`, push it, and open PR 2.** Put the "please verify" list in the PR body; review happens on the PR.
 
 ```bash
 git add tests/test_resource_pages.py resources/stata.qmd resources/stata resources/statistics.qmd
 git commit -m "feat(resources): add Learning Stata guide and annotate Statistics hub"
 ```
 
-### Task 6: R hub and R theme pages (three review batches)
+### Task 6: R theme pages (Batches A–C, one PR each) and R hub (Batch D, in PR 6)
 
-**Files per batch:** the `resources/r/*.qmd` pages listed below; `resources/r.qmd` is edited in Batch A (listing) and again in Batch C (removal of the moved section, once every moved link has a home).
+**Files per batch:** only new files under `resources/r/` in Batches A–C. `resources/r.qmd` is edited once, in Batch D.
 
-**Check (every batch):** `python3 -m unittest discover -s tests` passes; `quarto render` exits 0; `check_internal_links.py` prints `broken: 0`; `verify_curation_applied.py` shows no problem for rows in this batch's themes.
+**Check (Batches A–C):** `python3 -m unittest discover -s tests` passes; `quarto render` exits 0; `check_internal_links.py` prints `broken: 0`; `verify_curation_applied.py` shows no problem for rows in this batch's themes. Until Batch D merges, the verifier reports each moved hub link as "KEEP appears on 2 pages" (hub + new page); that is expected, and the only such lines should be for links you have moved.
 
-**Batch A: `learning-r`, `rstudio-positron-workflow` (+ `git-github-for-r` only if it kept ≥ 8)**
+**Batch A (PR 3, branch `claude/resources-r-batch-a`): `learning-r`, `rstudio-positron-workflow` (+ `git-github-for-r` only if it kept ≥ 8)**
 
 - [ ] **Step 1: Write the pages from the approved rows** following §3. `learning-r` Start-here picks: *An Introduction to R* (carry the hub's "Good Starting Place" note), *R for Data Science (2e)*, *R Cookbook*. Include **Translating Stata to R** with a pointer to `../stata.html`. The Datacamp / GitHub Student Developer Pack entries move here and keep their hub annotations.
-- [ ] **Step 2: Add the listing to `resources/r.qmd`** (front matter block from §3 with `id: r-guides`, `contents: "r/*.qmd"`; intro paragraph of ≥ 25 words, e.g. "Installation notes, ways to run R online, and publishing setup for R and RStudio or Positron. Topic guides for learning R, workflow, visualization, text analysis, and more are listed below."; `## Guides` div placed before `## Installation`; bump `date` to `2026-10-30`; add a `description:` of ≤ 160 characters, e.g. "Install R, RStudio, or Positron, run R online, and publish documents, plus guides to learning R, text analysis, visualization, and reproducible research."). Leave the `## External Resources` section in place for now.
-- [ ] **Step 3: Run the Task 6 checks.** Expected: the verifier will report the moved hub links as "KEEP appears on 2 pages" (hub + new page) until Batch C removes them; that is expected here. Confirm the only such lines are for links you have moved.
-- [ ] **Step 4: Review gate.** Send you the rendered page text and the "please verify" list. Commit after approval:
+- [ ] **Step 2: Run the Batch A–C checks** above.
+- [ ] **Step 3: Push the branch and open PR 3** with the rendered page text and the "please verify" list in the body.
 
 ```bash
-git add resources/r resources/r.qmd
+git add resources/r
 git commit -m "feat(resources): add Learning R and R workflow guides"
 ```
 
-**Batch B: `r-markdown-reports`, `r-data-visualization`, `r-data-wrangling-tables`**
+**Batch B (PR 4, branch `claude/resources-r-batch-b`): `r-markdown-reports`, `r-data-visualization`, `r-data-wrangling-tables`**
 
 - [ ] **Step 1: Write the pages.** `r-markdown-reports` links to `../tinytex.html` and carries the hub's RMarkdown notes (Pandoc Markdown note, *Definitive Guide* → *Cookbook* progression). `r-data-visualization` links to `../gis.html` for maps. Package-heavy sections use the table form.
-- [ ] **Step 2: Run the Task 6 checks.**
-- [ ] **Step 3: Review gate, then commit:**
+- [ ] **Step 2: Run the Batch A–C checks.**
+- [ ] **Step 3: Push the branch and open PR 4:**
 
 ```bash
 git add resources/r
 git commit -m "feat(resources): add R Markdown, visualization, and data wrangling guides"
 ```
 
-**Batch C: `r-text-analysis` (and the packages split if chosen), `r-web-scraping-apis`, `r-networks-surveys`, `r-political-economic-data` (if ≥ 8) , `r-shiny-dashboards`**
+**Batch C (PR 5, branch `claude/resources-r-batch-c`): `r-text-analysis` (and the packages split if chosen), `r-web-scraping-apis`, `r-networks-surveys`, `r-political-economic-data` (if ≥ 8), `r-shiny-dashboards`**
 
 - [ ] **Step 1: Write the pages.** The hub's *Regular Expressions* links go to `r-text-analysis`. `r-political-economic-data` links to `../data.html`.
-- [ ] **Step 2: Remove the moved section from `resources/r.qmd`**, only after the verifier is clean:
+- [ ] **Step 2: Run the Batch A–C checks.**
+- [ ] **Step 3: Push the branch and open PR 5:**
+
+```bash
+git add resources/r
+git commit -m "feat(resources): add R text analysis, scraping, networks, and Shiny guides"
+```
+
+**Batch D (PR 6, branch `claude/resources-hubs-index`, cut from `main` after PRs 3–5 merge): R hub listing and cleanup**
+
+- [ ] **Step 1: Add the listing to `resources/r.qmd`** (front matter block from §3 with `id: r-guides`, `contents: "r/*.qmd"`; intro paragraph of ≥ 25 words, e.g. "Installation notes, ways to run R online, and publishing setup for R and RStudio or Positron. Topic guides for learning R, workflow, visualization, text analysis, and more are listed below."; `## Guides` div placed before `## Installation`; bump `date` to `2026-10-30`; add a `description:` of ≤ 160 characters, e.g. "Install R, RStudio, or Positron, run R online, and publish documents, plus guides to learning R, text analysis, visualization, and reproducible research.").
+- [ ] **Step 2: Remove the moved section from `resources/r.qmd`**, only after the verifier shows every moved link on its new page:
 
 ```python
 from pathlib import Path
@@ -537,19 +553,19 @@ s = s[: s.index("## External Resources")].rstrip() + "\n"
 p.write_text(s, encoding="utf-8")
 ```
 
-Expected: `git diff --stat resources/r.qmd` shows only deletions of the External Resources block; `Installation`, `Using R Online`, `Publishing`, `Videos` and `Handouts` are unchanged.
-- [ ] **Step 3: Run the Task 6 checks, plus the full curation verification:**
+Expected: `git diff --stat resources/r.qmd` shows the External Resources block removed and the listing added; `Installation`, `Using R Online`, `Publishing`, `Videos` and `Handouts` are unchanged.
+- [ ] **Step 3: Run the full curation verification:**
 
 Run: `python3 -I _plans/tools/verify_curation_applied.py`
 Expected: `problems: 0`. Every `keep` row appears on exactly one page; every `drop`/`hold` row on none.
-- [ ] **Step 4: Review gate, then commit:**
+- [ ] **Step 4: Continue with Tasks 7 and 8 on this same branch,** then commit and open PR 6:
 
 ```bash
-git add resources/r resources/r.qmd
-git commit -m "feat(resources): add R text analysis, scraping, networks, and Shiny guides; move hub links"
+git add resources/r.qmd
+git commit -m "feat(resources): list R guides on the hub and remove moved links"
 ```
 
-### Task 7: Resources index lists every guide
+### Task 7: Resources index lists every guide (PR 6)
 
 **Files:**
 - Modify: `resources/index.qmd`
@@ -598,7 +614,7 @@ git add resources/index.qmd
 git commit -m "feat(resources): list all guides on the Resources index"
 ```
 
-### Task 8: Accessibility audit coverage
+### Task 8: Accessibility audit coverage (PR 6)
 
 **Files:**
 - Modify: `tests/audit.js` (the `files` array, near the top of `runAudit`)
@@ -635,7 +651,7 @@ git add tests/audit.js
 git commit -m "test: include resource hubs and guides in accessibility audit"
 ```
 
-### Task 9: Final verification and push
+### Task 9: Final verification (after PR 6 merges)
 
 **Files:** none changed unless a check fails.
 
