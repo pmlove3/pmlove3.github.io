@@ -10,7 +10,7 @@ from urllib.parse import urlparse, parse_qsl, urlencode
 csv.field_size_limit(sys.maxsize)
 
 REPO = Path(__file__).resolve().parents[2]
-SRC = Path(os.environ["RAINDROP_CSV"])  # the full Raindrop export; keep it outside the repo
+SRC = Path(os.environ["RAINDROP_CSV"]) if "RAINDROP_CSV" in os.environ else None  # full export; keep it outside the repo
 OUT = REPO / "_plans" / "curation"      # working files, gitignored
 FOLDERS = {"R-Stuff", "Stata", "stats"}
 
@@ -127,6 +127,8 @@ def write_review(rows, dupes=None):
 
 
 def main():
+    if SRC is None:
+        sys.exit("set RAINDROP_CSV to the path of your Raindrop export")
     OUT.mkdir(parents=True, exist_ok=True)
     if (OUT / "curation_firstpass.csv").exists() and "--force" not in sys.argv:
         sys.exit("curation_firstpass.csv already exists and may hold your edits; pass --force to rebuild it")
