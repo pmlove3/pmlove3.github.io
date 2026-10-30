@@ -1,6 +1,7 @@
 """Check external links for `keep` rows in curation_firstpass.csv. Needs outbound network.
 
 Usage: python3 check_links.py [--workers 4] [--include-github]
+       python3 check_links.py --retest      (re-check only dead/unreachable rows, one at a time, with progress)
 
 Statuses written to the link_status column:
   ok / redirect-ok   reachable (2xx, possibly after redirects)
@@ -20,7 +21,7 @@ csv.field_size_limit(sys.maxsize)
 CSV_PATH = Path(__file__).resolve().parents[1] / "curation" / "curation_firstpass.csv"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; personal-site-link-check)"}
 WAYBACK_API = "https://archive.org/wayback/available"
-ATTEMPTS = 3
+ATTEMPTS = 2
 
 
 def classify(code):
@@ -35,9 +36,9 @@ def check(url):
     last_error = ""
     for attempt in range(ATTEMPTS):
         try:
-            r = requests.head(url, headers=HEADERS, timeout=20, allow_redirects=True)
+            r = requests.head(url, headers=HEADERS, timeout=12, allow_redirects=True)
             if r.status_code >= 400:  # many servers mishandle HEAD; confirm with GET
-                r = requests.get(url, headers=HEADERS, timeout=25, allow_redirects=True, stream=True)
+                r = requests.get(url, headers=HEADERS, timeout=15, allow_redirects=True, stream=True)
             code = r.status_code
             verdict = classify(code) or ("redirect-ok" if r.history else "ok")
             return verdict, str(code)
@@ -63,7 +64,33 @@ def wayback(url):
         return ""
 
 
+def retest():
+    """Re-check rows already marked dead/unreachable, sequentially, printing progress."""
+    with open(CSV_PATH, newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    todo = [r for r in rows if r["decision"] == "keep" and r["link_status"].split()[:1] in (["dead"], ["unreachable"])]
+    for i, r in enumerate(todo, 1):
+        status, detail = check(r["url"])
+        r["link_status"] = f"{status} {detail}"
+        if status == "dead":
+            r["link_status"] += " | wayback: " + (wayback(r["url"]) or "none")
+        print(f"[{i}/{len(todo)}] {r['link_status'][:40]:40} {r['domain']}", flush=True)
+        time.sleep(1)
+    with open(CSV_PATH, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(rows[0]))
+        w.writeheader()
+        w.writerows(rows)
+    tally = {}
+    for r in rows:
+        if r["decision"] == "keep":
+            key = r["link_status"].split()[0]
+            tally[key] = tally.get(key, 0) + 1
+    print(tally)
+
+
 def main():
+    if "--retest" in sys.argv:
+        return retest()
     workers = int(sys.argv[sys.argv.index("--workers") + 1]) if "--workers" in sys.argv else 4
     include_github = "--include-github" in sys.argv
     with open(CSV_PATH, newline="", encoding="utf-8") as f:
