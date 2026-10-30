@@ -11,6 +11,9 @@ Statuses written to the link_status column:
                      re-test: could be the site or the network you run this from; verify by hand
                      before dropping (a nonexistent domain shows up here as ProxyError 502)
   unverified-github  github.com rows are skipped unless --include-github (some sandboxes deny it)
+  unverified-http    plain http:// link whose https:// twin did not answer; some sandboxes proxy only HTTPS
+  unverified-archive web.archive.org rows are skipped (archive tunnels close early from some networks)
+http:// links are tested over https://; if that answers, the url column is upgraded to https.
 Only `dead` rows get a Wayback lookup, so a live page is never swapped for an archive copy.
 """
 import csv, sys, time, concurrent.futures as cf
@@ -33,6 +36,11 @@ def classify(code):
 
 
 def check(url):
+    if url.startswith("http://"):
+        status, detail = check("https://" + url[len("http://"):])
+        if status in ("ok", "redirect-ok", "blocked", "dead"):
+            return status, detail + " https-upgrade"
+        return "unverified-http", "https twin did not answer"
     last_error = ""
     for attempt in range(ATTEMPTS):
         try:
@@ -56,6 +64,14 @@ def check(url):
     return "unreachable", last_error
 
 
+def apply(row, status, detail):
+    row["link_status"] = f"{status} {detail}"
+    if detail.endswith("https-upgrade") and status in ("ok", "redirect-ok"):
+        row["url"] = "https://" + row["url"][len("http://"):]
+    if status == "dead":
+        row["link_status"] += " | wayback: " + (wayback(row["url"]) or "none")
+
+
 def wayback(url):
     try:
         snap = requests.get(WAYBACK_API, params={"url": url}, timeout=25).json()["archived_snapshots"]
@@ -68,12 +84,13 @@ def retest():
     """Re-check rows already marked dead/unreachable, sequentially, printing progress."""
     with open(CSV_PATH, newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
-    todo = [r for r in rows if r["decision"] == "keep" and r["link_status"].split()[:1] in (["dead"], ["unreachable"])]
+    for r in rows:
+        if r["decision"] == "keep" and r["domain"] == "web.archive.org":
+            r["link_status"] = "unverified-archive"
+    todo = [r for r in rows if r["decision"] == "keep" and r["domain"] != "web.archive.org"
+            and r["link_status"].split()[:1] in (["dead"], ["unreachable"])]
     for i, r in enumerate(todo, 1):
-        status, detail = check(r["url"])
-        r["link_status"] = f"{status} {detail}"
-        if status == "dead":
-            r["link_status"] += " | wayback: " + (wayback(r["url"]) or "none")
+        apply(r, *check(r["url"]))
         print(f"[{i}/{len(todo)}] {r['link_status'][:40]:40} {r['domain']}", flush=True)
         time.sleep(1)
     with open(CSV_PATH, "w", newline="", encoding="utf-8") as f:
@@ -102,6 +119,8 @@ def main():
             continue
         if r["domain"] == "github.com" and not include_github:
             r["link_status"] = "unverified-github"
+        elif r["domain"] == "web.archive.org":
+            r["link_status"] = "unverified-archive"
         else:
             todo.append(r)
     with cf.ThreadPoolExecutor(max_workers=workers) as pool:
@@ -111,9 +130,7 @@ def main():
     results = [res if res[0] in ("ok", "redirect-ok", "blocked") else (time.sleep(3) or check(r["url"]))
                for r, res in zip(todo, results)]
     for r, (status, detail) in zip(todo, results):
-        r["link_status"] = f"{status} {detail}"
-        if status == "dead":
-            r["link_status"] += " | wayback: " + (wayback(r["url"]) or "none")
+        apply(r, status, detail)
     with open(CSV_PATH, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))
         w.writeheader()
