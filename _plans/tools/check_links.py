@@ -4,10 +4,11 @@ Usage: python3 check_links.py [--workers 4] [--include-github]
 
 Statuses written to the link_status column:
   ok / redirect-ok   reachable (2xx, possibly after redirects)
-  dead               HTTP 404/410 on a GET retry, or the hostname does not resolve
+  dead               HTTP 404/410, still returned when re-tested alone after the parallel pass
   blocked            reachable but refuses scripts (401/403/418/429/999, other 4xx): treat as alive
-  unreachable        connection errors/timeouts on every attempt: could be the site or the network
-                     you run this from; verify by hand before dropping
+  unreachable        connection errors/timeouts on every attempt, including a slow one-at-a-time
+                     re-test: could be the site or the network you run this from; verify by hand
+                     before dropping (a nonexistent domain shows up here as ProxyError 502)
   unverified-github  github.com rows are skipped unless --include-github (some sandboxes deny it)
 Only `dead` rows get a Wayback lookup, so a live page is never swapped for an archive copy.
 """
@@ -40,13 +41,12 @@ def check(url):
             code = r.status_code
             verdict = classify(code) or ("redirect-ok" if r.history else "ok")
             return verdict, str(code)
-        except requests.exceptions.SSLError as exc:
+        except requests.exceptions.SSLError:
             last_error = "SSLError"
-        except requests.exceptions.ConnectionError as exc:
+        except requests.exceptions.ProxyError:
+            last_error = "ProxyError"
+        except requests.exceptions.ConnectionError:
             last_error = "ConnectionError"
-            text = str(exc)
-            if "Name or service not known" in text or "NameResolutionError" in text or "nodename nor servname" in text:
-                return "dead", "DNS"
         except requests.exceptions.Timeout:
             last_error = "Timeout"
         except requests.RequestException as exc:
@@ -79,6 +79,10 @@ def main():
             todo.append(r)
     with cf.ThreadPoolExecutor(max_workers=workers) as pool:
         results = list(pool.map(lambda r: check(r["url"]), todo))
+    # Parallel runs overload the proxy and cause false failures, so every non-passing
+    # link is re-tested alone, with a pause, before it is reported.
+    results = [res if res[0] in ("ok", "redirect-ok", "blocked") else (time.sleep(3) or check(r["url"]))
+               for r, res in zip(todo, results)]
     for r, (status, detail) in zip(todo, results):
         r["link_status"] = f"{status} {detail}"
         if status == "dead":
