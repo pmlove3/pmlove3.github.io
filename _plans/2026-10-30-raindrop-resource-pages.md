@@ -10,6 +10,56 @@
 
 ---
 
+## Status and how to resume (parked 2026-10-30)
+
+Work was parked mid-plan when cloud compute ran out. Nothing is half-written: no page content exists yet, and everything below is committed and pushed.
+
+**Done**
+
+- PR #1 (this plan and `_plans/tools/`) is merged into `main`. Decisions D1–D6 are resolved.
+- PR #2 (https://github.com/pmlove3/pmlove3.github.io/pull/2, branch `claude/website-resources-wiki-omw6e8`) fixes the link checker and adds `apply_dead_link_policy.py`. It changes tooling only, never the live site. It was open when parked; merge it first if you agree.
+- Task 1 is done. Task 2 ran in the cloud sandbox with gaps (below). Task 3 has only the automatic first pass, with no manual edits.
+- GitHub PR numbers run one ahead of the "PR 1–6" labels in §4. The Stata pattern PR will be GitHub #3.
+
+**Not done**
+
+- No branch other than the designated one exists yet (the five extra branch names were approved for the cloud session only; say so again in a new session).
+- Tasks 3 (your approval), 4–9: guard test, Stata and Statistics pages, R pages, hubs, index, audit.
+
+**Open questions for you (Stata and Statistics rows, the gate for the Stata pattern PR)**
+
+1. Drop "Useful Commands in Stata" (Lucas Rosso): 404, no archive. Proposed: drop.
+2. Merge Steffen's Classroom playlist (three entries, one YouTube playlist) into one. Proposed: yes.
+3. "Start here" picks: Princeton Online Stata Tutorial, UCLA Stata Learning Modules, Stata Corp's learning-resources page. Right three?
+4. "Index of /~banks/111-labs.dir" (a Duke course-labs listing): student-useful, or hold as instructor material? Proposed: hold.
+5. Keep, with a "please verify" note, the seven Stata links the cloud sandbox could not reach: UCLA Stata modules, UVM Frames post, Arizona do-file templates, `estout`, haghish.com Stata Blog, the Wayback copy of "Stata for Researchers", and Princeton (bot-blocked). Proposed: keep.
+6. Statistics hub: keep LibreTexts *Introductory Statistics*, Combinations and Permutations, the UVA log-transformation article, and the UNC *A Primer in Probability*; drop the Indiana University search page and the letter-frequency blog post. Proposed: as stated.
+
+**What the cloud link check could not do** (so repeat it on your Mac): it could not reach `github.com` (103 `keep` rows are `unverified-github`), `web.archive.org` (8 rows), plain `http://` links (the sandbox proxies HTTPS only; 27 links were upgraded to https and 4 stayed `unverified-http`), and 6 hosts that failed with SSL or connection errors. Fourteen dead links were swapped to an archived copy without opening the snapshots; spot-check them.
+
+**Resume on your Mac (three steps)**
+
+1. **Get the files.** Merge PR #2 on GitHub, then `git clone https://github.com/pmlove3/pmlove3.github.io.git` (or `git pull` in an existing clone). To work before merging, `git checkout claude/website-resources-wiki-omw6e8`.
+2. **Run the setup script** from the repo root: `./_plans/tools/setup_local.sh`. It installs Quarto through Homebrew if missing, makes a Python environment with `requests` in `_plans/.venv`, runs `npm install`, copies `curation_firstpass.csv` from `~/Downloads` into `_plans/curation/` if you saved the attachment from the parking message, then renders the site and runs the tests. Use `--check-only` to see what it would change. Expected end state: `quarto render exits 0` and `Ran 18 tests … OK`.
+3. **Start Claude Code** in the repo (`claude`). `CLAUDE.md` loads automatically. Paste the resume prompt below.
+
+**Resume prompt for Claude Code on your Mac**
+
+> Read `_plans/2026-10-30-raindrop-resource-pages.md`, starting with "Status and how to resume". Here are my answers to the six open questions for the Stata and Statistics rows: [your answers]. Then build the Stata pattern PR (Tasks 4–5) on `claude/resources-stata-pattern`. You may also use these branches later: `claude/resources-r-batch-a`, `claude/resources-r-batch-b`, `claude/resources-r-batch-c`, `claude/resources-hubs-index`. One PR per batch, no force-pushes.
+
+**Repeat the link check from your Mac** (open network, so GitHub and archive links work), using the environment's Python:
+
+```bash
+_plans/.venv/bin/python -B _plans/tools/check_links.py --include-github   # also checks GitHub and http:// links
+_plans/.venv/bin/python -B _plans/tools/check_links.py --retest           # re-checks failures one at a time
+_plans/.venv/bin/python -B _plans/tools/apply_dead_link_policy.py
+_plans/.venv/bin/python -B _plans/tools/render_review.py                  # writes _plans/curation/curation_firstpass.md
+```
+
+If you lost the curation CSV, rebuild it first: `export RAINDROP_CSV=~/Downloads/your-export.csv` and `_plans/.venv/bin/python -B _plans/tools/build_curation.py` (the hold and drop rules are built into the script).
+
+Things that tripped the cloud run: do not run `build_curation.py --force` after editing the CSV, and keep `--workers` at 4 or fewer, because some proxies give false failures under load.
+
 ## 0. Decisions (resolved 2026-10-30)
 
 D1, D5 and the D6 additions below were set by you; D2, D3 and D4 follow my recommendations, which you did not contest. Say so if you want any changed.
@@ -232,6 +282,8 @@ git commit -m "docs: add Raindrop resource-pages plan and curation tooling"
 (Append the trailers from §3.)
 
 ### Task 2: Link check (gate D1)
+
+> On a Mac, run the scripts below with `_plans/.venv/bin/python -B` instead of `python3` (created by `_plans/tools/setup_local.sh`). The `--include-github` flag then works too.
 
 **Files:**
 - Uses: `_plans/tools/build_curation.py`, `_plans/tools/check_links.py`
