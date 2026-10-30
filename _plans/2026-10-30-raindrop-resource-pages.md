@@ -10,18 +10,18 @@
 
 ---
 
-## 0. Decisions needed from you
+## 0. Decisions (resolved 2026-10-30)
 
-Please approve, or change, each of these before implementation starts.
+D1, D5 and the D6 additions below were set by you; D2, D3 and D4 follow my recommendations, which you did not contest. Say so if you want any changed.
 
-| # | Decision | Recommendation |
+| # | Decision | Resolution |
 |---|---|---|
-| D1 | **Network access for the link check.** This session's network policy blocks third-party hosts (`CONNECT … 403`), so I can neither check links nor read the pages I annotate. | **A:** raise the environment's *Network access* level for the session ([steps](https://code.claude.com/docs/en/cloud-environments#network-access)). **B:** you run `check_links.py` on your machine and send back the CSV (Task 2). **C:** skip the check and accept some dead links. I recommend A. |
-| D2 | **Move, don't duplicate.** Tutorial/book sections currently on `r.qmd` and `stata.qmd` move into the new theme pages. Hub URLs stay the same, so the course pages that link to them keep working. | Move (avoids duplicate-content and keeps hubs focused on setup). |
-| D3 | **Page list.** See §2. Stata is **one** page, not two as I first suggested: only about 4 reporting links exist, which would be a thin page. `stats` is mostly noise (2 R items, a letter-frequency blog post, a search-results page) and folds into the Statistics hub. A new R theme appeared in the data: **political & economic data packages** (`eurostat`, `ameco`, ECB, `rOpenGov`, `essurvey`). | Approve the list; any theme with fewer than 8 kept links folds into its hub or a sibling page. |
-| D4 | **Where the plan and tooling live.** `_plans/` is committed (plan + scripts). `_plans/curation/` (your per-link decisions) is gitignored. The underscore keeps Quarto from rendering any of it. | As stated. |
-| D5 | **Commit cadence.** One commit per task on `claude/website-resources-wiki-omw6e8`. No pull request unless you ask. | As stated. |
-| D6 | **Held-back (instructor-only) links.** First-pass flags: `gradetools`, `datadrivencv`, the "Course sequence" post, the "Free workshop on Deep Learning" post. I cannot tell what else is instructor-only from titles. | You mark any others at the Task 3 review. |
+| D1 | **Network access for the link check and for reading pages.** | **Resolved: full network access granted** and verified (`r4ds.hadley.nz` → 200). Stack Overflow answers 403 to scripts; the checker classes that as `blocked`, not `dead`. |
+| D2 | **Move, don't duplicate.** Tutorial/book sections currently on `r.qmd` and `stata.qmd` move into the new theme pages. Hub URLs stay the same, so the course pages that link to them keep working. | Accepted: move. |
+| D3 | **Page list.** See §2. Stata is **one** page, not two as I first suggested: only about 4 reporting links exist, which would be a thin page. `stats` is mostly noise (2 R items, a letter-frequency blog post, a search-results page) and folds into the Statistics hub. A new R theme appeared in the data: **political & economic data packages** (`eurostat`, `ameco`, ECB, `rOpenGov`, `essurvey`). | Accepted. Themes under 8 kept links fold into a neighbor; prune the 53-link text-analysis page first and split only if more than about 40 remain. |
+| D4 | **Where the plan and tooling live.** `_plans/` is committed (plan + scripts). `_plans/curation/` (your per-link decisions) is gitignored. The underscore keeps Quarto from rendering any of it. | Accepted. Done in PR 1. |
+| D5 | **Delivery: pull requests.** | **Resolved: use PRs, one per reviewable batch**, on the designated branch `claude/website-resources-wiki-omw6e8`. See the PR sequence in §4. No PR template exists in the repo, so each PR uses Summary / Test plan sections. |
+| D6 | **Held-back (instructor-only) links.** | **Resolved.** *Hold:* `gradetools`, `datadrivencv`, the "Course sequence" post, the "Free workshop on Deep Learning" post, `ocrug/presentations` (pedagogical decks, your call), the DataCamp conjoint course (login-gated), the Statistical Horizons conjoint seminar (paid). *Drop:* the RStudio Server on Google Compute Engine, Amazon AMI and "RStudio on AWS" guides (old, your call), "Python is superior to R", "Mining Sent Email for Self-Knowledge". These are encoded in `build_curation.py` so the table reproduces them. |
 
 ## 1. What I measured (so the expected outputs below are real)
 
@@ -168,6 +168,28 @@ Claude-Session: https://claude.ai/code/session_01KbGrmPbEkJ5aQUPvSNGiom
 
 ## 4. Tasks
 
+### PR sequence (D5)
+
+Each PR is one reviewable batch. The site deploys from `main` on merge, so nothing goes live before you merge it.
+
+| PR | Contents | Review focus |
+|---|---|---|
+| 1 | This plan, `_plans/tools/`, `.gitignore` entry (Task 1) | Approve the plan and decisions |
+| 2 | Guard test, Learning Stata, Stata hub, Statistics hub (Tasks 4–5) | The page pattern: tone, annotation depth, listing look |
+| 3 | R Batch A: Learning R, workflow (+ hub listing) (Task 6A) | Content accuracy |
+| 4 | R Batch B: reports, visualization, wrangling (Task 6B) | Content accuracy |
+| 5 | R Batch C and hub cleanup (Task 6C) | Content accuracy; hub no longer duplicates moved links |
+| 6 | Resources index listing and audit coverage (Tasks 7–8) | Navigation, accessibility |
+
+Mechanics:
+
+- Work stays on `claude/website-resources-wiki-omw6e8`. Because one branch name cannot back several open PRs, each PR is merged before the next one's work is pushed. After a merge, restart the branch from the new `main`: `git fetch origin main && git checkout -B claude/website-resources-wiki-omw6e8 origin/main` (the branch then carries only the next batch).
+- Work that changes no tracked file can run while a PR is open: the link check and the curation table live in the gitignored `_plans/curation/`.
+- PR bodies use **Summary** and **Test plan** sections (the repo has no PR template). The test plan lists the commands and measured results from the task's Check line.
+- Each task's "Commit" step is followed by push, then opening that task group's PR. After opening a PR, offer to watch it so review comments and CI failures reach the session.
+- Task 9's checks run again on `main` after PR 6 merges and once the Action has deployed.
+
+
 ### Task 1: Housekeeping — ignore working data, commit plan and tooling
 
 **Files:**
@@ -211,12 +233,10 @@ git commit -m "docs: add Raindrop resource-pages plan and curation tooling"
 
 **Check:** the tally printed by `check_links.py` sums to the number of `keep` rows (359 on the first pass), and every `dead`/`error` row has a Wayback result or `none`.
 
-- [ ] **Step 1: Confirm the network path you chose in D1**
+- [ ] **Step 1: Confirm network access (D1: granted)**
 
-- Option A: run `curl -sS -o /dev/null -w '%{http_code}\n' --max-time 20 https://r4ds.hadley.nz/`. Expected: `200`. (Today it fails with `CONNECT tunnel failed, response 403`.)
-- Option B: on your machine, from a checkout of the branch:
-  `RAINDROP_CSV=/path/to/your-export.csv python3 _plans/tools/build_curation.py`, then `pip install requests && python3 _plans/tools/check_links.py`, then send me `_plans/curation/curation_firstpass.csv`. I place it at the same path and continue.
-- Option C: skip to Task 3; `link_status` stays empty.
+Run: `curl -sS -o /dev/null -w '%{http_code}\n' --max-time 20 https://r4ds.hadley.nz/`
+Expected: `200`. (Done 2026-10-30. Before access was granted this failed with `CONNECT tunnel failed, response 403`.)
 
 - [ ] **Step 2: Build the first-pass table (skip if it already exists)**
 
@@ -648,13 +668,10 @@ Expected: no filenames listed; the sitemap count is `1`; `plans not published`. 
 Run: `grep -rhoE "resources/(r|stata|statistics|data|gis)\.html" teaching | sort -u | while read p; do test -e "docs/$p" && echo "ok $p" || echo "MISSING $p"; done`
 Expected: every line starts with `ok`.
 
-- [ ] **Step 4: Push the branch**
+- [ ] **Step 4: Confirm the last PR is merged and the deploy ran**
 
-```bash
-git push -u origin claude/website-resources-wiki-omw6e8
-```
-
-Expected: branch updated. No pull request is opened (D5). On retry for network failure only: wait 2 s, 4 s, 8 s, 16 s.
+Run: `git fetch origin main && git log --oneline origin/main -8`
+Expected: the six PR merge commits. Then, after the `Publish site` Action finishes, spot-check `https://paulmaxlove.com/resources/r/learning-r.html` and `https://paulmaxlove.com/sitemap.xml`.
 
 - [ ] **Step 5: Report**
 
@@ -691,7 +708,7 @@ I report what changed, the measured results above, the unverified annotations, a
 
 ---
 
-**Plan complete and saved to `_plans/2026-10-30-raindrop-resource-pages.md`. Once you have decided D1–D6, two execution options:**
+**Plan complete and saved to `_plans/2026-10-30-raindrop-resource-pages.md`. D1–D6 are resolved; execution continues PR by PR (see the PR sequence in §4).**
 
 1. **Subagent-Driven (recommended):** a fresh subagent per task with review between tasks.
 2. **Inline Execution:** run the tasks in this session with checkpoints at each gate.

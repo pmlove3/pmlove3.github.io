@@ -54,12 +54,18 @@ DROP_RULES = [  # (regex on lowercase "title url", reason)
     (r"selenium-python\.readthedocs", "Python, off-topic"),
     (r"kb\.iu\.edu/search", "search-results page"),
     (r"prooffreaderplus", "off-topic blog post"),
+    (r"rstudio server on google compute|rstudio server amazon machine|rstudio on aws", "outdated hosting guide"),
+    (r"python is superior to r", "off-topic opinion"),
+    (r"mining sent email", "off-topic"),
 ]
 HOLD_RULES = [  # instructor-oriented candidates, held back pending your call
     (r"gradetools", "grading tool"),
     (r"datadrivencv", "CV tooling"),
     (r"course sequence", "course-design post"),
     (r"free workshop on deep learning", "dated event post"),
+    (r"ocrug/presentations", "pedagogical slide decks"),
+    (r"campus\.datacamp\.com", "login-gated course"),
+    (r"statisticalhorizons\.com", "paid seminar"),
 ]
 
 THEMES = [  # first match wins on lowercase "title tags url"
