@@ -14,7 +14,7 @@
 
 Work was parked mid-plan when cloud compute ran out. Nothing is half-written: no page content exists yet, and everything below is committed and pushed.
 
-**Next (updated 2026-10-31): start on the R pages.** PR #3 (https://github.com/pmlove3/pmlove3.github.io/pull/3, branch `claude/resources-stata-pattern`) holds the guard test, the Learning Stata page, the Stata hub and the Statistics hub. The R batches branch from `main` after it merges. First review the R rows of the curation table (Task 3), then write Batches A–C. The Stata and Statistics rows are already decided.
+**Next (updated 2026-10-31): start on the R pages.** PR #3 (https://github.com/pmlove3/pmlove3.github.io/pull/3, branch `claude/resources-stata-pattern`) holds the guard test, the Learning Stata page, the Stata hub and the Statistics hub. The R batches branch from `main` after it merges. First review the R rows of the curation table (Task 3), then write Batches A–C. The Stata and Statistics rows are already decided. A follow-up PR on `claude/resources-stata-fixes` removes a link that turned out to be hijacked; the link checker does not catch a taken-over domain (the page still returns 200), so spot-check the R rows in a browser before their pages go live.
 
 **Done**
 
@@ -222,7 +222,7 @@ Claude-Session: https://claude.ai/code/session_01KbGrmPbEkJ5aQUPvSNGiom
 
 ### PR sequence (D5)
 
-Each PR is one reviewable batch on its own branch. The site deploys from `main` on merge, so nothing goes live before you merge it. You approved these five extra branch names (and only these) on 2026-10-30.
+Each PR is one reviewable batch on its own branch. The site deploys from `main` on merge, so nothing goes live before you merge it. You approved these five extra branch names (and only these) on 2026-10-30. On 2026-10-31 you also approved a sixth, `claude/resources-stata-fixes`, for the follow-up to PR 2 that removes the hijacked haghish.com link and corrects annotations (GitHub PR #4). Any further extra branch needs your approval first.
 
 | PR | Branch | Based on | Contents | Review focus |
 |---|---|---|---|---|
