@@ -10,6 +10,58 @@
 
 ---
 
+## Status and how to resume (parked 2026-10-30)
+
+Work was parked mid-plan when cloud compute ran out. Nothing is half-written: no page content exists yet, and everything below is committed and pushed.
+
+**Done**
+
+- PR #1 (this plan and `_plans/tools/`) is merged into `main`. Decisions D1–D6 are resolved.
+- PR #2 (https://github.com/pmlove3/pmlove3.github.io/pull/2, branch `claude/website-resources-wiki-omw6e8`) fixes the link checker and adds `apply_dead_link_policy.py`. It changes tooling only, never the live site. It was open when parked; merge it first if you agree.
+- Task 1 is done. Task 2 ran in the cloud sandbox with gaps (below). Task 3 has only the automatic first pass, with no manual edits.
+- GitHub PR numbers run one ahead of the "PR 1–6" labels in §4. The Stata pattern PR will be GitHub #3.
+
+**Not done**
+
+- No branch other than the designated one exists yet (the five extra branch names were approved for the cloud session only; say so again in a new session).
+- Tasks 3 (your approval), 4–9: guard test, Stata and Statistics pages, R pages, hubs, index, audit.
+
+**Open questions for you (Stata and Statistics rows, the gate for the Stata pattern PR)**
+
+1. Drop "Useful Commands in Stata" (Lucas Rosso): 404, no archive. Proposed: drop.
+2. Merge Steffen's Classroom playlist (three entries, one YouTube playlist) into one. Proposed: yes.
+3. "Start here" picks: Princeton Online Stata Tutorial, UCLA Stata Learning Modules, Stata Corp's learning-resources page. Right three?
+4. "Index of /~banks/111-labs.dir" (a Duke course-labs listing): student-useful, or hold as instructor material? Proposed: hold.
+5. Keep, with a "please verify" note, the seven Stata links the cloud sandbox could not reach: UCLA Stata modules, UVM Frames post, Arizona do-file templates, `estout`, haghish.com Stata Blog, the Wayback copy of "Stata for Researchers", and Princeton (bot-blocked). Proposed: keep.
+6. Statistics hub: keep LibreTexts *Introductory Statistics*, Combinations and Permutations, the UVA log-transformation article, and the UNC *A Primer in Probability*; drop the Indiana University search page and the letter-frequency blog post. Proposed: as stated.
+
+**What the cloud link check could not do** (so repeat it on your Mac): it could not reach `github.com` (103 `keep` rows are `unverified-github`), `web.archive.org` (8 rows), plain `http://` links (the sandbox proxies HTTPS only; 27 links were upgraded to https and 4 stayed `unverified-http`), and 6 hosts that failed with SSL or connection errors. Fourteen dead links were swapped to an archived copy without opening the snapshots; spot-check them.
+
+**Resume on your Mac**
+
+```bash
+git clone https://github.com/pmlove3/pmlove3.github.io.git   # or: git checkout main && git pull
+cd pmlove3.github.io
+brew install --cask quarto            # needed for rendering; the cloud copy was 1.10.20
+pip3 install requests                 # for check_links.py
+npm install                           # only for `npm run audit`
+
+export RAINDROP_CSV=~/Downloads/your-raindrop-export.csv      # the full export; keep it outside the repo
+python3 _plans/tools/build_curation.py                        # first pass; rules for hold/drop are encoded in the script
+python3 _plans/tools/check_links.py --include-github          # open network: checks github.com and http:// links too
+python3 _plans/tools/check_links.py --retest                  # re-checks the failures one at a time
+python3 _plans/tools/apply_dead_link_policy.py
+python3 _plans/tools/render_review.py                         # writes _plans/curation/curation_firstpass.md
+```
+
+`_plans/curation/` is gitignored, so these files stay on your machine. The cloud copies of `curation_firstpass.csv` and `.md` were attached to the parking message, so you can start from them instead and skip the rebuild. The Stata and Statistics rows will look the same either way.
+
+**Resume prompt for Claude Code on your Mac**
+
+> Read `_plans/2026-10-30-raindrop-resource-pages.md`, starting with "Status and how to resume". Continue from there: I will answer the six open questions for the Stata and Statistics rows. You may use these branches: `claude/resources-stata-pattern`, `claude/resources-r-batch-a`, `claude/resources-r-batch-b`, `claude/resources-r-batch-c`, `claude/resources-hubs-index`. One PR per batch, no force-pushes.
+
+Things that tripped the cloud run, so you can skip them locally: do not run `build_curation.py --force` once you have edited the CSV; `check_links.py` with many threads gives false failures through some proxies (it defaults to 4); use `python3 -B -I` for scripts so no `__pycache__` appears in `_plans/tools/`.
+
 ## 0. Decisions (resolved 2026-10-30)
 
 D1, D5 and the D6 additions below were set by you; D2, D3 and D4 follow my recommendations, which you did not contest. Say so if you want any changed.
