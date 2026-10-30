@@ -229,7 +229,10 @@ a {
 .quarto-category,
 .listing-categories .listing-category {
   border-radius: 999px !important;
-  background: var(--accent-mustard, #a86c0f) !important;
+  /* Light mustard in both themes: the light-theme accent (#a86c0f) is only 3.9:1 with the dark label. */
+  background: #e8bc5c !important;
+  /* Bootstrap fades .quarto-category to 0.6 opacity, which breaks AA contrast. */
+  opacity: 1 !important;
   color: #221a08 !important;
   border: none !important;
   font-weight: 600;
