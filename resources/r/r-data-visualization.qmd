@@ -18,7 +18,7 @@ This guide collects tutorials, examples, and packages for drawing charts and map
 
 - [An Introduction on How to Make Beautiful Charts With R and ggplot2](https://minimaxir.com/2015/02/ggplot-tutorial) — 2015 tutorial on making polished charts with ggplot2.
 - [Beautiful plotting in R: A ggplot2 cheatsheet](https://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3#a-default-plot-in-ggplot2) — 2014 blog post of ggplot2 examples, linked at its default-plot section.
-- [ggplot2 cheatsheet (PDF)](https://www.rstudio.com/wp-content/uploads/2015/12/ggplot2-cheatsheet.pdf) — RStudio's ggplot2 cheatsheet as a PDF, 2015 version.
+- [ggplot2 cheatsheet (PDF)](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf) — Posit's official ggplot2 data visualization cheatsheet as a PDF.
 - [Lattice graphics, STAT 545A](https://www.stat.ubc.ca/~jenny/STAT545A/block91_latticeGraphics.html) — Course notes on the lattice graphics package from the University of British Columbia.
 - [R: How to Layout and Design an Infographic](https://alstatr.blogspot.ch/2015/02/r-how-to-layout-and-design-infographic.html) — Blog post on laying out and designing an infographic in R.
 - [Tufte style visualizations in R using Plotly](https://www.r-bloggers.com/2016/04/tufte-style-visualizations-in-r-using-plotly/) — R-Bloggers post on recreating Tufte-style visualizations with Plotly.

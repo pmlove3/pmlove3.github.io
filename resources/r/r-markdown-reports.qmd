@@ -11,8 +11,8 @@ This guide collects material for writing reports, papers, and slides that combin
 ## Start here
 
 - [Posit Documentation on RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html) — First lesson of Posit's R Markdown tutorial. RMarkdown uses Pandoc's implementation of Markdown (see the Pandoc entry below).
-- [R Markdown: The Definitive Guide (2023)](https://bookdown.org/yihui/rmarkdown/) — Reference book covering R Markdown's output formats, options, and features.
-- [R Markdown Cookbook (2024)](https://bookdown.org/yihui/rmarkdown-cookbook/) — Task-based follow-up to the Definitive Guide, for more advanced work.
+- [R Markdown: The Definitive Guide (2023)](https://pkg.yihui.org/rmarkdown-book/) — Reference book covering R Markdown's output formats, options, and features.
+- [R Markdown Cookbook (2024)](https://pkg.yihui.org/rmarkdown-cookbook/) — Task-based follow-up to the Definitive Guide, for more advanced work.
 
 ## Learning R Markdown
 
@@ -29,7 +29,7 @@ This guide collects material for writing reports, papers, and slides that combin
 
 - [Bibliographies and Citations](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) — Posit guide to adding bibliographies and citations to R Markdown documents.
 - [Citations in R Markdown](https://tutorials.inbo.be/tutorials/r_citations_markdown/) — Tutorial on citing publications and building bibliographies with RStudio's citation tools.
-- [RStudio: Quick Guide to Citations](https://www.youtube.com/watch/zuuOYjE8m98) — Short YouTube guide to citations in RStudio.
+- [RStudio: Quick Guide to Citations](https://www.youtube.com/watch?v=zuuOYjE8m98) — Short YouTube guide to citations in RStudio.
 - [citr](https://github.com/crsh/citr) — RStudio addin for inserting Markdown citations.
 - [knitcitations](https://github.com/cboettig/knitcitations) — Package that generates citations for knitr Markdown and HTML documents.
 - [RefManageR](https://github.com/ropensci/RefManageR) — Package for importing and managing bibliographic references from R.
@@ -43,7 +43,7 @@ This guide collects material for writing reports, papers, and slides that combin
 - [pagedown](https://github.com/rstudio/pagedown) — Package for turning R Markdown HTML output into paged documents that print well.
 - [officer](https://github.com/davidgohel/officer) — Package for creating Word and PowerPoint documents from R.
 - [remedy](https://github.com/ThinkR-open/remedy) — RStudio addins that simplify writing Markdown.
-- [tinytex](https://github.com/yihui/tinytex) — Small LaTeX distribution for R Markdown PDF output; the [TinyTeX](../tinytex.html) page links to its website.
+- [tinytex](https://github.com/rstudio/tinytex) — Small LaTeX distribution for R Markdown PDF output; the [TinyTeX](../tinytex.html) page links to its website.
 - [RPubs](https://rpubs.com/about/getting-started) — Getting-started page for publishing R Markdown documents online with RPubs.
 
 ## Related on this site

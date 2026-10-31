@@ -12,7 +12,7 @@ This guide collects material for importing, cleaning, reshaping, and tabulating 
 
 - [Tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) — Vignette from the tidyr package explaining the tidy data format.
 - [A new data processing workflow for R: dplyr, magrittr, tidyr, ggplot2](https://zevross.com/blog/2015/01/13/a-new-data-processing-workflow-for-r-dplyr-magrittr-tidyr-ggplot2) — 2015 blog post describing a data-processing workflow built on these four packages.
-- [Data wrangling cheatsheet (PDF)](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) — RStudio's data wrangling cheatsheet as a PDF, 2015 version.
+- [Data transformation cheatsheet (PDF)](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf) — Posit's official data transformation cheatsheet with dplyr as a PDF.
 
 ## Cleaning and validation
 
@@ -26,14 +26,14 @@ This guide collects material for importing, cleaning, reshaping, and tabulating 
 
 ## Reading and writing files and databases
 
-- [vroom](https://github.com/r-lib/vroom) — Package for fast reading of delimited files.
+- [vroom](https://github.com/tidyverse/vroom) — Package for fast reading of delimited files.
 - [How data.table's fread can save you a lot of time and memory](https://www.r-bloggers.com/2019/06/how-data-tables-fread-can-save-you-a-lot-of-time-and-memory-and-take-input-from-shell-commands/) — R-Bloggers post on reading large files with data.table's fread, including input from shell commands.
 - [writexl](https://github.com/ropensci/writexl/) — Light-weight package for writing data frames to xlsx files.
 - [fs](https://github.com/r-lib/fs/) — Package for file operations that work across operating systems.
-- [dirdf](https://github.com/ropenscilabs/dirdf) — Package that extracts metadata from directory and file names.
+- [dirdf](https://github.com/HenrikBengtsson/dirdf) — Package that extracts metadata from directory and file names.
 - [wand](https://github.com/hrbrmstr/wand) — Package that guesses a file's type.
 - [Working with databases in R](https://datascienceplus.com/working-with-databases-in-r) — DataScience+ article on using databases from R.
-- [Databases using R: managing credentials](https://db.rstudio.com/best-practices/managing-credentials/) — Page of Posit's database guide on managing database credentials from R.
+- [Databases using R: managing credentials](https://solutions.posit.co/connections/db/best-practices/managing-credentials/) — Page of Posit's database guide on managing database credentials from R.
 
 ## Dates and times
 
@@ -50,7 +50,7 @@ This guide collects material for importing, cleaning, reshaping, and tabulating 
 - [repurrrsive](https://github.com/jennybc/repurrrsive) — Package of recursive list datasets for practicing purrr and list handling.
 - [zeallot](https://github.com/r-lib/zeallot) — Package for assigning several variables from one result.
 - [transpose, R-statistics blog](https://www.r-statistics.com/tag/transpose/) — Blog posts tagged transpose, on flipping rows and columns.
-- [Discover 7 Hidden Gems in the R Package Ecosystem](https://www.youtube.com/watch/V-EssPrGPHg) — Video on seven lesser-known R packages.
+- [Discover 7 Hidden Gems in the R Package Ecosystem](https://www.youtube.com/watch?v=V-EssPrGPHg) — Video on seven lesser-known R packages.
 
 ## R for Excel users
 
@@ -62,7 +62,7 @@ This guide collects material for importing, cleaning, reshaping, and tabulating 
 ## Making tables
 
 - [tangram](https://github.com/spgarbet/tangram) — Package that builds tables with a table grammar.
-- [texreg](https://github.com/leifeld/texreg) — Package that converts regression output to LaTeX or HTML tables.
+- [texreg](https://github.com/leifeld-lab/texreg) — Package that converts regression output to LaTeX or HTML tables.
 - [Make Beautiful Tables with the Formattable Package](https://www.r-bloggers.com/2018/11/make-beautiful-tables-with-the-formattable-package/) — R-Bloggers guide to the formattable package for styled tables.
 - [Top 7 Packages for Making Beautiful Tables in R](https://towardsdatascience.com/top-7-packages-for-making-beautiful-tables-in-r-7683d054e541) — Towards Data Science comparison of seven packages for making tables.
 
