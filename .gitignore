@@ -12,3 +12,5 @@ node_modules/
 
 /_plans/curation/
 /_plans/.venv/
+__pycache__/
+.superpowers/

@@ -9,33 +9,38 @@ listing:
     - "stata/*.qmd"
   type: default
   fields: [title, description]
-  sort: "title"
+  sort:
+    - "order"
+    - "title"
   max-description-length: 200
 ---
 
-## Guides
+## Quantitative Methods
 
-::: {#guides}
-:::
+* [R](../resources/r.html) — Installation, cloud computing options, Quarto publishing setup, and R topic guides.
+* [Stata](../resources/stata.html) — NYUAD software downloads, workflow habits, operator reference, and learning guides.
+* [Statistics](../resources/statistics.html) — Open textbooks, probability primers, z-score tables, and regression interpretation notes.
+* [VPM and Voting Theory](../resources/vpm-and-voting-theory.html) — Ranked-choice voting, Condorcet, approval voting, STV, and power-index calculators.
 
-## Statistics
+## Datasets & Mapping
 
-[Stata](../resources/stata.html) · [Stata Download](../resources/stata-download.html) · [R](../resources/r.html) · [Statistics](../resources/statistics.html) · [VPM and Voting Theory](../resources/vpm-and-voting-theory.html)
+* [Data](../resources/data.html) — Cross-national surveys, political and economic indicators, archives, and geospatial collections.
+* [GIS](../resources/gis.html) — QGIS installation, tutorials, video playlists, plugins, and project-sharing instructions.
 
-## Data & GIS
+## Writing & Research
 
-[Data](../resources/data.html) · [GIS](../resources/gis.html)
-
-## Writing Tools
-
-[Reading & Writing](../resources/reading-writing.html)
+* [Reading & Writing](../resources/reading-writing.html) — Guides for political science essays, policy memos, op-eds, and cables.
+* [Research Tools](../resources/research-tools.html) — Reference management with Zotero, note-taking apps, editors, and macOS utilities.
 
 ## Computing
 
-[Operating Systems](../resources/operating-systems.html) · [TinyTeX](../resources/tinytex.html) · [LLM](../resources/llm.html) · [Ollama](../resources/ollama.html)
+* [Operating Systems](../resources/operating-systems.html) — macOS, Homebrew package management, Windows training, and coding primers.
+* [TinyTeX](../resources/tinytex.html) — Lightweight LaTeX distribution for rendering R Markdown and Quarto PDFs.
+* [Ollama](../resources/ollama.html) — Step-by-step installation for running local large language models on macOS and Windows.
 
-## Research Tools
+## Topic Guides
 
-Follow the below link to view tips on learning, reading, and writing political science.
+Focused guides on R and Stata packages, workflows, and methods (also listed on the [R](../resources/r.html) and [Stata](../resources/stata.html) pages):
 
-[Research Tools](../resources/research-tools.html)
+::: {#guides}
+:::
