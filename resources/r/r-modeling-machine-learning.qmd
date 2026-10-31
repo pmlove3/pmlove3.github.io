@@ -1,0 +1,28 @@
+---
+title: "R Modeling and Machine Learning"
+description: "Introductions, packages, and guides for statistical modeling, machine learning, and model selection in R."
+date: "2026-10-31"
+order: 11
+categories: [r, modeling]
+---
+
+This guide collects introductions and packages for statistical modeling and machine learning in R. Begin with the two picks under Start here, then use the guides on caret, tidymodels, imputation, and model selection as your project needs them. Statistics reference sheets are on the [Statistics](../statistics.html) page.
+
+## Start here
+
+- [An Introduction to Machine Learning with R](https://lgatto.github.io/IntroMachineLearningWithR/) — Online course introducing machine learning with R.
+- [Introduction to Probability for Data Science](https://probability4datascience.com/index.html) — Site for the book Introduction to Probability for Data Science.
+
+## Guides and packages
+
+- [A Guide to Using Caret in R](https://towardsdatascience.com/a-guide-to-using-caret-in-r-71dec0bda208) — Towards Data Science guide to the caret package for classification and regression training.
+- [How to Use Catboost with Tidymodels](https://www.r-bloggers.com/how-to-use-catboost-with-tidymodels) — R-Bloggers post on using CatBoost with tidymodels.
+- [KNN imputation with R](https://blog.devgenius.io/knn-imputation-with-r-ba296cc71c6d) — Post on filling in missing values with k-nearest neighbors as a pre-processing step.
+- [mosaic](https://github.com/ProjectMOSAIC/mosaic) — Source repository for the mosaic package from Project MOSAIC.
+- [mplot](https://github.com/garthtarr/mplot) — Package for model selection and stability plots.
+- [Cluster.OBeu](https://github.com/okgreece/Cluster.OBeu) — Package for cluster analysis.
+
+## Related on this site
+
+- [R](../r.html) — Installation, running R online, and publishing setup.
+- [Statistics](../statistics.html) — Statistical tables, formula sheets, and probability references.

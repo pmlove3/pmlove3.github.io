@@ -1,0 +1,71 @@
+---
+title: "R Text Analysis"
+description: "Books, tutorials, topic modeling guides, regular expression tools, and packages for analyzing text in R."
+date: "2026-10-31"
+order: 6
+categories: [r, text-analysis]
+---
+
+This guide collects material for analyzing text with R, from cleaning strings and regular expressions to word frequencies and topic models. Begin with the three picks under Start here, then use the sections on tidy text, topic modeling, regular expressions, and packages as your project needs them. Installation steps are on the [R](../r.html) page.
+
+## Start here
+
+- [Text Mining with R](https://www.tidytextmining.com/) — Free online book on text mining with tidy data principles, by Julia Silge and David Robinson.
+- [quanteda tutorials](https://tutorials.quanteda.io/) — Tutorials that introduce quantitative text analysis with the quanteda package.
+- [Strings, R for Data Science (2e)](https://r4ds.hadley.nz/strings.html) — Chapter on working with strings in R, including regular expressions.
+
+## Tidy text and tutorials
+
+- [The tidy text format](https://www.tidytextmining.com/tidytext.html#the-unnest_tokens-function) — Chapter 1 of Text Mining with R, on the tidy text format and the unnest_tokens function.
+- [Converting to and from non-tidy formats](https://www.tidytextmining.com/dtm.html) — Chapter 5 of Text Mining with R, on moving text between tidy and non-tidy formats.
+- [Term Frequency and Inverse Document Frequency (tf-idf) Using Tidy Data](https://cloud.r-project.org/web/packages/tidytext/vignettes/tf_idf.html) — Vignette from the tidytext package on tf-idf with tidy data.
+- [tidytext](https://github.com/juliasilge/tidytext) — Package for text mining with tidy tools.
+- [widyr](https://github.com/dgrtwo/widyr) — Package for widening, processing, and re-tidying datasets, such as for pairwise word counts.
+- [Basic Text Mining with R](https://web.archive.org/web/20240327053733/https://rstudio-pubs-static.s3.amazonaws.com/132792_864e3813b0ec47cb95c7e1e2e2ad83e7.html) — Introductory text mining tutorial in R (archived copy).
+- [Analyzing Star Wars Movie Scripts](https://www.kaggle.com/xvivancos/analyzing-star-wars-movie-scripts) — Kaggle notebook that analyzes Star Wars movie scripts in R.
+- [Getting started with stringr for textual analysis in R](https://www.storybench.org/getting-started-stringr-textual-analysis-r/) — Storybench tutorial on using stringr to work with text.
+- [Concordancing with R](https://web.archive.org/web/20191017031409/http://www.martinschweinberger.de/blog/welcom/) — Martin Schweinberger's post on concordancing in R (archived copy).
+
+## Topic modeling
+
+- [Topic modeling](https://www.tidytextmining.com/topicmodeling.html) — Chapter 6 of Text Mining with R, on topic modeling.
+- [An Introduction to Topic Modeling](https://www.youtube.com/watch?v=IUAHUEy1V0Q) — Video introduction to topic models by Professor Chris Bail.
+- [The game is afoot! Topic modeling of Sherlock Holmes stories](https://juliasilge.com/blog/sherlock-holmes-stm/) — Julia Silge's post on topic modeling the Sherlock Holmes stories with stm.
+- [Training, evaluating, and interpreting topic models](https://juliasilge.com/blog/evaluating-stm/) — Julia Silge's follow-up post on training, evaluating, and interpreting topic models.
+- [stm](https://github.com/bstewart/stm) — Package for the structural topic model.
+- [Topic Models (LDA, CTM, STM)](https://rpubs.com/chelseyhill/672546) — RPubs introduction to topic models, covering LDA, CTM, and STM.
+- [A topic model for movie reviews](https://ldavis.cpsievert.me/reviews/reviews.html) — Document that fits an LDA topic model to movie review data and explores it with LDAvis.
+- [Topic Modeling in R With tidytext and textmineR](https://medium.com/swlh/topic-modeling-in-r-with-tidytext-and-textminer-package-latent-dirichlet-allocation-764f4483be73) — Medium article on latent Dirichlet allocation with these two packages; Medium may limit free reading.
+- [A Link Between topicmodels LDA and LDAvis](https://www.r-bloggers.com/2015/05/a-link-between-topicmodels-lda-and-ldavis/) — R-Bloggers post on connecting topicmodels output to the LDAvis package.
+- [David M. Blei: Topic Modeling Software](https://web.archive.org/web/20250523204709/http://www.cs.columbia.edu/~blei/topicmodeling_software.html) — David Blei's page listing topic modeling software (archived copy).
+
+## Text mining frameworks
+
+- [Why you should stop using other text mining packages and embrace quanteda](https://www.r-bloggers.com/2021/01/kenneth-benoit-why-you-should-stop-using-other-text-mining-packages-and-embrace-quanteda/) — R-Bloggers write-up of Kenneth Benoit's talk arguing for quanteda over other text mining packages.
+- [Text Mining Infrastructure in R](https://www.jstatsoft.org/article/view/v025i05) — Journal of Statistical Software article describing the tm text mining infrastructure for R.
+
+## Regular expressions
+
+- [Regular Expression Playground](https://regexlearn.com/playground) — Interactive site for practicing and testing regular expressions.
+- [RegExr: Learn, Build, & Test RegEx](https://regexr.com/) — Online tool for building and testing regular expressions.
+- [Regex Cheat Sheet](https://web.archive.org/web/20260225145046/https://www.petefreitag.com/cheatsheets/regex/) — Regex cheat sheet from Pete Freitag's site (archived copy).
+- [The Rebus Code: Unveiling the Secrets of Regex in R](https://www.r-bloggers.com/2024/05/the-rebus-code-unveiling-the-secrets-of-regex-in-r/) — R-Bloggers post on writing regular expressions in R.
+
+## Text packages
+
+| Package | What it does |
+|---|---|
+| [SnowballC](https://cran.r-project.org/web/packages/SnowballC/index.html) | R interface to the Snowball word stemmers |
+| [hunspell](https://github.com/ropensci/hunspell/) | Stems words, tokenizes text, and checks spelling |
+| [readtext](https://github.com/quanteda/readtext) | Reads text files into R |
+| [jstor](https://github.com/ropensci/jstor) | Imports journal data from JSTOR's Data for Research |
+| [textreuse](https://github.com/ropensci/textreuse/) | Detects text reuse and document similarity |
+| [spelling](https://github.com/ropensci/spelling/) | Checks spelling in text and documents |
+| [cld3](https://github.com/ropensci/cld3/) | Detects the language of a text with Google's Compact Language Detector 3 |
+| [youtubecaption](https://github.com/jooyoungseo/youtubecaption) | Downloads YouTube subtitles into a tidy data frame |
+| [textclean](https://github.com/trinker/textclean) | Cleans and normalizes text data |
+| [citation-network](https://github.com/arsiders/citation-network) | Builds a quick cross-citation network for a set of texts |
+
+## Related on this site
+
+- [R](../r.html) — Installation, running R online, and publishing setup.

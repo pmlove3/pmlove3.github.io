@@ -1,0 +1,28 @@
+---
+title: "R Shiny and Dashboards"
+description: "Books, tools, and examples for building interactive apps and dashboards with Shiny and htmlwidgets."
+date: "2026-10-31"
+order: 10
+categories: [r, shiny]
+---
+
+This guide collects books, tools, and examples for building interactive apps and dashboards in R with Shiny. Begin with the three picks under Start here, then use the tools section for layout, input, and widget packages. Installation and online options for running R are on the [R](../r.html) page.
+
+## Start here
+
+- [Shiny](https://shiny.rstudio.com) — Official Shiny site; Shiny builds interactive web apps from R and Python.
+- [Mastering Shiny](https://mastering-shiny.org/) — Free online book on building Shiny apps.
+- [Shiny, R in Practice](https://zsmith27.github.io/r_in_practice_bookdown/shiny.html#what-is-shiny) — Chapter on Shiny from the R in Practice online book.
+
+## Tools and examples
+
+- [ShinyUiEditor](https://rstudio.github.io/shinyuieditor/) — Drag-and-drop interface for building Shiny apps.
+- [gridlayout](https://rstudio.github.io/gridlayout/) — Package for laying out Shiny apps and other R-derived HTML documents with CSS grid.
+- [colourpicker](https://github.com/daattali/colourpicker) — Colour picker for Shiny apps and for selecting colours in plots.
+- [rhandsontable](https://jrowen.github.io/rhandsontable/) — R interface for spreadsheet-style tables in Shiny apps and documents.
+- [htmlwidgets for R](https://www.htmlwidgets.org) — Framework for bringing JavaScript visualizations into R.
+- [Flexdashboard shiny ggplot2 diamonds](https://testing-apps.shinyapps.io/flexdashboard-shiny-ggplot2-diamonds/) — Example flexdashboard that combines Shiny and ggplot2 using the diamonds data.
+
+## Related on this site
+
+- [R](../r.html) — Installation, running R online, and publishing setup.

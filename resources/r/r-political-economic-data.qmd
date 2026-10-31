@@ -1,0 +1,28 @@
+---
+title: "R Packages for Political and Economic Data"
+description: "R packages and project sites for pulling European, economic, and public-sector data into R."
+date: "2026-10-31"
+order: 9
+categories: [r, political-data]
+---
+
+This guide collects R packages and project sites for retrieving political and economic data, with a focus on Europe. Start with the project sites for broader collections, then use the package entries to download Eurostat, AMECO, European Central Bank, and European Social Survey data. More datasets are listed on the [Data](../data.html) page.
+
+## Project sites
+
+- [Ropengov](https://ropengov.github.io) — Site of the rOpenGov project, which collects R tools for open government data.
+- [SRF Data auf GitHub](https://srfdata.github.io) — GitHub site of SRF Data, the data team of the Swiss broadcaster SRF.
+
+## Packages and guides
+
+- [eurostat](https://github.com/ropengov/eurostat) — rOpenGov package for accessing Eurostat data from R.
+- [ameco](https://github.com/expersso/ameco) — Package for the European Commission's annual macro-economic database, AMECO.
+- [Programmatic access to the European Central Bank's Statistical Data Warehouse](https://web.archive.org/web/20161204013402/https://cran.r-project.org/web/packages/ecb/vignettes/ecb_sdw.html) — Vignette on pulling European Central Bank statistics into R (archived copy).
+- [essurvey](https://github.com/ropensci/essurvey) — Package for downloading European Social Survey data.
+- [convergEU](https://cran.r-project.org/web/packages/convergEU/index.html) — CRAN package of indicators and measures by country and time.
+- [scraEP](https://cran.r-project.org/web/packages/scraEP/index.html) — CRAN package for scraping career information on members of the European Parliament.
+
+## Related on this site
+
+- [R](../r.html) — Installation, running R online, and publishing setup.
+- [Data](../data.html) — Datasets, news sources, and teaching data.
