@@ -1,0 +1,50 @@
+---
+title: "R Web Scraping and APIs"
+description: "Tutorials and packages for scraping websites, automating browsers, and calling web APIs from R."
+date: "2026-10-31"
+order: 7
+categories: [r, web-scraping, rvest, selenium, api, httr]
+---
+
+This guide collects tutorials and packages for getting data from the web with R, whether by scraping pages, driving a browser, or calling an API. Begin with the three picks under Start here, then use the other sections as your project needs them. Check a site's terms and robots.txt rules before scraping it. Sources of ready-made datasets are on the [Data](../data.html) page.
+
+## Start here
+
+- [R Web Scraping Tutorial with rvest](https://www.datacamp.com/tutorial/r-web-scraping-rvest) — DataCamp tutorial on web scraping with rvest, built around a real project.
+- [CRAN Task View: Web Technologies and Services](https://cloud.r-project.org/web/views/WebTechnologies.html) — CRAN's curated list of R packages for web technologies and services.
+- [Accessing APIs from R (and a little R programming)](https://www.r-bloggers.com/2015/11/accessing-apis-from-r-and-a-little-r-programming/) — R-Bloggers post on accessing web APIs from R.
+
+## Scraping pages
+
+- [BeautifulSoup vs. Rvest](https://theautomatic.net/2019/07/23/beautifulsoup-vs-rvest/) — Post comparing Python's BeautifulSoup with R's rvest for web scraping.
+- [Web Scraping with rvest: Exploring Sports Industry Jobs](https://www.r-bloggers.com/web-scraping-with-rvest-exploring-sports-industry-jobs) — R-Bloggers example of scraping sports-industry job listings with rvest.
+- [SelectorGadget](https://web.archive.org/web/20201111202324/https://cran.r-project.org/web/packages/rvest/vignettes/selectorgadget.html) — rvest vignette on using SelectorGadget to find the selectors to scrape (archived copy).
+- [R and the web (for beginners), Part III: Scraping MPs' expenses in detail](https://giventhedata.blogspot.ch/2012/08/r-and-web-for-beginners-part-iii.html) — Third part of a 2012 series on R and the web, on scraping MPs' expenses.
+- [Web Scraping JS- and progressively-generated content](https://rpubs.com/stevecarufel/bandsintown_scraper) — RPubs example of scraping JavaScript-generated content from Bandsintown.
+- [polite](https://github.com/dmi3kno/polite) — Package for scraping websites politely.
+
+## Browser automation with Selenium
+
+- [RSelenium](https://github.com/ropensci/RSelenium) — R client for Selenium Remote WebDriver.
+- [RSelenium: Introduction](https://johndharrison.github.io/RSOCRUG/#18) — Introduction to RSelenium, linked at slide 18 of the presentation.
+- [Using RSelenium and Docker To Webscrape In R](https://web.archive.org/web/20200625025636/https://callumgwtaylor.github.io/blog/2018/02/01/using-rselenium-and-docker-to-webscrape-in-r-using-the-who-snake-database/) — Tutorial on scraping the WHO snake database with RSelenium and Docker (archived copy).
+- [RSelenium Tutorial](https://web.archive.org/web/20240925140001/https://joshuamccrain.com/tutorials/web_scraping_R_selenium.html) — Tutorial on web scraping in R with RSelenium (archived copy).
+- [RSelenium For Mac: Update](https://www.raynergobran.com/2017/01/rselenium-mac-update/) — Update on running RSelenium on a Mac, using Docker to run Selenium 3.
+- [seleniumPipes](https://github.com/johndharrison/seleniumPipes) — R client that implements the W3C WebDriver specification.
+- [seleniumPipes: Basic operation](https://rpubs.com/johndharrison/seleniumPipes-basic) — RPubs demonstration of basic operations with seleniumPipes.
+
+## APIs and JSON
+
+- [Using R to download and parse JSON](https://zevross.com/blog/2015/02/12/using-r-to-download-and-parse-json-an-example-using-data-from-an-open-data-portal) — Zev Ross post on downloading and parsing JSON from an open data portal with R.
+- [Working with The New York Times API in R](https://www.storybench.org/working-with-the-new-york-times-api-in-r/) — Storybench tutorial on using the New York Times API from R.
+- [New York Times API and httr](https://ccgilroy.github.io/nyt-api-httr-demo/nyt_api_httr_demo.html) — Demo of using the New York Times API with the httr package.
+- [curl](https://github.com/jeroen/curl) — Package that gives R a modern and flexible web client.
+- [plumber](https://github.com/rstudio/plumber) — Package that turns R code into a web API.
+- [How to hide a password in R with the keyring package](https://theautomatic.net/2019/06/25/how-to-hide-a-password-in-r-with-the-keyring-package/) — Post on keeping passwords out of your R scripts with keyring, useful when calling APIs.
+- [wayback](https://github.com/hrbrmstr/wayback) — Tools for working with the Internet Archive's Wayback Machine APIs from R.
+- [scholar](https://cran.r-project.org/web/packages/scholar/index.html) — CRAN page for scholar, a package that extracts citation data from Google Scholar.
+
+## Related on this site
+
+- [R](../r.html) — Installation, running R online, and publishing setup.
+- [Data](../data.html) — Datasets, news sources, and teaching data.

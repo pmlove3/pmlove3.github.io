@@ -1,0 +1,37 @@
+---
+title: "R Networks, Conjoint Experiments, and Causal Diagrams"
+description: "Packages and guides for network analysis, conjoint survey experiments, and causal diagrams in R."
+date: "2026-10-31"
+order: 8
+categories: [r, networks, network-analysis, statnet]
+---
+
+This guide collects packages and tutorials for analyzing networks, designing and analyzing conjoint survey experiments, and drawing causal diagrams in R. Use the network section for graph tools and statistical network models, the conjoint section for survey-experiment guides, and the last section for directed acyclic graphs. Installation steps are on the [R](../r.html) page.
+
+## Network analysis
+
+- [igraph](https://github.com/igraph/rigraph) — Source repository for the igraph R package for network analysis.
+- [ggraph](https://github.com/thomasp85/ggraph) — Package that applies a grammar of graphics to network and graph visualization.
+- [network](https://cran.r-project.org/web/packages/network/index.html) — CRAN page for the network package, which provides network objects for R.
+- [statnet](https://github.com/statnet/statnet) — Meta-package of software tools for the statistical analysis of network data.
+- [ergm](https://github.com/statnet/ergm) — Package to fit, simulate, and diagnose exponential-family random graph models for networks.
+- [tergm](https://github.com/statnet/tergm) — Package for models of network evolution based on exponential-family random graph models.
+- [RSiena](https://github.com/stocnet/rsiena/wiki) — Wiki for RSiena, an R package for Simulation Investigation for Empirical Network Analysis.
+- [sigmajs](https://github.com/JohnCoene/sigmajs) — R interface to the sigma.js library for interactive network graphs.
+- [Discourse Network Analyzer (DNA)](https://github.com/leifeld-lab/dna) — Tool for analyzing discourse networks.
+- [Combining social network analysis and agent-based modelling](https://sesmo.org/article/view/16325) — Journal article on combining social network analysis with agent-based modelling.
+
+## Conjoint experiments
+
+- [The ultimate practical guide to conjoint analysis with R](https://www.andrewheiss.com/blog/2023/07/25/conjoint-bayesian-frequentist-guide/#sec-frequentist) — Andrew Heiss's guide to analyzing conjoint data with brms and marginaleffects.
+- [Conjoint analysis, R for marketing students](https://bookdown.org/content/6ef13ea6-4e86-4566-b665-ebcd19d45029/conjoint.html) — Chapter on conjoint analysis from an R course for marketing students.
+- [Conjoint Experiments, Jens Hainmueller](https://j-hai.github.io/projects/5_project_Conjoint_Experiments/) — Jens Hainmueller's project page on conjoint experiments.
+
+## Causal diagrams
+
+- [DAGitty online](https://dagitty.net/dags.html) — Online tool from DAGitty for drawing directed acyclic graphs.
+- [dagitty on CRAN](https://cran.r-project.org/web/packages/dagitty/index.html) — CRAN page for the dagitty R package.
+
+## Related on this site
+
+- [R](../r.html) — Installation, running R online, and publishing setup.
