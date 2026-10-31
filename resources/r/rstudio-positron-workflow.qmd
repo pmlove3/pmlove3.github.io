@@ -1,0 +1,78 @@
+---
+title: "R Workflow and Tools"
+description: "Editors, project setup, code style, Git and GitHub, containers, and helper packages for working in R with RStudio, Positron, or VS Code."
+date: "2026-10-31"
+order: 2
+categories: [r, workflow]
+---
+
+This guide gathers material on how to work with R day to day: choosing and configuring an editor, organizing projects, styling code, and using Git. Start with the editor and project sections, then add the style and Git guidance as your projects grow. Installing R itself is covered on the [R](../r.html) page.
+
+## Editors and environments
+
+- [Command Palette, Posit](https://docs.posit.co/ide/user/ide/guide/ui/command-palette.html) — Posit documentation for the RStudio command palette, a searchable list of IDE commands.
+- [Run R on VSCode (2021 update)](https://www.youtube.com/watch?v=INP-FsluDuk) — Video on setting up and running R code in Visual Studio Code.
+- [Simple setup for R in VSCode instead of RStudio (Mac)](https://www.youtube.com/watch/rKPfssR66GM) — Video on configuring VS Code as an R development environment on a Mac.
+- [radian](https://github.com/randy3k/radian) — Alternative R console that aims to be a more modern replacement for the default terminal console.
+- [Using R with Emacs and ESS](https://www.r-bloggers.com/2018/06/using-r-with-emacs-and-ess/) — R-Bloggers article on the basics of running R from Emacs with the ESS package.
+- [Nvim-R for people who love R, vim, and keyboards](https://sherif.io/2017/07/22/nvim-r.html) — Blog post on writing R in Vim or Neovim with the Nvim-R plugin.
+- [How to install R on a Jupyter notebook](https://www.storybench.org/install-r-jupyter-notebook/) — Storybench walkthrough of adding R to Jupyter notebooks and building a visualization.
+- [Configure Jupyter to work with R on a Mac](https://www.chrisjmendez.com/2018/12/04/configure-jupyter-notebook-to-work-with-r/) — Steps for connecting Jupyter Notebook to R on a Mac with Homebrew.
+- [How to use R on Google Colaboratory](https://shrmtmt.medium.com/how-to-use-r-on-google-colaboratory-9f49f81973c8) — Medium article on running R in Google Colab; Medium may limit free reading.
+- [How to Install R on Ubuntu 20.04](https://linuxize.com/post/how-to-install-r-on-ubuntu-20-04/) — Linuxize instructions for installing R on Ubuntu 20.04.
+- [Setting up the R environment](https://ohdsi.github.io/Hades/rSetup.html#Installing_R_build_tools) — OHDSI setup instructions, linked at the section on installing R build tools.
+
+## Projects and files
+
+- [Working Directories and Workspaces in the RStudio IDE](https://support.posit.co/hc/en-us/articles/200711843-Working-Directories-and-Workspaces-in-the-RStudio-IDE) — Posit support article on how RStudio chooses the working directory and handles saved workspaces.
+- [RStudio Projects and Working Directories: A Beginner's Guide](https://martinctc.github.io/blog/rstudio-projects-and-working-directories-a-beginner's-guide) — Blog post introducing RStudio Projects and how to structure the files for a project.
+- [Structuring R projects](https://www.r-bloggers.com/2018/08/structuring-r-projects) — R-Bloggers post on organizing the folders and files of an R project.
+- [Best Coding Practices for R (2022)](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/) — Online book of recommended practices for writing R code.
+- [Code Structure](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/code.html) — Chapter of Best Coding Practices for R on how to lay out code.
+- [How to set a variable in .Renviron](https://community.rstudio.com/t/how-to-set-a-variable-in-renviron/5029/3) — Posit Community answer on creating a .Renviron file in your home directory to set environment variables.
+
+## Code style
+
+- [Tidyverse style guide](https://style.tidyverse.org/) — The tidyverse team's guide to naming, spacing, and layout in R code.
+- [Pipes, tidyverse style guide](https://style.tidyverse.org/pipes.html) — Style guide chapter on how to write sequences of piped operations.
+- [styler](https://styler.r-lib.org/) — Package that reformats R code to follow the tidyverse style guide.
+- [lintr](https://lintr.r-lib.org/) — Package that checks R code for style problems and likely errors.
+
+## Git and GitHub
+
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/) — Online book that explains how to connect R projects to Git and GitHub.
+- [Connect RStudio to Git and GitHub](https://happygitwithr.com/rstudio-git-github.html) — Chapter of Happy Git and GitHub for the useR on linking an RStudio project to GitHub.
+- [GitHub Quick Tutorial for R and RStudio Projects](https://www.youtube.com/watch?v=-c2uNqEE6-c) — Video on setting up a GitHub account and using it to push and pull R code between computers.
+- [How to use Git and GitHub with R](https://www.youtube.com/watch?v=kL6L2MNqPHg) — Video on version control and syncing with GitHub from inside RStudio.
+- [Version Control with Git, R, and Positron](https://rpubs.com/mothball412/git-positron) — RPubs walkthrough of using Git with R in the Positron editor.
+
+## Reproducible environments and packages
+
+- [Rocker Project](https://www.rocker-project.org/) — Docker containers for running R.
+- [A docker tutorial for reproducible research](https://github.com/ropenscilabs/r-docker-tutorial) — rOpenSci Labs tutorial on using Docker for reproducible research with R.
+- [litr: Writing R packages with literate programming](https://github.com/jacobbien/litr-project) — Project for writing an R package as a single R Markdown document.
+- [Make an R package in less than a minute!](https://www.youtube.com/watch/9fVWD3hfKxA) — Video showing how to create an R package with litr.
+
+## Keyboard shortcuts and tips
+
+- [RStudio Keyboard Shortcuts](https://web.archive.org/web/20260609144630/https://www.r-bloggers.com/2024/06/rstudio-shortcuts-and-settings/) — R-Bloggers post on RStudio shortcuts and settings (archived copy).
+- [6 Life-Altering RStudio Keyboard Shortcuts](https://www.r-bloggers.com/2021/01/6-life-altering-rstudio-keyboard-shortcuts/) — R-Bloggers article on six RStudio shortcuts.
+
+## Helper packages and add-ins
+
+| Package | What it does |
+|---|---|
+| [pak](https://github.com/r-lib/pak) | Installs R packages and their dependencies from the R console |
+| [here](https://github.com/r-lib/here) | Builds file paths relative to the project root so scripts run from any folder |
+| [reprex](https://github.com/tidyverse/reprex/) | Turns a small R example into text you can paste into a GitHub issue or Stack Overflow question |
+| [datapasta](https://github.com/MilesMcBain/datapasta) | Pastes copied data into R as code |
+| [addinslist](https://github.com/daattali/addinslist) | Lists RStudio addins and lets you install them from within RStudio |
+| [rsthemes](https://github.com/gadenbuie/rsthemes) | Adds full RStudio IDE and syntax themes |
+| [progress](https://github.com/r-lib/progress) | Draws progress bars in the R terminal |
+| [annotater](https://annotater.liomys.mx/) | Annotates package load calls such as library() in your scripts |
+
+## Related on this site
+
+- [R](../r.html) — Installation, running R online, and publishing setup.
+- [Learning R](learning-r.html) — Books, courses, and tutorials for learning R.
+- [Resources home](../index.html) — All resource guides.

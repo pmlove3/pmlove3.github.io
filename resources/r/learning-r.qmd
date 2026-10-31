@@ -1,0 +1,66 @@
+---
+title: "Learning R"
+description: "Free books, courses, videos, and tutorials for learning R, with three suggested starting points and a guide for Stata users."
+date: "2026-10-31"
+order: 1
+categories: [r, learning]
+---
+
+This guide collects books, courses, tutorials, and practice tools for students learning R in NYU Abu Dhabi methods courses. Begin with the three picks under Start here, then use the other sections as your projects need them. Installation steps and ways to run R online are on the [R](../r.html) page.
+
+## Start here
+
+- [An Introduction to R (2024)](https://intro2r.com/) — Free online introduction to R for beginners. Good Starting Place.
+- [R for Data Science (2e)](https://r4ds.hadley.nz/) — Free online book on importing, tidying, transforming, and visualizing data with the tidyverse.
+- [R Cookbook, 2nd Edition](https://rc2e.com/) — Online recipe book for common R tasks, useful once you know the basics and want to look up how to do one thing.
+
+## Books and courses
+
+- [R for the Rest of Us: A Statistics-Free Introduction](https://book.rfortherestofus.com/) — Online book that teaches R without assuming a statistics background.
+- [R for Graduate Students (2019)](https://bookdown.org/yih_huynh/Guide-to-R-Book/) — Online book written for graduate students who are new to R.
+- [Troubleshooting Errors](https://bookdown.org/yih_huynh/Guide-to-R-Book/trouble.html) — Chapter of R for Graduate Students on reading and fixing common R error messages.
+- [Cookbook for R](http://www.cookbook-r.com/) — Task-oriented recipes for R by Winston Chang, including a section on graphs.
+- [Free programming books: R section](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#r) — Community-maintained list of free books on R, part of a larger list of free programming books.
+- [R Programming (Coursera)](https://www.coursera.org/course/rprog) — Johns Hopkins University course on programming in R and using it for data analysis.
+- [Datacamp](https://www.datacamp.com/github-students) — Online data-skills courses. Free Access with Github Student Developer Pack.
+- [Github Student Developer Pack](https://education.github.com/pack) — GitHub Education bundle of tools and services for students, which includes the Datacamp access above.
+- [swirl for students](https://swirlstats.com/students.html) — Official page for swirl, a package that teaches R through interactive lessons inside the R console.
+
+## Tutorials and course notes
+
+- [R at UCLA Advanced Research Computing](https://stats.oarc.ucla.edu/r/) — R tutorials and examples from UCLA Advanced Research Computing.
+- [R Tutorial, Stephen Pettigrew](https://www.stephenpettigrew.com/r) — R tutorial page by Stephen Pettigrew.
+- [POLSCI219B: R resources](https://sites.google.com/uci.edu/polsci219b/r-resources) — R resource page for a University of California, Irvine political science course.
+- [R analysis, Peter Aldhous (NICAR 2017)](https://paldhous.github.io/NICAR/2017/r-analysis.html) — Session notes from a data-journalism training on analyzing data in R.
+- [R Fundamentals: Getting started with R](https://web.archive.org/web/20200630224308/http://becomingvisual.com/rfundamentals/getting-started-with-r.html) — Introductory R lesson from the Becoming Visual site (archived copy).
+- [Beginner's guide to R: Introduction](https://www.computerworld.com/article/2497143/business-intelligence-beginner-s-guide-to-r-introduction.html) — First part of a Computerworld hands-on series on using R for basic data analysis and visualization.
+- [Guide to Syntax in R](https://medium.com/@vinitasilaparasetty/guide-to-syntax-in-r-e8e085e15620) — Medium article on R syntax for beginners; Medium may limit free reading.
+- [How I Made My First R Function](https://towardsdatascience.com/how-i-made-my-first-r-function-776f57e2ec7b) — Towards Data Science post that walks through writing a first R function for a practical task.
+- [knowledgeR](https://knowledger.rbind.io/) — Site named knowledgeR, hosted on rbind.io and kept here as a general R learning resource.
+
+## Video and interactive practice
+
+- [R Programming Tutorial: Learn the Basics of Statistical Computing](https://www.youtube.com/watch?v=_V8eKsto3Ug) — YouTube course that introduces the R language as a tool for statistical computing.
+- [R Tutorial, GeeksforGeeks](https://www.geeksforgeeks.org/r-tutorial/) — Introductory R tutorial from GeeksforGeeks, a general programming tutorial site.
+- [Run R code online (rdrr.io snippets)](https://rdrr.io/snippets) — Browser page for running short R snippets without installing R or creating an account.
+
+## Staying current
+
+- [R-Bloggers](https://www.r-bloggers.com/) — Aggregator of blog posts about R from many authors.
+- [R Archives, Open Source Automation](https://theautomatic.net/category/r/) — Posts about R from the Open Source Automation blog.
+- [Free R-Tips, Business Science](https://github.com/business-science/free_r_tips) — Repository for a free newsletter of short R code tutorials.
+
+## Reference
+
+- [Posit Cheatsheets](https://posit.co/resources/cheatsheets/) — One-page reference sheets for RStudio, the tidyverse, R Markdown, and other R tools.
+
+## Coming from Stata
+
+- [Translating Stata to R](https://stata2r.github.io/) — Reference for people who already know Stata and want the equivalent R code; Stata resources are on the [Stata](../stata.html) page.
+
+## Related on this site
+
+- [R](../r.html) — Installation, running R online, and publishing setup.
+- [R workflow and tools](rstudio-positron-workflow.html) — Editors, project setup, code style, and Git for R.
+- [Statistics](../statistics.html) — Statistical tables, formula sheets, and probability references.
+- [Stata](../stata.html) — Software access and working habits for Stata at NYUAD.
