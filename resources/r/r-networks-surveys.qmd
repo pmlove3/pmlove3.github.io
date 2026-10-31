@@ -24,7 +24,7 @@ This guide collects packages and tutorials for analyzing networks, designing and
 ## Conjoint experiments
 
 - [The ultimate practical guide to conjoint analysis with R](https://www.andrewheiss.com/blog/2023/07/25/conjoint-bayesian-frequentist-guide/#sec-frequentist) — Andrew Heiss's guide to analyzing conjoint data with brms and marginaleffects.
-- [Conjoint analysis, R for marketing students](https://bookdown.org/content/6ef13ea6-4e86-4566-b665-ebcd19d45029/conjoint.html) — Chapter on conjoint analysis from an R course for marketing students.
+- [Conjoint analysis, R for marketing students](https://web.archive.org/web/20230524114036/https://bookdown.org/content/6ef13ea6-4e86-4566-b665-ebcd19d45029/conjoint.html) — Chapter on conjoint analysis from an R course for marketing students (archived copy).
 - [Conjoint Experiments, Jens Hainmueller](https://j-hai.github.io/projects/5_project_Conjoint_Experiments/) — Jens Hainmueller's project page on conjoint experiments.
 
 ## Causal diagrams
