@@ -1,0 +1,52 @@
+---
+title: "R Markdown and Reports"
+description: "Guides, citation tools, templates, and output packages for writing reproducible reports and papers with R Markdown and knitr."
+date: "2026-10-31"
+order: 3
+categories: [r, rmarkdown]
+---
+
+This guide collects material for writing reports, papers, and slides that combine text and R code in R Markdown. Begin with the three picks under Start here, then use the sections on citations, templates, and output formats as your project needs them. PDF output needs a LaTeX installation; the [TinyTeX](../tinytex.html) page links to the easy setup, and the [R](../r.html) page covers installing R.
+
+## Start here
+
+- [Posit Documentation on RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html) — First lesson of Posit's R Markdown tutorial. RMarkdown uses Pandoc's implementation of Markdown (see the Pandoc entry below).
+- [R Markdown: The Definitive Guide (2023)](https://bookdown.org/yihui/rmarkdown/) — Reference book covering R Markdown's output formats, options, and features.
+- [R Markdown Cookbook (2024)](https://bookdown.org/yihui/rmarkdown-cookbook/) — Task-based follow-up to the Definitive Guide, for more advanced work.
+
+## Learning R Markdown
+
+- [Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) — Section of the Pandoc manual describing the Markdown syntax that R Markdown documents are written in.
+- [RMarkdown for Scientists](https://rmd4sci.njtierney.com/) — Online book created for a three-hour workshop on R Markdown.
+- [Introduction to R Markdown (2019)](https://rpubs.com/brandonkopp/intro_to_r_markdown) — Introductory R Markdown tutorial published on RPubs in 2019.
+- [Writing reproducible reports in R with markdown, knitr and pandoc](https://web.archive.org/web/20260117124138/https://nicercode.github.io/guides/reports/) — Nice R Code guide from 2013 on assembling reproducible reports from these three tools (archived copy).
+- [Compiling Reports from R Scripts](https://rmarkdown.rstudio.com/articles_report_from_r_script.html) — Posit article on turning a plain R script into a report.
+- [Knitr's best hidden gem: spin](https://web.archive.org/web/20260125002922/https://deanattali.com/2015/03/24/knitrs-best-hidden-gem-spin/) — Dean Attali's post introducing knitr's spin function for writing reports from R scripts (archived copy).
+- [Interchanging RMarkdown and "spinnable" R](https://www.r-bloggers.com/2018/11/interchanging-rmarkdown-and-spinnable-r/) — R-Bloggers post on moving between R Markdown documents and plain R scripts with spin.
+- [rstudio/rmarkdown](https://github.com/rstudio/rmarkdown) — Source code and issue tracker for the rmarkdown package.
+
+## Citations and bibliographies
+
+- [Bibliographies and Citations](https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html) — Posit guide to adding bibliographies and citations to R Markdown documents.
+- [Citations in R Markdown](https://tutorials.inbo.be/tutorials/r_citations_markdown/) — Tutorial on citing publications and building bibliographies with RStudio's citation tools.
+- [RStudio: Quick Guide to Citations](https://www.youtube.com/watch/zuuOYjE8m98) — Short YouTube guide to citations in RStudio.
+- [citr](https://github.com/crsh/citr) — RStudio addin for inserting Markdown citations.
+- [knitcitations](https://github.com/cboettig/knitcitations) — Package that generates citations for knitr Markdown and HTML documents.
+- [RefManageR](https://github.com/ropensci/RefManageR) — Package for importing and managing bibliographic references from R.
+- [grateful](https://github.com/Pakillo/grateful) — Package that helps you cite the R packages used in an analysis.
+
+## Templates and output formats
+
+- [rddj-template](https://github.com/grssnbchr/rddj-template) — Template for starting a reproducible R Markdown project in data journalism.
+- [thesis_in_rmarkdown](https://github.com/rosannav/thesis_in_rmarkdown) — Example project for writing a thesis in R Markdown.
+- [svm-r-markdown-templates](https://github.com/svmiller/svm-r-markdown-templates) — Collection of R Markdown templates for academic manuscripts, Beamer presentations, and syllabi.
+- [pagedown](https://github.com/rstudio/pagedown) — Package for turning R Markdown HTML output into paged documents that print well.
+- [officer](https://github.com/davidgohel/officer) — Package for creating Word and PowerPoint documents from R.
+- [remedy](https://github.com/ThinkR-open/remedy) — RStudio addins that simplify writing Markdown.
+- [tinytex](https://github.com/yihui/tinytex) — Small LaTeX distribution for R Markdown PDF output; the [TinyTeX](../tinytex.html) page links to its website.
+- [RPubs](https://rpubs.com/about/getting-started) — Getting-started page for publishing R Markdown documents online with RPubs.
+
+## Related on this site
+
+- [R](../r.html) — Installation, running R online, and publishing setup.
+- [TinyTeX](../tinytex.html) — Link to the TinyTeX website, the easy LaTeX setup for PDF output.
