@@ -3,7 +3,7 @@ title: "R Workflow and Tools"
 description: "Editors, project setup, code style, Git and GitHub, containers, and helper packages for working in R with RStudio, Positron, or VS Code."
 date: "2026-10-31"
 order: 2
-categories: [r, workflow]
+categories: [r, workflow, rstudio, git, docker, jupyter, reproducibility]
 ---
 
 This guide gathers material on how to work with R day to day: choosing and configuring an editor, organizing projects, styling code, and using Git. Start with the editor and project sections, then add the style and Git guidance as your projects grow. Installing R itself is covered on the [R](../r.html) page.
