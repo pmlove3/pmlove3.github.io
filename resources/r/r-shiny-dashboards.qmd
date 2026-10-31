@@ -10,7 +10,7 @@ This guide collects books, tools, and examples for building interactive apps and
 
 ## Start here
 
-- [Shiny](https://shiny.rstudio.com) — Official Shiny site; Shiny builds interactive web apps from R and Python.
+- [Shiny](https://shiny.posit.co/) — Official Shiny site; Shiny builds interactive web apps from R and Python.
 - [Mastering Shiny](https://mastering-shiny.org/) — Free online book on building Shiny apps.
 - [Shiny, R in Practice](https://zsmith27.github.io/r_in_practice_bookdown/shiny.html#what-is-shiny) — Chapter on Shiny from the R in Practice online book.
 

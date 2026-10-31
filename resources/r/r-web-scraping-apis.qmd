@@ -10,7 +10,7 @@ This guide collects tutorials and packages for getting data from the web with R,
 
 ## Start here
 
-- [R Web Scraping Tutorial with rvest](https://www.datacamp.com/community/tutorials/r-web-scraping-rvest) — DataCamp tutorial on web scraping with rvest, built around a real project.
+- [R Web Scraping Tutorial with rvest](https://www.datacamp.com/tutorial/r-web-scraping-rvest) — DataCamp tutorial on web scraping with rvest, built around a real project.
 - [CRAN Task View: Web Technologies and Services](https://cloud.r-project.org/web/views/WebTechnologies.html) — CRAN's curated list of R packages for web technologies and services.
 - [Accessing APIs from R (and a little R programming)](https://www.r-bloggers.com/2015/11/accessing-apis-from-r-and-a-little-r-programming/) — R-Bloggers post on accessing web APIs from R.
 
@@ -20,7 +20,6 @@ This guide collects tutorials and packages for getting data from the web with R,
 - [Web Scraping with rvest: Exploring Sports Industry Jobs](https://www.r-bloggers.com/web-scraping-with-rvest-exploring-sports-industry-jobs) — R-Bloggers example of scraping sports-industry job listings with rvest.
 - [SelectorGadget](https://web.archive.org/web/20201111202324/https://cran.r-project.org/web/packages/rvest/vignettes/selectorgadget.html) — rvest vignette on using SelectorGadget to find the selectors to scrape (archived copy).
 - [R and the web (for beginners), Part III: Scraping MPs' expenses in detail](https://giventhedata.blogspot.ch/2012/08/r-and-web-for-beginners-part-iii.html) — Third part of a 2012 series on R and the web, on scraping MPs' expenses.
-- [Scraping JavaScript-generated data with R](https://blog.datacamp.com/scraping-javascript-generated-data-with-r) — DataCamp article on scraping data that a page generates with JavaScript.
 - [Web Scraping JS- and progressively-generated content](https://rpubs.com/stevecarufel/bandsintown_scraper) — RPubs example of scraping JavaScript-generated content from Bandsintown.
 - [polite](https://github.com/dmi3kno/polite) — Package for scraping websites politely.
 

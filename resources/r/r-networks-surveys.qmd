@@ -16,9 +16,9 @@ This guide collects packages and tutorials for analyzing networks, designing and
 - [statnet](https://github.com/statnet/statnet) — Meta-package of software tools for the statistical analysis of network data.
 - [ergm](https://github.com/statnet/ergm) — Package to fit, simulate, and diagnose exponential-family random graph models for networks.
 - [tergm](https://github.com/statnet/tergm) — Package for models of network evolution based on exponential-family random graph models.
-- [RSiena](https://github.com/snlab-nl/rsiena/wiki) — Wiki for RSiena, an R package for Simulation Investigation for Empirical Network Analysis.
+- [RSiena](https://github.com/stocnet/rsiena/wiki) — Wiki for RSiena, an R package for Simulation Investigation for Empirical Network Analysis.
 - [sigmajs](https://github.com/JohnCoene/sigmajs) — R interface to the sigma.js library for interactive network graphs.
-- [Discourse Network Analyzer (DNA)](https://github.com/leifeld/dna) — Tool for analyzing discourse networks.
+- [Discourse Network Analyzer (DNA)](https://github.com/leifeld-lab/dna) — Tool for analyzing discourse networks.
 - [Combining social network analysis and agent-based modelling](https://sesmo.org/article/view/16325) — Journal article on combining social network analysis with agent-based modelling.
 
 ## Conjoint experiments
