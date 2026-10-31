@@ -21,7 +21,7 @@ This guide collects books, courses, tutorials, and practice tools for students l
 - [Troubleshooting Errors](https://bookdown.org/yih_huynh/Guide-to-R-Book/trouble.html) — Chapter of R for Graduate Students on reading and fixing common R error messages.
 - [Cookbook for R](http://www.cookbook-r.com/) — Task-oriented recipes for R by Winston Chang, including a section on graphs.
 - [Free programming books: R section](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#r) — Community-maintained list of free books on R, part of a larger list of free programming books.
-- [R Programming (Coursera)](https://www.coursera.org/course/rprog) — Johns Hopkins University course on programming in R and using it for data analysis.
+- [R Programming (Coursera)](https://www.coursera.org/learn/r-programming) — Johns Hopkins University course on programming in R and using it for data analysis.
 - [Datacamp](https://www.datacamp.com/github-students) — Online data-skills courses. Free Access with Github Student Developer Pack.
 - [Github Student Developer Pack](https://education.github.com/pack) — GitHub Education bundle of tools and services for students, which includes the Datacamp access above.
 - [swirl for students](https://swirlstats.com/students.html) — Official page for swirl, a package that teaches R through interactive lessons inside the R console.
@@ -30,7 +30,7 @@ This guide collects books, courses, tutorials, and practice tools for students l
 
 - [R at UCLA Advanced Research Computing](https://stats.oarc.ucla.edu/r/) — R tutorials and examples from UCLA Advanced Research Computing.
 - [R Tutorial, Stephen Pettigrew](https://www.stephenpettigrew.com/r) — R tutorial page by Stephen Pettigrew.
-- [POLSCI219B: R resources](https://sites.google.com/uci.edu/polsci219b/r-resources) — R resource page for a University of California, Irvine political science course.
+- [POLSCI219B: R resources](https://web.archive.org/web/20210417003651/https://sites.google.com/uci.edu/polsci219b/r-resources) — R resource page for a University of California, Irvine political science course (archived copy).
 - [R analysis, Peter Aldhous (NICAR 2017)](https://paldhous.github.io/NICAR/2017/r-analysis.html) — Session notes from a data-journalism training on analyzing data in R.
 - [R Fundamentals: Getting started with R](https://web.archive.org/web/20200630224308/http://becomingvisual.com/rfundamentals/getting-started-with-r.html) — Introductory R lesson from the Becoming Visual site (archived copy).
 - [Beginner's guide to R: Introduction](https://www.computerworld.com/article/2497143/business-intelligence-beginner-s-guide-to-r-introduction.html) — First part of a Computerworld hands-on series on using R for basic data analysis and visualization.
