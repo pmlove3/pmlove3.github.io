@@ -1,0 +1,68 @@
+---
+title: "R Data Visualization"
+description: "Tutorials, color tools, ggplot2 extensions, and interactive chart and map packages for visualizing data in R."
+date: "2026-10-31"
+order: 4
+categories: [r, visualization, ggplot2, graphics, highcharts]
+---
+
+This guide collects tutorials, examples, and packages for drawing charts and maps in R. Begin with the three picks under Start here, then browse the ggplot2 tutorials, color tools, and package tables as your project needs them. QGIS tutorials, data, and tools for mapping are on the [GIS](../gis.html) page.
+
+## Start here
+
+- [The best R packages for data visualization](https://r-graph-gallery.com/best-dataviz-packages.html) — R Graph Gallery overview of recommended R packages for making charts.
+- [Graphs, Cookbook for R](http://www.cookbook-r.com/Graphs) — Recipes for making common graphs in R, from the Cookbook for R site.
+- [Getting Started with Charts in R](https://flowingdata.com/2012/12/17/getting-started-with-charts-in-r) — FlowingData introduction to making charts in R, from 2012.
+
+## ggplot2 and chart design
+
+- [An Introduction on How to Make Beautiful Charts With R and ggplot2](https://minimaxir.com/2015/02/ggplot-tutorial) — 2015 tutorial on making polished charts with ggplot2.
+- [Beautiful plotting in R: A ggplot2 cheatsheet](https://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3#a-default-plot-in-ggplot2) — 2014 blog post of ggplot2 examples, linked at its default-plot section.
+- [ggplot2 cheatsheet (PDF)](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-visualization.pdf) — Posit's official ggplot2 data visualization cheatsheet as a PDF.
+- [Lattice graphics, STAT 545A](https://www.stat.ubc.ca/~jenny/STAT545A/block91_latticeGraphics.html) — Course notes on the lattice graphics package from the University of British Columbia.
+- [R: How to Layout and Design an Infographic](https://alstatr.blogspot.ch/2015/02/r-how-to-layout-and-design-infographic.html) — Blog post on laying out and designing an infographic in R.
+- [Tufte style visualizations in R using Plotly](https://www.r-bloggers.com/2016/04/tufte-style-visualizations-in-r-using-plotly/) — R-Bloggers post on recreating Tufte-style visualizations with Plotly.
+- [Supreme Annotations](https://rud.is/b/2016/03/16/supreme-annotations) — rud.is blog post on annotating charts in R.
+
+## Worked examples
+
+- [Visualizing the Clinton Emails](https://rud.is/projects/clinton_emails_01.html) — rud.is project that visualizes the Clinton emails with R.
+- [What Happened on the Germanwings Flight](https://driven-by-data.net/2015/03/24/germanwings.html) — Data-journalism post about the Germanwings flight, listed here as an R example.
+- [R to JavaScript, Peter Aldhous (NICAR 2017)](https://paldhous.github.io/NICAR/2017/r-to-javascript.html) — Session notes on moving results from R into JavaScript charts.
+- [Pretty street maps in R with the osmdata package and ggplot](https://web.archive.org/web/20221124222218/http://joshuamccrain.com/tutorials/maps/streets_tutorial.html) — Tutorial on drawing street maps with osmdata and ggplot (archived copy).
+
+## Color
+
+- [How to use Color Palettes for your Data Visualization](https://towardsdatascience.com/how-to-use-color-palettes-for-your-data-visualization-ac4eaf3de37b) — Tutorial on choosing color palettes for charts, with ggplot2 examples.
+- [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html) — Package providing the ColorBrewer color schemes designed by Cynthia Brewer.
+
+## ggplot2 extensions and plot helpers
+
+| Package | What it does |
+|---|---|
+| [ggblanket](https://github.com/davidhodge931/ggblanket) | Aims to simplify making ggplot2 charts |
+| [ggdist](https://github.com/mjskay/ggdist/) | Draws distributions and uncertainty in ggplot2 |
+| [ggbump](https://github.com/davidsjoberg/ggbump) | Adds a geom for bump plots to ggplot2 |
+| [legendry](https://github.com/teunbrand/legendry/) | Extends ggplot2 with more kinds of legends and axis guides |
+| [ggstatsplot](https://github.com/IndrajeetPatil/ggstatsplot/) | Adds statistical test results to ggplot2 plots |
+| [gghighlight](https://github.com/yutannihilation/gghighlight/) | Highlights chosen points or lines in a ggplot2 chart |
+| [visdat](https://github.com/ropensci/visdat/) | Quick exploratory plots of a dataset's structure |
+| [venneuler](https://cran.r-project.org/web/packages/venneuler/index.html) | Draws Venn and Euler diagrams |
+
+## Interactive charts and maps
+
+| Package | What it does |
+|---|---|
+| [plotly](https://github.com/plotly/plotly.R) | Builds interactive charts from R |
+| [highcharter](https://jkunst.com/highcharter/index.html) | R wrapper for the Highcharts JavaScript library |
+| [rCharts](https://ramnathv.github.io/rCharts) | Builds interactive JavaScript charts from R |
+| [heatbarWithRHighcharts](https://github.com/d-qn/heatbarWithRHighcharts) | Example of an interactive heatmap and bar chart made with R and Highcharts |
+| [GWalkR](https://github.com/Kanaries/GWalkR) | Opens a data frame in a drag-and-drop chart builder |
+| [ggmap](https://github.com/dkahle/ggmap) | Plots maps in R with ggplot2 |
+| [leaflet](https://rstudio.github.io/leaflet/) | Documentation for the leaflet package for interactive maps |
+| [globe4r](https://github.com/JohnCoene/globe4r) | Draws interactive globe visualizations |
+
+## Related on this site
+
+- [R](../r.html) — Installation, running R online, and publishing setup.
+- [GIS](../gis.html) — QGIS tutorials, data, and tools for mapping.

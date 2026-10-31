@@ -1,0 +1,76 @@
+---
+title: "R Data Wrangling and Tables"
+description: "Guides and packages for cleaning data, working with dates, iterating with purrr, moving data in and out of Excel, and making tables in R."
+date: "2026-10-31"
+order: 5
+categories: [r, data-wrangling, tidyverse, dplyr, purrr, excel, tables, dates]
+---
+
+This guide collects material for importing, cleaning, reshaping, and tabulating data in R. Begin with the three picks under Start here, then use the sections on cleaning, files, dates, iteration, Excel, and tables as your project needs them. Datasets and data guides to practice on are listed on the [Data](../data.html) page.
+
+## Start here
+
+- [Tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) — Vignette from the tidyr package explaining the tidy data format.
+- [A new data processing workflow for R: dplyr, magrittr, tidyr, ggplot2](https://zevross.com/blog/2015/01/13/a-new-data-processing-workflow-for-r-dplyr-magrittr-tidyr-ggplot2) — 2015 blog post describing a data-processing workflow built on these four packages.
+- [Data transformation cheatsheet (PDF)](https://raw.githubusercontent.com/rstudio/cheatsheets/main/data-transformation.pdf) — Posit's official data transformation cheatsheet with dplyr as a PDF.
+
+## Cleaning and validation
+
+- [janitor](https://github.com/sfirke/janitor/) — Package of simple tools for cleaning data in R.
+- [How to Clean Data: {janitor} Package](https://www.r-bloggers.com/how-to-clean-data-janitor-package) — R-Bloggers walkthrough of cleaning data with janitor.
+- [Quick Tips for Data Cleaning in R](https://www.r-bloggers.com/2020/08/quick-tips-for-data-cleaning-in-r/) — R-Bloggers post of short tips for cleaning data in R.
+- [Getting Started with naniar](https://cran.r-project.org/web/packages/naniar/vignettes/getting-started-w-naniar.html) — Vignette introducing naniar, a package for exploring missing data.
+- [validate](https://github.com/data-cleaning/validate) — Package for checking data against validation rules.
+- [dplyr rename() - For Renaming Columns](https://honingds.com/blog/dplyr-rename/) — Post on renaming data frame columns with dplyr's rename function.
+- [R treasures: modifyList()](https://www.r-bloggers.com/2020/09/r-treasures-modifylist/) — R-Bloggers post on base R's modifyList function for updating lists.
+
+## Reading and writing files and databases
+
+- [vroom](https://github.com/tidyverse/vroom) — Package for fast reading of delimited files.
+- [How data.table's fread can save you a lot of time and memory](https://www.r-bloggers.com/2019/06/how-data-tables-fread-can-save-you-a-lot-of-time-and-memory-and-take-input-from-shell-commands/) — R-Bloggers post on reading large files with data.table's fread, including input from shell commands.
+- [writexl](https://github.com/ropensci/writexl/) — Light-weight package for writing data frames to xlsx files.
+- [fs](https://github.com/r-lib/fs/) — Package for file operations that work across operating systems.
+- [dirdf](https://github.com/HenrikBengtsson/dirdf) — Package that extracts metadata from directory and file names.
+- [wand](https://github.com/hrbrmstr/wand) — Package that guesses a file's type.
+- [Working with databases in R](https://datascienceplus.com/working-with-databases-in-r) — DataScience+ article on using databases from R.
+- [Databases using R: managing credentials](https://solutions.posit.co/connections/db/best-practices/managing-credentials/) — Page of Posit's database guide on managing database credentials from R.
+
+## Dates and times
+
+- [Do more with dates and times in R](https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html) — Vignette for lubridate, a package for working with dates and times.
+- [anytime](https://github.com/eddelbuettel/anytime) — Package that converts many input formats to dates and date-times.
+- [Date Formats in R](https://www.r-bloggers.com/2013/08/date-formats-in-r/) — R-Bloggers post on importing and formatting dates in R.
+
+## Iteration and functions
+
+- [Learn to purrr](https://www.rebeccabarter.com/blog/2019-08-19_purrr/) — Rebecca Barter's tutorial on purrr, the tidyverse tool for iteration.
+- [purrr: Introduction and Application](https://web.archive.org/web/20201124172121/http://joshuamccrain.com/tutorials/purrr/purrr_introduction.html) — Introduction to the purrr package (archived copy).
+- [Functionals, Advanced R](https://adv-r.hadley.nz/functionals.html) — Chapter of Advanced R on functionals, functions that take other functions as arguments.
+- [Introducing the purrrplus package](https://www.youtube.com/watch?v=7QWzuBiHDk8) — Video introducing the purrrplus package for learning purrr.
+- [repurrrsive](https://github.com/jennybc/repurrrsive) — Package of recursive list datasets for practicing purrr and list handling.
+- [zeallot](https://github.com/r-lib/zeallot) — Package for assigning several variables from one result.
+- [transpose, R-statistics blog](https://www.r-statistics.com/tag/transpose/) — Blog posts tagged transpose, on flipping rows and columns.
+- [Discover 7 Hidden Gems in the R Package Ecosystem](https://www.youtube.com/watch?v=V-EssPrGPHg) — Video on seven lesser-known R packages.
+
+## R for Excel users
+
+- [ExcelFunctionsR](https://cran.r-project.org/web/packages/ExcelFunctionsR/index.html) — Package that implements Excel functions in R.
+- [Excel(ing) with R: Automating Excel](https://towardsdatascience.com/excel-ing-with-r-automating-excel-52648568229c) — Towards Data Science article on reading, writing, merging, and splitting Excel files with R.
+- [R for Excel Users](https://rforexcelusers.com/) — Site for the book R for Excel Users, with a blog and online courses.
+- [How to do MID, RIGHT and LEFT in R](https://web.archive.org/web/20210803102134/https://rforexcelusers.com/how-to-mid-right-left-r/) — R for Excel Users post on the R equivalents of Excel's text functions (archived copy).
+
+## Making tables
+
+- [tangram](https://github.com/spgarbet/tangram) — Package that builds tables with a table grammar.
+- [texreg](https://github.com/leifeld-lab/texreg) — Package that converts regression output to LaTeX or HTML tables.
+- [Make Beautiful Tables with the Formattable Package](https://www.r-bloggers.com/2018/11/make-beautiful-tables-with-the-formattable-package/) — R-Bloggers guide to the formattable package for styled tables.
+- [Top 7 Packages for Making Beautiful Tables in R](https://towardsdatascience.com/top-7-packages-for-making-beautiful-tables-in-r-7683d054e541) — Towards Data Science comparison of seven packages for making tables.
+
+## Test data
+
+- [charlatan](https://github.com/ropensci/charlatan) — Package that creates fake data in R, useful for tests and examples.
+
+## Related on this site
+
+- [R](../r.html) — Installation, running R online, and publishing setup.
+- [Data](../data.html) — Datasets, news sources, and teaching data.
