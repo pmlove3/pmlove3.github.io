@@ -15,7 +15,11 @@ async function runAudit() {
   const page = await browser.newPage();
   
   // You can add more files to this array as the site grows
-  const files = ['index.html', 'cv.html', 'colophon.html', '404.html'];
+  const files = [
+    'index.html', 'cv.html', 'colophon.html', '404.html',
+    'resources/index.html', 'resources/r.html', 'resources/stata.html',
+    'resources/r/learning-r.html', 'resources/stata/learning-stata.html',
+  ];
   const allViolations = [];
   let totalViolations = 0;
 

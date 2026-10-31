@@ -1,7 +1,22 @@
 ---
 title: "Resources"
-date: "2026-09-18"
+description: "Guides and links for students and researchers: R, Stata, statistics, data and GIS, writing tools, and research software."
+date: "2026-10-31"
+listing:
+  id: guides
+  contents:
+    - "r/*.qmd"
+    - "stata/*.qmd"
+  type: default
+  fields: [title, description]
+  sort: "title"
+  max-description-length: 200
 ---
+
+## Guides
+
+::: {#guides}
+:::
 
 ## Statistics
 

@@ -17,8 +17,8 @@ This guide collects books, courses, tutorials, and practice tools for students l
 ## Books and courses
 
 - [R for the Rest of Us: A Statistics-Free Introduction](https://book.rfortherestofus.com/) — Online book that teaches R without assuming a statistics background.
-- [R for Graduate Students (2019)](https://bookdown.org/yih_huynh/Guide-to-R-Book/) — Online book written for graduate students who are new to R.
-- [Troubleshooting Errors](https://bookdown.org/yih_huynh/Guide-to-R-Book/trouble.html) — Chapter of R for Graduate Students on reading and fixing common R error messages.
+- [R for Graduate Students (2019)](https://web.archive.org/web/20231218130253/https://bookdown.org/yih_huynh/Guide-to-R-Book/) — Online book written for graduate students new to R (archived copy; [PDF](https://web.archive.org/web/20260116203754/https://www.bookdown.org/yih_huynh/Guide-to-R-Book/Guide-to-R-Book.pdf)).
+- [Troubleshooting Errors](https://web.archive.org/web/20231213192334/https://bookdown.org/yih_huynh/Guide-to-R-Book/trouble.html) — Chapter of R for Graduate Students on reading and fixing common R error messages (archived copy).
 - [Cookbook for R](http://www.cookbook-r.com/) — Task-oriented recipes for R by Winston Chang, including a section on graphs.
 - [Free programming books: R section](https://github.com/EbookFoundation/free-programming-books/blob/main/books/free-programming-books-langs.md#r) — Community-maintained list of free books on R, part of a larger list of free programming books.
 - [R Programming (Coursera)](https://www.coursera.org/learn/r-programming) — Johns Hopkins University course on programming in R and using it for data analysis.

@@ -27,8 +27,8 @@ This guide gathers material on how to work with R day to day: choosing and confi
 - [Working Directories and Workspaces in the RStudio IDE](https://support.posit.co/hc/en-us/articles/200711843-Working-Directories-and-Workspaces-in-the-RStudio-IDE) — Posit support article on how RStudio chooses the working directory and handles saved workspaces.
 - [RStudio Projects and Working Directories: A Beginner's Guide](https://martinctc.github.io/blog/rstudio-projects-and-working-directories-a-beginner's-guide) — Blog post introducing RStudio Projects and how to structure the files for a project.
 - [Structuring R projects](https://www.r-bloggers.com/2018/08/structuring-r-projects) — R-Bloggers post on organizing the folders and files of an R project.
-- [Best Coding Practices for R (2022)](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/) — Online book of recommended practices for writing R code.
-- [Code Structure](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/code.html) — Chapter of Best Coding Practices for R on how to lay out code.
+- [Best Coding Practices for R (2022)](https://github.com/vikram-rawat/Best_R_Practices) — Open-source book of recommended practices for writing R code ([archived PDF](https://web.archive.org/web/20260116120845/https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/best_r_practices.pdf)).
+- [Code Structure](https://github.com/vikram-rawat/Best_R_Practices/blob/master/02-struct_02_code.Rmd) — Chapter of Best Coding Practices for R on how to lay out code.
 - [How to set a variable in .Renviron](https://forum.posit.co/t/how-to-set-a-variable-in-renviron/5029/3) — Posit Community answer on creating a .Renviron file in your home directory to set environment variables.
 
 ## Code style
