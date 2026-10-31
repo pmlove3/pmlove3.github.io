@@ -3,7 +3,7 @@ title: "R Networks, Conjoint Experiments, and Causal Diagrams"
 description: "Packages and guides for network analysis, conjoint survey experiments, and causal diagrams in R."
 date: "2026-10-31"
 order: 8
-categories: [r, networks]
+categories: [r, networks, network-analysis, statnet]
 ---
 
 This guide collects packages and tutorials for analyzing networks, designing and analyzing conjoint survey experiments, and drawing causal diagrams in R. Use the network section for graph tools and statistical network models, the conjoint section for survey-experiment guides, and the last section for directed acyclic graphs. Installation steps are on the [R](../r.html) page.

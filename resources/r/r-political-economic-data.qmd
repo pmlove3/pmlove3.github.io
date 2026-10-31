@@ -3,7 +3,7 @@ title: "R Packages for Political and Economic Data"
 description: "R packages and project sites for pulling European, economic, and public-sector data into R."
 date: "2026-10-31"
 order: 9
-categories: [r, political-data]
+categories: [r, political-data, eu]
 ---
 
 This guide collects R packages and project sites for retrieving political and economic data, with a focus on Europe. Start with the project sites for broader collections, then use the package entries to download Eurostat, AMECO, European Central Bank, and European Social Survey data. More datasets are listed on the [Data](../data.html) page.

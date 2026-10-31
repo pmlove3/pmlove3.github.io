@@ -3,7 +3,7 @@ title: "R Text Analysis"
 description: "Books, tutorials, topic modeling guides, regular expression tools, and packages for analyzing text in R."
 date: "2026-10-31"
 order: 6
-categories: [r, text-analysis]
+categories: [r, text-analysis, topic-models, tidytext, lda, stm, quanteda, text-mining]
 ---
 
 This guide collects material for analyzing text with R, from cleaning strings and regular expressions to word frequencies and topic models. Begin with the three picks under Start here, then use the sections on tidy text, topic modeling, regular expressions, and packages as your project needs them. Installation steps are on the [R](../r.html) page.

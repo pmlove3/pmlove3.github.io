@@ -3,7 +3,7 @@ title: "R Web Scraping and APIs"
 description: "Tutorials and packages for scraping websites, automating browsers, and calling web APIs from R."
 date: "2026-10-31"
 order: 7
-categories: [r, web-scraping]
+categories: [r, web-scraping, rvest, selenium, api, httr]
 ---
 
 This guide collects tutorials and packages for getting data from the web with R, whether by scraping pages, driving a browser, or calling an API. Begin with the three picks under Start here, then use the other sections as your project needs them. Check a site's terms and robots.txt rules before scraping it. Sources of ready-made datasets are on the [Data](../data.html) page.
