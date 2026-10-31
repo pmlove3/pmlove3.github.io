@@ -1,7 +1,23 @@
 ---
 title: "R"
-date: "2026-01-26"
+description: "Install R, RStudio, or Positron, run R online, and publish documents, plus guides to learning R, text analysis, visualization, and reproducible research."
+date: "2026-10-31"
+listing:
+  id: r-guides
+  contents: "r/*.qmd"
+  type: default
+  fields: [title, description]
+  sort: "order"
+  max-description-length: 250
 ---
+
+Installation notes, ways to run R online, and publishing setup for R and RStudio or Positron. Topic guides for learning R, workflow, visualization, text analysis, and more are listed below.
+
+## Guides
+
+::: {#r-guides}
+:::
+
 
 ## Installation
 
@@ -75,128 +91,12 @@ OR
 
 [RMarkdown Tables (Old Version)](https://drive.google.com/file/d/1nqWEHPy0GqVSS764AVe2pb040lgD9iv-/view?usp=drive_link)
 
-## External Resources
+## Data Types
 
-### R
-
-  * [An Introduction to R (2024)](https://intro2r.com/) — Good Starting Place
-
-  * [Posit Cheatsheets](https://posit.co/resources/cheatsheets/) (RStudio)
-
-  * [Command Palette — Posit](https://docs.posit.co/ide/user/ide/guide/ui/command-palette.html)
-
-  * [R Tutorial — Geeks for Geeks](https://web.archive.org/web/20260923005424/https://www.geeksforgeeks.org/r-language/r-tutorial/)
-
-  * [Best Coding Practices for R (2022)](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/)
-
-    * Chapter 3 [Code Structure](https://bookdown.org/content/d1e53ac9-28ce-472f-bc2c-f499f18264a3/code.html)
-
-  * [R for Graduate Students (2019)](https://bookdown.org/yih_huynh/Guide-to-R-Book/)
-
-    * Chapter 3.6 [Troubleshooting Errors](https://bookdown.org/yih_huynh/Guide-to-R-Book/trouble.html)
-
-  * [Working Directories and Workspaces in the RStudio IDE — Posit](https://support.posit.co/hc/en-us/articles/200711843-Working-Directories-and-Workspaces-in-the-RStudio-IDE)
-
-  * [ Analyzing Star Wars Movie Scripts](https://www.kaggle.com/code/xvivancos/analyzing-star-wars-movie-scripts/)
-
-  * [An Introduction to Machine Learning with R](https://lgatto.github.io/IntroMachineLearningWithR/)
-
-  * [Basic Text Mining with R](https://web.archive.org/web/20240327053733/https://rstudio-pubs-static.s3.amazonaws.com/132792_864e3813b0ec47cb95c7e1e2e2ad83e7.html)
-
-  * [Knitr's best hidden gem: spin](https://web.archive.org/web/20260125002922/https://deanattali.com/2015/03/24/knitrs-best-hidden-gem-spin/)
-
-  * [R-Bloggers](https://www.r-bloggers.com/) (Blog about R)
-
-    * [RStudio Keyboard Shortcuts](https://web.archive.org/web/20260609144630/https://www.r-bloggers.com/2024/06/rstudio-shortcuts-and-settings/) — RBloggers
-
-  * [R Cookbook, 2nd Edition](https://rc2e.com/)
-
-  * [R for Data Science (2e)](https://r4ds.hadley.nz/)
-
-### R Courses
-
-  * [Datacamp](https://www.datacamp.com/github-students) (Free Access with Github Student Developer Pack)
-
-    * [Github Student Developer Pack](https://education.github.com/pack)
-
-### RMarkdown
-
-  * [Posit Documentation on RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html)
-
-    * RMarkdown uses Pandoc's implementation of [Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown).
-
-  * [R Markdown: The Definitive Guide (2023)](https://bookdown.org/yihui/rmarkdown/)
-
-    * More Advanced: [R Markdown Cookbook (2024)](https://bookdown.org/yihui/rmarkdown-cookbook/)
-
-### Regular Expressions
-
-  * [Regular Expression Playground](https://regexlearn.com/playground)
-
-  * [RegExr: Learn, Build, & Test RegEx](https://regexr.com/)
-
-  * [Regex Cheat Sheet](https://web.archive.org/web/20260225145046/https://www.petefreitag.com/cheatsheets/regex/)
-
-  * [Regular Expressions Cheat Sheet](https://web.archive.org/web/20260410234017/https://maketecheasier.com/cheatsheet/regex/) — maketecheasier
-
-  * Related regex information in [R for Data Science (2e)](https://r4ds.hadley.nz/strings.html) book.
-
-  * [Regular Expressions (RegEx) in 100 Seconds ](https://www.youtube.com/watch?v=sXQxhojSdZM)— Fireship on YouTube
-
-### Data Types
-
-  * Vector
-
-    * Dimensions: 1D
-
-    * Homogeneous?: Yes
-
-    * Key use case: Basic data storage
-
-  * List
-
-    * Dimensions: 1D (nested possible)
-
-    * Homogeneous?: No
-
-    * Key use case: Collection of various data types
-
-  * Matrix
-
-    * Dimensions: 2D
-
-    * Homogeneous?: Yes
-
-    * Key use case: Mathematical operations
-
-  * Data Frame
-
-    * Dimensions: 2D
-
-    * Homogeneous?: No (columns can be different)
-
-    * Key use case: Tabular data analysis
-
-  * Array
-
-    * Dimensions: 2D or more
-
-    * Homogeneous?: Yes
-
-    * Key use case: Multi-dimensional data
-
-### Miscellaneous
-
-  * DAGitty for Directed Acyclic Graphs
-
-    * [Online creator](https://dagitty.net/dags.html)
-
-    * [CRAN R package](https://cran.r-project.org/web/packages/dagitty/index.html)
-
-  * Styling code using [Tidyverse style guide](https://style.tidyverse.org/) with [styler](https://styler.r-lib.org/) package.
-
-    * See also [lintr](https://lintr.r-lib.org/) for error checking.
-
-    * styler can be used before lintr to reduce errors marked.
-
-    * lintr can set a style guide using the command lintr::use_lintr(type = "tidyverse")
+| Data Type | Dimensions | Homogeneous? | Key use case |
+|---|---|---|---|
+| Vector | 1D | Yes | Basic data storage |
+| List | 1D (nested possible) | No | Collection of various data types |
+| Matrix | 2D | Yes | Mathematical operations |
+| Data Frame | 2D | No (columns can differ) | Tabular data analysis |
+| Array | 2D or more | Yes | Multi-dimensional data |
