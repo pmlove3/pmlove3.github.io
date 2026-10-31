@@ -3,7 +3,7 @@ title: "R Data Visualization"
 description: "Tutorials, color tools, ggplot2 extensions, and interactive chart and map packages for visualizing data in R."
 date: "2026-10-31"
 order: 4
-categories: [r, visualization]
+categories: [r, visualization, ggplot2, graphics, highcharts]
 ---
 
 This guide collects tutorials, examples, and packages for drawing charts and maps in R. Begin with the three picks under Start here, then browse the ggplot2 tutorials, color tools, and package tables as your project needs them. QGIS tutorials, data, and tools for mapping are on the [GIS](../gis.html) page.

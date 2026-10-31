@@ -3,7 +3,7 @@ title: "R Markdown and Reports"
 description: "Guides, citation tools, templates, and output packages for writing reproducible reports and papers with R Markdown and knitr."
 date: "2026-10-31"
 order: 3
-categories: [r, rmarkdown]
+categories: [r, rmarkdown, markdown, rstudio, citations, latex, knitr, pandoc, publishing]
 ---
 
 This guide collects material for writing reports, papers, and slides that combine text and R code in R Markdown. Begin with the three picks under Start here, then use the sections on citations, templates, and output formats as your project needs them. PDF output needs a LaTeX installation; the [TinyTeX](../tinytex.html) page links to the easy setup, and the [R](../r.html) page covers installing R.

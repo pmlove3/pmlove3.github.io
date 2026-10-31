@@ -3,7 +3,7 @@ title: "R Data Wrangling and Tables"
 description: "Guides and packages for cleaning data, working with dates, iterating with purrr, moving data in and out of Excel, and making tables in R."
 date: "2026-10-31"
 order: 5
-categories: [r, data-wrangling]
+categories: [r, data-wrangling, tidyverse, dplyr, purrr, excel, tables, dates]
 ---
 
 This guide collects material for importing, cleaning, reshaping, and tabulating data in R. Begin with the three picks under Start here, then use the sections on cleaning, files, dates, iteration, Excel, and tables as your project needs them. Datasets and data guides to practice on are listed on the [Data](../data.html) page.
